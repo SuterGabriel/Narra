@@ -19,8 +19,8 @@ export default function StartPage() {
     <div className="flex w-full flex-1 flex-col gap-8 px-6 pt-10 pb-8 lg:mx-auto lg:max-w-[680px] lg:justify-center lg:px-10 lg:py-12">
       <header className="flex items-start justify-between gap-4">
         <div className="flex flex-col gap-3">
-          <h1 className="font-display text-[32px] leading-[1.08] tracking-tight lg:text-[56px]">Mario und der Zauberer</h1>
-          <p className="text-base leading-relaxed text-muted lg:text-[19px]">
+          <h1 className="font-display text-[32px] leading-[1.08] tracking-tight lg:text-[40px]">Mario und der Zauberer</h1>
+          <p className="text-base leading-relaxed text-muted lg:text-lg">
             Alles, was du für die Prüfung brauchst. Jede Aussage mit Seite und Zeile aus dem Buch.
           </p>
         </div>

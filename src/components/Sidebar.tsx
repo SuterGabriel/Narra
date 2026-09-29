@@ -13,9 +13,8 @@ export function Sidebar({ passages }: { passages: PassageNav[] }) {
 
   return (
     <aside className="sticky top-0 hidden h-dvh w-[248px] shrink-0 flex-col gap-6 border-r border-line bg-sidebar px-4 pt-7 pb-5 lg:flex">
-      <Link href="/" className="flex flex-col gap-0.5 px-2">
-        <span className="font-display text-[26px] font-bold tracking-tight">Narra</span>
-        <span className="text-[13px] text-muted">Mario und der Zauberer</span>
+      <Link href="/" className="px-2 font-display text-[26px] font-bold tracking-tight">
+        Narra
       </Link>
 
       <nav aria-label="Hauptnavigation" className="flex flex-col gap-0.5">
