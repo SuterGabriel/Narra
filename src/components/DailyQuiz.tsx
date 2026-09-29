@@ -37,7 +37,7 @@ export function DailyCard() {
         className={`flex size-14 shrink-0 flex-col items-center justify-center rounded-2xl ${current > 0 ? "bg-accent text-accent-ink" : "bg-surface-2 text-muted"}`}
         aria-hidden="true"
       >
-        <span className="font-display text-xl leading-none font-bold tabular-nums">{current}</span>
+        <span className="font-display text-xl leading-none font-bold tabular-nums">{today ? current : " "}</span>
         <span className="text-[10px] font-semibold">{current === 1 ? "Tag" : "Tage"}</span>
       </span>
       <span className="flex flex-1 flex-col gap-0.5">

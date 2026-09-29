@@ -65,7 +65,9 @@ export const viewport: Viewport = {
 };
 
 // Applies a stored theme choice before first paint to avoid a flash.
-const themeScript = `(function(){try{var t=localStorage.getItem('narra-theme');if(t==='light'||t==='dark'){document.documentElement.dataset.theme=t}}catch(e){}})()`;
+// Runs before first paint: applies a stored theme, and on a first visit to the start page shows
+// onboarding straight away instead of flashing the start page underneath it.
+const bootScript = `(function(){var d=document.documentElement;try{var t=localStorage.getItem('narra-theme');if(t==='light'||t==='dark'){d.dataset.theme=t}}catch(e){}try{if(location.pathname==='/'&&!localStorage.getItem('narra:profile')){d.dataset.onboarding='1'}}catch(e){}})()`;
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
@@ -75,10 +77,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${bricolage.variable} ${figtree.variable} ${literata.variable} ${dmSerif.variable} ${newsreader.variable} ${geist.variable} h-full antialiased`}
     >
       <head>
-        <script dangerouslySetInnerHTML={{ __html: themeScript }} />
+        <script dangerouslySetInnerHTML={{ __html: bootScript }} />
       </head>
       <body className="min-h-full bg-surface font-sans text-ink lg:bg-paper">
-        <div className="lg:flex">
+        <div className="app-shell lg:flex">
           <Sidebar passages={passageNav} />
           <div className="mx-auto flex min-h-dvh w-full max-w-md flex-col bg-paper md:border-x md:border-line lg:max-w-none lg:min-w-0 lg:flex-1 lg:border-0">
             <main className="flex flex-1 flex-col">{children}</main>

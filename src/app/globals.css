@@ -128,6 +128,14 @@ body {
   font-synthesis: none;
 }
 
+/*
+ * Onboarding gate: the boot script in layout.tsx sets data-onboarding before first paint.
+ * The onboarding markup is server-rendered but only shown while the gate is set.
+ */
+.onboarding-gate { display: none; }
+html[data-onboarding] .onboarding-gate { display: flex; }
+html[data-onboarding] .app-shell { visibility: hidden; }
+
 /* Book text reads slightly softer than UI text on the dark stage. */
 .font-serif {
   color: var(--reading);
@@ -155,9 +163,15 @@ body {
 .anim-in { animation: anim-in 320ms ease-out both; }
 .anim-line { transform-origin: left; animation: anim-line 380ms ease-out both; }
 .anim-hit { animation: anim-line 380ms ease-out both, anim-hit 1.6s ease-in-out 0.4s both; }
-.anim-chip { animation: anim-chip 1.8s ease-out 0.3s both; }
+.anim-chip { animation: anim-chip 2.2s ease-out 0.5s both; }
+@keyframes anim-hit-soft {
+  0%, 50% { background: transparent; }
+  70%, 100% { background: var(--accent-soft); }
+}
+.anim-hit-soft { animation: anim-hit-soft 2s ease-in-out 0.4s both; }
 
 @media (prefers-reduced-motion: reduce) {
-  .anim-in, .anim-line, .anim-hit, .anim-chip { animation: none; }
+  .anim-in, .anim-line, .anim-hit, .anim-hit-soft, .anim-chip { animation: none; }
+  .anim-hit-soft { background: var(--accent-soft); }
   .anim-hit { background: var(--accent); }
 }

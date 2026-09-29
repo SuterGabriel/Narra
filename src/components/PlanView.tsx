@@ -101,6 +101,17 @@ export function NextStep({ input }: { input: PlanInput }) {
   const isDone = done.includes(day.day);
   const tomorrow = plan.find((d) => d.day === day.day + 1);
 
+  // Until the stored plan is read (first frame), show a calm placeholder instead of default numbers.
+  if (today === null) {
+    return (
+      <section aria-busy="true" aria-label="Dein nächster Schritt wird geladen" className="flex flex-col gap-4 rounded-2xl bg-accent-soft p-5 lg:p-6">
+        <span className="h-3 w-32 rounded-full bg-accent/20" />
+        <span className="h-8 w-3/4 rounded-lg bg-accent/20" />
+        <span className="h-12 w-full rounded-xl bg-accent/25 sm:w-40" />
+      </section>
+    );
+  }
+
   return (
     <section aria-labelledby="next-title" data-tour="plan" className="flex flex-col gap-4 rounded-2xl bg-accent-soft p-5 lg:p-6">
       <div className="flex items-baseline justify-between gap-3">

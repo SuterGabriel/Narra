@@ -60,7 +60,8 @@ const QUESTIONS = [
 export function Onboarding({ input }: { input: PlanInput }) {
   const router = useRouter();
   const pathname = usePathname();
-  const [open, setOpen] = useState(false);
+  // Rendered on the server too, so it can appear on the very first frame; see the gate in globals.css.
+  const [open, setOpen] = useState(true);
   const [step, setStep] = useState(0); // 0 welcome, 1-3 questions, 4 summary
   const [answers, setAnswers] = useState<Answers>({});
   const panelRef = useRef<HTMLDivElement>(null);
@@ -72,9 +73,16 @@ export function Onboarding({ input }: { input: PlanInput }) {
       setAnswers(p ? { exam: p.exam, minutes: p.minutes, read: p.read } : {});
       setStep(1);
       setOpen(true);
+      document.documentElement.dataset.onboarding = "1";
     };
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    if (!getProfile() && pathname === "/") setOpen(true);
+    const root = document.documentElement;
+    const reopenGate = () => (root.dataset.onboarding = "1");
+    if (!getProfile() && pathname === "/") {
+      reopenGate();
+    } else if (!root.dataset.onboarding) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      setOpen(false);
+    }
     window.addEventListener(ONBOARDING_EVENT, reopen);
     return () => window.removeEventListener(ONBOARDING_EVENT, reopen);
   }, [pathname]);
@@ -101,6 +109,7 @@ export function Onboarding({ input }: { input: PlanInput }) {
     saveProfile(profile);
     restartPlan();
     window.dispatchEvent(new Event(PROFILE_EVENT));
+    delete document.documentElement.dataset.onboarding;
     setOpen(false);
     const first = plan[0].tasks.find((t) => !t.optional);
     if (goToFirstTask && first) {
@@ -122,7 +131,7 @@ export function Onboarding({ input }: { input: PlanInput }) {
   const firstTask = plan[0].tasks.find((t) => !t.optional);
 
   return (
-    <div className="fixed inset-0 z-50 flex flex-col bg-paper" role="dialog" aria-modal="true" aria-labelledby="ob-title">
+    <div className="onboarding-gate fixed inset-0 z-50 flex-col bg-paper" role="dialog" aria-modal="true" aria-labelledby="ob-title">
       <div className="mx-auto flex w-full max-w-md flex-1 flex-col px-6 pt-5 pb-8">
         {/* Top bar: back and progress through the three questions */}
         <div className="flex h-11 items-center gap-3">
@@ -153,10 +162,10 @@ export function Onboarding({ input }: { input: PlanInput }) {
               <WelcomeArt />
               <div className="flex flex-col gap-3">
                 <h1 id="ob-title" className="font-display text-4xl leading-tight">
-                  «Mario und der Zauberer», ohne das ganze Buch zu lesen.
+                  Bereit für die Prüfung zu «Mario und der Zauberer».
                 </h1>
                 <p className="text-[17px] leading-relaxed text-muted">
-                  Narra zeigt dir, was du für die Prüfung wissen musst und wo es steht. Jede Aussage mit Seite und Zeile.
+                  Auch ohne das ganze Buch zu lesen. Narra zeigt dir, was du wissen musst und wo es steht, mit Seite und Zeile.
                 </p>
               </div>
             </>
@@ -251,23 +260,28 @@ export function Onboarding({ input }: { input: PlanInput }) {
   );
 }
 
-/** A tiny animated book page: lines appear, one lights up, its citation pops out. */
+/** The real first lines of the book: they appear, line 4 lights up, its citation pops out. */
+const OPENING = [
+  "Die Erinnerung an Torre di Venere ist atmo-",
+  "sphärisch unangenehm. Ärger, Gereizt-",
+  "heit, Überspannung lagen von Anfang an in der",
+  "Luft, und zum Schluß kam dann der Chok mit",
+  "diesem schrecklichen Cipolla, in dessen Person",
+];
+
 function WelcomeArt() {
-  const lines = [92, 84, 96, 70, 88];
   return (
-    <div aria-hidden="true" className="relative flex h-44 items-center justify-center overflow-hidden rounded-3xl bg-surface">
-      <div className="flex w-60 flex-col gap-3 rounded-xl border border-line-strong bg-paper p-5 shadow-sm">
-        {lines.map((w, i) => (
-          <div key={i} className="flex items-center gap-2">
-            <span className="w-3 text-right text-[10px] text-faint tabular-nums">{i + 1}</span>
-            <span
-              className={`anim-line h-2 rounded-full ${i === 3 ? "anim-hit" : "bg-line-strong"}`}
-              style={{ width: `${w}%`, animationDelay: `${150 + i * 90}ms` }}
-            />
-          </div>
+    <div aria-hidden="true" className="relative flex items-center justify-center overflow-hidden rounded-3xl bg-surface px-4 py-6">
+      <div className="flex w-full max-w-[330px] flex-col gap-1.5 rounded-xl border border-line-strong bg-paper px-4 py-4 shadow-sm">
+        <p className="mb-1 text-[10px] font-semibold tracking-[0.08em] text-faint uppercase">Seite 9</p>
+        {OPENING.map((text, i) => (
+          <p key={i} className="anim-in flex items-baseline gap-2.5" style={{ animationDelay: `${120 + i * 110}ms` }}>
+            <span className="w-3 shrink-0 text-right text-[10px] text-faint tabular-nums">{i + 1}</span>
+            <span className={`rounded px-1 font-serif text-[12.5px] leading-6 whitespace-nowrap ${i === 3 ? "anim-hit-soft" : ""}`}>{text}</span>
+          </p>
         ))}
       </div>
-      <span className="anim-chip absolute right-8 bottom-7 rounded-lg bg-accent px-2.5 py-1 text-xs font-semibold text-accent-ink shadow-md">
+      <span className="anim-chip absolute right-5 bottom-3 rounded-lg bg-accent px-2.5 py-1 text-xs font-semibold text-accent-ink shadow-md">
         S. 9, Z. 4
       </span>
     </div>
