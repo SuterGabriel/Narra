@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowUpRightIcon, SearchIcon } from "@/components/Icons";
+import { ArrowUpRightIcon, CompassIcon, SearchIcon } from "@/components/Icons";
 import { bookMeta } from "@/data/book";
 import { passages } from "@/data/content";
 
@@ -19,6 +19,17 @@ export default function PassagesPage() {
           Die {passages.length} Stellen, die in Prüfungen und Aufsätzen zählen. Zusammen etwa {minutes} Minuten Lesezeit.
         </p>
       </header>
+
+      <Link href="/ueberblick" className="flex items-center gap-4 rounded-2xl bg-accent-soft p-4">
+        <span className="flex size-12 shrink-0 items-center justify-center rounded-xl bg-paper text-accent" aria-hidden="true">
+          <CompassIcon size={24} />
+        </span>
+        <span className="flex flex-1 flex-col gap-0.5">
+          <span className="font-display text-lg">Zuerst verstehen: das Buch in 20 Minuten</span>
+          <span className="text-sm text-muted">Handlung, Figuren, Motive und Hintergrund, bevor du liest.</span>
+        </span>
+        <ArrowUpRightIcon size={16} className="text-faint" />
+      </Link>
 
       <form action="/suche" role="search">
         <label className="flex h-12 items-center gap-2 rounded-xl border border-line-strong bg-surface px-3.5 text-faint">

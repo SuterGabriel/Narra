@@ -1,44 +1,79 @@
 import Link from "next/link";
-import { DailyCard } from "@/components/DailyQuiz";
-import { CompassIcon } from "@/components/Icons";
-import { NextStep } from "@/components/PlanView";
+import { ChevronIcon, SendIcon } from "@/components/Icons";
+import { ContinueReading } from "@/components/StartActions";
 import { ThemeToggle } from "@/components/ThemeToggle";
-import { AdjustPlanButton } from "@/components/Onboarding";
-import { planInput } from "@/data/content";
+import { passages } from "@/data/content";
 
 /**
- * Start page: one next step, the daily quiz, and the overview for newcomers. Everything else
- * lives in the navigation (Überblick, Lesen, Üben, Fragen).
+ * Start page, deliberately simple: one sentence, three steps in a recommended order, and a question
+ * box. Everything else (study plan, daily quiz, games) lives under Üben.
  */
 export default function StartPage() {
+  const steps = [
+    { href: "/ueberblick", kicker: "1 · Verstehen", title: "Das Buch in 20 Minuten" },
+    { href: "/lesen", kicker: "2 · Lesen", title: `Die ${passages.length} wichtigen Stellen` },
+    { href: "/ueben", kicker: "3 · Üben", title: "Teste dein Wissen" },
+  ];
+
   return (
-    <div className="flex w-full flex-col gap-5 px-6 pt-8 pb-6 lg:mx-auto lg:max-w-3xl lg:px-10 lg:pt-12">
+    <div className="flex w-full flex-1 flex-col gap-8 px-6 pt-10 pb-8 lg:mx-auto lg:max-w-[680px] lg:justify-center lg:px-10 lg:py-12">
       <header className="flex items-start justify-between gap-4">
-        <div className="flex flex-col gap-1">
-          <h1 className="font-display text-3xl tracking-tight">Mario und der Zauberer</h1>
-          <p className="text-sm text-muted">Das Wichtige aus dem Buch, jede Aussage mit Seite und Zeile belegt.</p>
+        <div className="flex flex-col gap-3">
+          <h1 className="font-display text-[32px] leading-[1.08] tracking-tight lg:text-[56px]">Mario und der Zauberer</h1>
+          <p className="text-base leading-relaxed text-muted lg:text-[19px]">
+            Alles, was du für die Prüfung brauchst. Jede Aussage mit Seite und Zeile aus dem Buch.
+          </p>
         </div>
         <div className="lg:hidden">
           <ThemeToggle />
         </div>
       </header>
 
-      <NextStep input={planInput} />
-
-      <div className="grid gap-3 sm:grid-cols-2">
-        <DailyCard />
-        <Link href="/ueberblick" className="flex items-center gap-4 rounded-2xl border border-line p-4 hover:bg-surface">
-          <span className="flex size-14 shrink-0 items-center justify-center rounded-2xl bg-surface-2 text-accent" aria-hidden="true">
-            <CompassIcon size={26} />
-          </span>
-          <span className="flex flex-col gap-0.5">
-            <span className="font-display text-lg">Das Buch in 20 Minuten</span>
-            <span className="text-sm text-muted">Handlung, Figuren und Motive auf einen Blick.</span>
-          </span>
-        </Link>
+      <div className="flex flex-col gap-3">
+        <ContinueReading />
+        <nav aria-label="Womit willst du anfangen?" className="grid gap-2.5 lg:grid-cols-3 lg:gap-3.5">
+          {steps.map((s, i) => (
+            <Link
+              key={s.href}
+              href={s.href}
+              className={`flex min-h-[76px] items-center gap-3.5 rounded-[18px] px-4 py-3.5 lg:min-h-[150px] lg:flex-col lg:items-start lg:justify-between lg:rounded-[20px] lg:p-5 ${
+                i === 0 ? "bg-accent text-accent-ink" : "border border-line bg-surface hover:border-accent"
+              }`}
+            >
+              <span className="flex flex-1 flex-col gap-0.5 lg:flex-none lg:gap-7">
+                <span className={`text-xs font-semibold tracking-[0.08em] uppercase ${i === 0 ? "opacity-85" : "text-accent"}`}>{s.kicker}</span>
+                <span className="font-display text-xl leading-tight lg:text-[25px]">{s.title}</span>
+              </span>
+              <ChevronIcon size={20} className={`lg:hidden ${i === 0 ? "" : "text-faint"}`} />
+            </Link>
+          ))}
+        </nav>
       </div>
 
-      <AdjustPlanButton className="self-start text-sm text-muted underline-offset-2 hover:text-ink hover:underline" />
+      <form action="/fragen" className="flex flex-col gap-2">
+        <label htmlFor="start-ask" className="text-sm font-semibold lg:text-[15px]">
+          Oder frag direkt
+        </label>
+        <div className="flex gap-2 lg:gap-2.5">
+          <input
+            id="start-ask"
+            name="q"
+            type="text"
+            required
+            minLength={3}
+            maxLength={500}
+            placeholder="Warum lässt sich Mario hypnotisieren?"
+            className="h-[50px] min-w-0 flex-1 rounded-[14px] border border-line-strong bg-paper px-3.5 text-[15px] placeholder:text-faint lg:h-14 lg:rounded-2xl lg:bg-surface-2 lg:px-[18px] lg:text-base"
+          />
+          <button
+            type="submit"
+            aria-label="Frage senden"
+            className="flex size-[50px] shrink-0 items-center justify-center rounded-[14px] bg-ink text-paper lg:size-14 lg:rounded-2xl"
+          >
+            <SendIcon size={20} />
+          </button>
+        </div>
+      </form>
     </div>
   );
 }

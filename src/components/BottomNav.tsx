@@ -2,14 +2,13 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { BookIcon, ChatIcon, CheckIcon, CompassIcon, HomeIcon } from "./Icons";
+import { BookIcon, ChatIcon, CheckIcon, HomeIcon } from "./Icons";
 
 /** The five places of the app. `also` lists routes that belong to the same section. */
 export const navItems = [
-  { href: "/", label: "Start", Icon: HomeIcon, also: ["/lernplan"] },
-  { href: "/ueberblick", label: "Überblick", Icon: CompassIcon, also: [] },
-  { href: "/lesen", label: "Lesen", Icon: BookIcon, also: ["/buch", "/suche"] },
-  { href: "/ueben", label: "Üben", Icon: CheckIcon, also: [] },
+  { href: "/", label: "Start", Icon: HomeIcon, also: [] },
+  { href: "/lesen", label: "Lesen", Icon: BookIcon, also: ["/ueberblick", "/buch", "/suche"] },
+  { href: "/ueben", label: "Üben", Icon: CheckIcon, also: ["/lernplan"] },
   { href: "/fragen", label: "Fragen", Icon: ChatIcon, also: [] },
 ] as const;
 
@@ -25,7 +24,7 @@ export function BottomNav() {
   return (
     <nav
       aria-label="Hauptnavigation"
-      className="sticky bottom-0 z-10 grid grid-cols-5 border-t border-line bg-paper px-2 pt-1.5 pb-[max(1rem,env(safe-area-inset-bottom))] lg:hidden"
+      className="sticky bottom-0 z-10 grid grid-cols-4 border-t border-line bg-paper px-2 pt-1.5 pb-[max(1rem,env(safe-area-inset-bottom))] lg:hidden"
     >
       {navItems.map((item) => {
         const { href, label, Icon } = item;

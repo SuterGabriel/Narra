@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Hint } from "@/components/Hint";
 import { QuizRunner } from "@/components/QuizRunner";
 import { quiz } from "@/data/content";
 
@@ -24,7 +23,6 @@ export default async function QuizPage(props: PageProps<"/ueben/quiz">) {
         </p>
         <h1 className="font-display text-3xl font-bold tracking-tight">Quiz</h1>
       </header>
-      <Hint id="quiz-mistakes">Falsche Antworten merkt sich Narra. Unter Üben › Lücken schliessen kannst du sie gezielt wiederholen.</Hint>
       {/* key: restart the run when the scope changes */}
       <QuizRunner key={`${from}-${to}-${onlyMistakes}`} items={items} onlyMistakes={onlyMistakes} scopeLabel={scope} />
     </div>

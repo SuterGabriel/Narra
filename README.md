@@ -8,21 +8,21 @@ A study companion for Thomas Mann's novella *Mario und der Zauberer*. Students g
 
 ![Key passage with line numbers, pronunciation card and "why this matters" panel](docs/screenshots/reader-desktop.png)
 
-| Questions with verified citations | Start page: one next step | Onboarding result | Quote duel |
-|---|---|---|---|
-| ![Answer with linked citations; a citation that does not exist in the book is struck through](docs/screenshots/questions-desktop-dark.png) | ![The next task of today's plan, daily quiz streak](docs/screenshots/home-mobile.png) | ![Your plan: 14 days, 16 minutes a day, start with the overview](docs/screenshots/onboarding-mobile-dark.png) | ![Who says it, which scene](docs/screenshots/quote-duel-mobile-dark.png) |
+| Questions with verified citations | Start page | Quote duel |
+|---|---|---|
+| ![Answer with linked citations; a citation that does not exist in the book is struck through](docs/screenshots/questions-desktop-dark.png) | ![Three steps and a question box](docs/screenshots/home-mobile.png) | ![Who says it, which scene](docs/screenshots/quote-duel-mobile-dark.png) |
 
 *The questions screenshot uses the local mock mode; the struck-through "S. 200" shows how invented references are caught.*
 
 ## What it does
 
-- **Onboarding like a learning app, not a product tour:** three questions (exam date, minutes per day, read the book yet?) build a personal 7-, 14- or 21-day plan, and one button leads straight into the first real task. Features are explained with one-time hints where they are first met.
+- **A start page that needs no explanation:** one sentence, three numbered steps (understand, read, practise) and a question box. No onboarding, no tour: after trying a feature-heavy start page, a spotlight tour and a questionnaire, the simplest version tested best. Two one-time hints explain what is not obvious (tappable names, clickable citations).
 - **Overview:** plot in eight steps, 13 characters, 9 motifs, the narrator and the historical context, each claim linked to the text.
 - **Key passages:** 18 exam-relevant passages (about 25 pages, 45 minutes), each with a reading focus and a note on why it matters.
 - **The whole book:** page-by-page reader with the original line breaks, full-text search that works across hyphenated line breaks, and deep links like `/buch/42?z=17-19` that highlight the cited lines.
 - **Questions:** ask anything about the book. The answer streams in, every "S. 42, Z. 17" becomes a link, and the cited lines open next to the answer.
 - **Practice:** 60 quiz questions (also per reading section), 60 flashcards with Anki export, a daily five-question quiz with a streak, a timed mock exam with results by topic, a quote duel, and a pronunciation list of 104 Italian and French names and phrases.
-- **Study plan:** a small piece each day, fitted to the exam date; the start page always shows exactly one next step. Progress stays in the browser.
+- **Study plan (under Üben):** a small piece each day for 1, 2 or 3 weeks until the exam. Progress stays in the browser.
 
 ## Architecture
 

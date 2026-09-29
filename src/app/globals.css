@@ -128,20 +128,12 @@ body {
   font-synthesis: none;
 }
 
-/*
- * Onboarding gate: the boot script in layout.tsx sets data-onboarding before first paint.
- * The onboarding markup is server-rendered but only shown while the gate is set.
- */
-.onboarding-gate { display: none; }
-html[data-onboarding] .onboarding-gate { display: flex; }
-html[data-onboarding] .app-shell { visibility: hidden; }
-
 /* Book text reads slightly softer than UI text on the dark stage. */
 .font-serif {
   color: var(--reading);
 }
 
-/* ---- Onboarding and hint animations (none for people who prefer reduced motion) ---- */
+/* ---- Hint and start-page animations (none for people who prefer reduced motion) ---- */
 @keyframes anim-in {
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: none; }

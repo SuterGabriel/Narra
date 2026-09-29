@@ -30,7 +30,6 @@ export function DailyCard() {
   return (
     <Link
       href="/ueben/taeglich"
-      data-tour="daily"
       className="flex items-center gap-4 rounded-2xl border border-line p-4 hover:bg-surface"
     >
       <span

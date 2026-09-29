@@ -1,7 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState, type ReactNode } from "react";
+import { usePathname } from "next/navigation";
+import { useEffect, useMemo, useState, type ReactNode } from "react";
+import { setLastRead } from "@/lib/profile";
 import type { BookPage } from "@/lib/citations";
 import type { Pronunciation } from "@/data/types";
 import { BackIcon, MicIcon, PlayIcon, SearchIcon } from "./Icons";
@@ -45,6 +47,12 @@ export function Reader({
   aside,
 }: Props) {
   const [openTerm, setOpenTerm] = useState<string | null>(null);
+  const pathname = usePathname();
+
+  // Remember where the reader left off, for "Weiter, wo du warst" on the start page.
+  useEffect(() => {
+    setLastRead({ href: pathname, title: kicker === "Buch" ? `Seite ${pages[0]?.page}` : title });
+  }, [pathname, kicker, title, pages]);
   const selected = pronunciations.find((p) => p.term === openTerm) ?? null;
 
   // Mark only the first occurrence of each term per page, so frequent names don't clutter the text.

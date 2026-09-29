@@ -9,8 +9,11 @@ export default function PracticePage() {
   const groups: { title: string; hint: string; modes: Mode[] }[] = [
     {
       title: "Täglich",
-      hint: "Zwei Minuten, jeden Tag.",
-      modes: [{ href: "/ueben/taeglich", title: "Mini-Quiz des Tages", text: "Fünf Fragen, jeden Tag neu. Baue deinen Streak auf." }],
+      hint: "Jeden Tag ein kleines Stück.",
+      modes: [
+        { href: "/ueben/taeglich", title: "Mini-Quiz des Tages", text: "Fünf Fragen, jeden Tag neu. Baue deinen Streak auf." },
+        { href: "/lernplan", title: "Lernplan", text: "Bis zur Prüfung jeden Tag eine kleine Portion, abhaken inklusive." },
+      ],
     },
     {
       title: "Üben",

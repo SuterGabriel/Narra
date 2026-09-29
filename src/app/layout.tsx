@@ -2,8 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Bricolage_Grotesque, DM_Serif_Display, Figtree, Geist, Literata, Newsreader } from "next/font/google";
 import { BottomNav } from "@/components/BottomNav";
 import { Sidebar } from "@/components/Sidebar";
-import { Onboarding } from "@/components/Onboarding";
-import { passageNav, planInput } from "@/data/content";
+import { passageNav } from "@/data/content";
 import { SITE_URL } from "@/lib/site";
 import "./globals.css";
 
@@ -65,9 +64,8 @@ export const viewport: Viewport = {
 };
 
 // Applies a stored theme choice before first paint to avoid a flash.
-// Runs before first paint: applies a stored theme, and on a first visit to the start page shows
-// onboarding straight away instead of flashing the start page underneath it.
-const bootScript = `(function(){var d=document.documentElement;try{var t=localStorage.getItem('narra-theme');if(t==='light'||t==='dark'){d.dataset.theme=t}}catch(e){}try{if(location.pathname==='/'&&!localStorage.getItem('narra:profile')){d.dataset.onboarding='1'}}catch(e){}})()`;
+// Applies a stored theme choice before first paint to avoid a flash.
+const bootScript = `(function(){try{var t=localStorage.getItem('narra-theme');if(t==='light'||t==='dark'){document.documentElement.dataset.theme=t}}catch(e){}})()`;
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
@@ -80,14 +78,13 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <script dangerouslySetInnerHTML={{ __html: bootScript }} />
       </head>
       <body className="min-h-full bg-surface font-sans text-ink lg:bg-paper">
-        <div className="app-shell lg:flex">
+        <div className="lg:flex">
           <Sidebar passages={passageNav} />
           <div className="mx-auto flex min-h-dvh w-full max-w-md flex-col bg-paper md:border-x md:border-line lg:max-w-none lg:min-w-0 lg:flex-1 lg:border-0">
             <main className="flex flex-1 flex-col">{children}</main>
             <BottomNav />
           </div>
         </div>
-        <Onboarding input={planInput} />
       </body>
     </html>
   );

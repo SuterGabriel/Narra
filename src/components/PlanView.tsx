@@ -3,56 +3,47 @@
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import type { PlanInput } from "@/data/content";
-import { buildPlan, type PlanDay, type PlanTask } from "@/lib/plan";
-import { getProfile, ONBOARDING_EVENT, planOptions, type Profile } from "@/lib/profile";
-import {
-  currentPlanDay,
-  getDoneDays,
-  getVisitedTasks,
-  markTaskVisited,
-  setDayDone,
-} from "@/lib/progress";
+import { buildPlan, type PlanDay } from "@/lib/plan";
+import { getProfile, planOptions, saveProfile, type Profile } from "@/lib/profile";
+import { currentPlanDay, getDoneDays, getVisitedTasks, markTaskVisited, restartPlan, setDayDone } from "@/lib/progress";
 import { ArrowUpRightIcon, CheckIcon } from "./Icons";
-
-export const PROFILE_EVENT = "narra:profile-changed";
-
-/** The personal plan: built from the onboarding answers, rebuilt when they change. */
-export function usePlan(input: PlanInput) {
-  const [profile, setProfile] = useState<Profile | null>(null);
-  useEffect(() => {
-    // The profile lives in localStorage, which only exists after mount.
-    const load = () => setProfile(getProfile());
-    load();
-    window.addEventListener(PROFILE_EVENT, load);
-    return () => window.removeEventListener(PROFILE_EVENT, load);
-  }, []);
-  const plan = useMemo(
-    () => buildPlan(input.firstPage, input.lastPage, input.passages, planOptions(profile)),
-    [input, profile],
-  );
-  return { plan, profile };
-}
 
 function useProgress() {
   const [today, setToday] = useState<number | null>(null);
   const [done, setDone] = useState<number[]>([]);
   const [visited, setVisited] = useState<string[]>([]);
+  const [profile, setProfile] = useState<Profile | null>(null);
   useEffect(() => {
-    // Plan start and progress live in localStorage, which only exists after mount.
+    // Plan start, progress and the chosen length live in localStorage, which only exists after mount.
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setToday(currentPlanDay());
     setDone(getDoneDays());
     setVisited(getVisitedTasks());
+    setProfile(getProfile());
   }, []);
-  const toggle = (day: number, value: boolean) => {
-    setDayDone(day, value);
-    setDone(getDoneDays());
+  return {
+    today,
+    done,
+    visited,
+    profile,
+    toggle(day: number, value: boolean) {
+      setDayDone(day, value);
+      setDone(getDoneDays());
+    },
+    visit(href: string) {
+      markTaskVisited(href);
+      setVisited(getVisitedTasks());
+    },
+    /** Choosing a new length starts the plan again from today. */
+    choose(exam: Profile["exam"]) {
+      saveProfile({ exam });
+      restartPlan();
+      setProfile({ exam });
+      setToday(currentPlanDay());
+      setDone([]);
+      setVisited([]);
+    },
   };
-  const visit = (href: string) => {
-    markTaskVisited(href);
-    setVisited(getVisitedTasks());
-  };
-  return { today, done, visited, toggle, visit };
 }
 
 function DayTasks({ day, visited, onVisit }: { day: PlanDay; visited: string[]; onVisit: (href: string) => void }) {
@@ -84,104 +75,47 @@ function DayTasks({ day, visited, onVisit }: { day: PlanDay; visited: string[]; 
   );
 }
 
-const verb = (t: PlanTask) => (t.href.startsWith("/ueben") ? "Üben" : t.href.startsWith("/ueberblick") ? "Lesen" : "Lesen");
+const LENGTHS: { exam: Profile["exam"]; label: string }[] = [
+  { exam: "1w", label: "1 Woche" },
+  { exam: "2w", label: "2 Wochen" },
+  { exam: "3w", label: "3 Wochen" },
+];
 
-/**
- * The start page's one clear call to action: the next unfinished task of today's plan,
- * with what comes after it in one line.
- */
-export function NextStep({ input }: { input: PlanInput }) {
-  const { plan } = usePlan(input);
-  const { today, done, visited, toggle, visit } = useProgress();
-  const day = plan.find((d) => d.day === Math.min(today ?? 1, plan.length)) ?? plan[0];
-  const required = day.tasks.filter((t) => !t.optional);
-  const next = required.find((t) => !visited.includes(t.href));
-  const after = required.filter((t) => t !== next && !visited.includes(t.href));
-  const started = required.length - required.filter((t) => !visited.includes(t.href)).length;
-  const isDone = done.includes(day.day);
-  const tomorrow = plan.find((d) => d.day === day.day + 1);
-
-  // Until the stored plan is read (first frame), show a calm placeholder instead of default numbers.
-  if (today === null) {
-    return (
-      <section aria-busy="true" aria-label="Dein nächster Schritt wird geladen" className="flex flex-col gap-4 rounded-2xl bg-accent-soft p-5 lg:p-6">
-        <span className="h-3 w-32 rounded-full bg-accent/20" />
-        <span className="h-8 w-3/4 rounded-lg bg-accent/20" />
-        <span className="h-12 w-full rounded-xl bg-accent/25 sm:w-40" />
-      </section>
-    );
-  }
-
-  return (
-    <section aria-labelledby="next-title" data-tour="plan" className="flex flex-col gap-4 rounded-2xl bg-accent-soft p-5 lg:p-6">
-      <div className="flex items-baseline justify-between gap-3">
-        <p className="text-xs font-semibold tracking-[0.08em] text-accent-soft-ink uppercase">
-          Tag {today ?? "–"} von {plan.length}
-          {day.pages ? ` · S. ${day.pages.from}–${day.pages.to}` : ""}
-        </p>
-        <Link href="/lernplan" className="text-sm font-medium text-accent-soft-ink underline-offset-2 hover:underline">
-          Ganzer Plan
-        </Link>
-      </div>
-
-      {next ? (
-        <>
-          <div className="flex flex-col gap-1">
-            <p className="text-sm text-muted">{started === 0 ? "Heute zuerst" : "Als Nächstes"}</p>
-            <h2 id="next-title" className="font-display text-2xl leading-tight lg:text-3xl">
-              {next.label}
-            </h2>
-            {next.minutes && (
-              <p className="text-sm text-muted">
-                {verb(next)} · etwa {next.minutes} Minuten
-              </p>
-            )}
-          </div>
-          <Link
-            href={next.href}
-            onClick={() => visit(next.href)}
-            className="flex h-12 items-center justify-center rounded-xl bg-accent px-5 text-[15px] font-semibold text-accent-ink sm:self-start"
-          >
-            {started === 0 ? "Los geht’s" : "Weiter"}
-          </Link>
-          {after.length > 0 && (
-            <p className="text-sm text-muted">Danach: {after.map((t) => t.label.replace(/^Schlüsselpassage \d+: /, "")).join(" · ")}</p>
-          )}
-        </>
-      ) : (
-        <div className="flex flex-col gap-3">
-          <h2 id="next-title" className="font-display text-2xl leading-tight">
-            {isDone ? "Heute geschafft" : "Alles für heute begonnen"}
-          </h2>
-          <p className="text-[15px] text-muted">
-            {tomorrow ? `Morgen: ${tomorrow.title}.` : "Das war der letzte Tag des Plans."}
-            {day.tasks.find((t) => t.optional) ? " Wer mag, liest die Seiten von heute ganz." : ""}
-          </p>
-          <label className="flex min-h-11 items-center gap-3 text-[15px]">
-            <input
-              type="checkbox"
-              checked={isDone}
-              onChange={(e) => toggle(day.day, e.target.checked)}
-              className="size-5 accent-[var(--accent)]"
-            />
-            Tag {day.day} abhaken
-          </label>
-        </div>
-      )}
-    </section>
-  );
-}
-
-/** The full 21-day list. */
+/** The study plan: pick how long until the exam, then one day after another. */
 export function PlanList({ input }: { input: PlanInput }) {
-  const { plan } = usePlan(input);
-  const { today, done, visited, toggle, visit } = useProgress();
+  const { today, done, visited, profile, toggle, visit, choose } = useProgress();
+  const plan = useMemo(
+    () => buildPlan(input.firstPage, input.lastPage, input.passages, planOptions(profile)),
+    [input, profile],
+  );
+  const current = profile?.exam ?? "3w";
+  const todayNo = today === null ? null : Math.min(today, plan.length);
 
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-5">
+      <fieldset className="flex flex-col gap-2">
+        <legend className="mb-2 text-sm font-semibold">Deine Prüfung ist in</legend>
+        <div className="grid grid-cols-3 gap-2" role="radiogroup">
+          {LENGTHS.map((l) => (
+            <button
+              key={l.exam}
+              type="button"
+              role="radio"
+              aria-checked={current === l.exam}
+              onClick={() => current !== l.exam && choose(l.exam)}
+              className={`h-11 rounded-xl border text-sm font-medium ${
+                current === l.exam ? "border-accent bg-accent-soft font-semibold text-accent-soft-ink" : "border-line-strong"
+              }`}
+            >
+              {l.label}
+            </button>
+          ))}
+        </div>
+      </fieldset>
+
       <ol className="flex flex-col gap-3">
         {plan.map((d) => {
-          const isToday = d.day === today;
+          const isToday = d.day === todayNo;
           const isDone = done.includes(d.day);
           return (
             <li
@@ -213,13 +147,6 @@ export function PlanList({ input }: { input: PlanInput }) {
           );
         })}
       </ol>
-      <button
-        type="button"
-        onClick={() => window.dispatchEvent(new Event(ONBOARDING_EVENT))}
-        className="h-11 self-start rounded-xl border border-line-strong px-4 text-sm"
-      >
-        Plan anpassen
-      </button>
     </div>
   );
 }

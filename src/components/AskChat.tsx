@@ -136,6 +136,19 @@ export function AskChat() {
     endRef.current?.scrollIntoView({ block: "end", behavior: "smooth" });
   }, [turns]);
 
+  // A question typed on the start page arrives as ?q=… and is asked once.
+  const askedFromUrl = useRef(false);
+  useEffect(() => {
+    if (askedFromUrl.current) return;
+    askedFromUrl.current = true;
+    const q = new URLSearchParams(window.location.search).get("q");
+    if (q) {
+      window.history.replaceState(null, "", "/fragen");
+      void ask(q);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   async function ask(raw: string) {
     const q = raw.trim().slice(0, MAX);
     if (q.length < 3 || busy) return;

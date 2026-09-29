@@ -9,7 +9,7 @@ export default function PlanPage() {
       <header className="flex flex-col gap-1">
         <h1 className="font-display text-3xl font-bold tracking-tight">Lernplan</h1>
         <p className="text-sm text-muted">
-          Jeden Tag ein kleines Stück, abgestimmt auf deinen Prüfungstermin. Pflicht sind die Schlüsselpassagen, ganze Seiten sind freiwillig.
+          Jeden Tag ein kleines Stück bis zur Prüfung. Pflicht sind die Schlüsselpassagen, ganze Seiten sind freiwillig.
           Dein Fortschritt bleibt nur in diesem Browser.
         </p>
       </header>
