@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Bricolage_Grotesque, DM_Serif_Display, Figtree, Geist, Literata, Newsreader } from "next/font/google";
+import { Bricolage_Grotesque, Figtree, Literata } from "next/font/google";
 import { BottomNav } from "@/components/BottomNav";
 import { Sidebar } from "@/components/Sidebar";
 import { passageNav } from "@/data/content";
@@ -18,23 +18,6 @@ const figtree = Figtree({
 
 const literata = Literata({
   variable: "--font-literata",
-  subsets: ["latin"],
-});
-
-// Dark mode ("Bühne"): serif display face, book serif and a quieter UI sans.
-const dmSerif = DM_Serif_Display({
-  variable: "--font-dm-serif",
-  subsets: ["latin"],
-  weight: "400",
-});
-
-const newsreader = Newsreader({
-  variable: "--font-newsreader",
-  subsets: ["latin"],
-});
-
-const geist = Geist({
-  variable: "--font-geist",
   subsets: ["latin"],
 });
 
@@ -72,7 +55,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html
       lang="de"
       suppressHydrationWarning
-      className={`${bricolage.variable} ${figtree.variable} ${literata.variable} ${dmSerif.variable} ${newsreader.variable} ${geist.variable} h-full antialiased`}
+      className={`${bricolage.variable} ${figtree.variable} ${literata.variable} h-full antialiased`}
     >
       <head>
         <script dangerouslySetInnerHTML={{ __html: bootScript }} />

@@ -2,8 +2,9 @@
 
 /*
  * Design tokens.
- * Light mode is the "Adria" direction: clear, Adriatic blue, grotesque headings.
- * Dark mode is the "Bühne" direction: the evening stage, gold, serif headings and book text.
+ * One type system for both modes (the "Adria" direction: grotesque headings, Literata for the
+ * book, Figtree for the interface). Only colours change: Adriatic blue in light mode, the gold
+ * of the evening stage ("Bühne") in dark mode.
  * Components only use the tokens below (bg-paper, text-muted, font-display, …), never raw values.
  */
 :root {
@@ -53,11 +54,6 @@
     --bubble: #2a2733;
     --bubble-ink: #eee7d8;
 
-    --display: var(--font-dm-serif);
-    --display-weight: 400;
-    --display-tracking: 0;
-    --bookface: var(--font-newsreader);
-    --uiface: var(--font-geist);
     color-scheme: dark;
   }
 }
@@ -81,11 +77,6 @@
   --bubble: #2a2733;
   --bubble-ink: #eee7d8;
 
-  --display: var(--font-dm-serif);
-  --display-weight: 400;
-  --display-tracking: 0;
-  --bookface: var(--font-newsreader);
-  --uiface: var(--font-geist);
   color-scheme: dark;
 }
 
@@ -118,17 +109,14 @@ body {
   color: var(--ink);
 }
 
-/*
- * Headings: the display face decides its own weight and tracking. DM Serif Display only exists
- * in one weight, so the dark theme must not ask for bold (browsers would fake it).
- */
+/* Headings: one weight and tracking for the display face in both modes. */
 .font-display {
   font-weight: var(--display-weight) !important;
   letter-spacing: var(--display-tracking) !important;
   font-synthesis: none;
 }
 
-/* Book text reads slightly softer than UI text on the dark stage. */
+/* Book text reads slightly softer than UI text in dark mode (see --reading). */
 .font-serif {
   color: var(--reading);
 }
