@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+/*
+ * Design tokens.
+ * Light mode follows direction "Adria" (clear, Adriatic blue).
+ * Dark mode follows direction "Bühne" (evening stage, gold).
+ * Typography is shared across both modes.
+ */
+:root {
+  --paper: #ffffff;
+  --surface: #f5f8fa;
+  --surface-2: #f2f5f8;
+  --line: #e3e9ee;
+  --line-strong: #d8e0e6;
+  --ink: #15191e;
+  --muted: #56616c;
+  --faint: #6e7883;
+  --accent: #1d5fc4;
+  --accent-ink: #ffffff;
+  --accent-soft: #e6effc;
+  --accent-soft-ink: #174c9e;
+  --name: #b84a17;
+  --bubble: #1d5fc4;
+  --bubble-ink: #ffffff;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #17161d;
+    --surface: #1f1d26;
+    --surface-2: #221f2a;
+    --line: #2c2a35;
+    --line-strong: #3a3744;
+    --ink: #eee7d8;
+    --muted: #a39cae;
+    --faint: #8a8395;
+    --accent: #e0b04f;
+    --accent-ink: #17161d;
+    --accent-soft: #2e2718;
+    --accent-soft-ink: #f0c870;
+    --name: #e0b04f;
+    --bubble: #2a2733;
+    --bubble-ink: #eee7d8;
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --paper: #17161d;
+  --surface: #1f1d26;
+  --surface-2: #221f2a;
+  --line: #2c2a35;
+  --line-strong: #3a3744;
+  --ink: #eee7d8;
+  --muted: #a39cae;
+  --faint: #8a8395;
+  --accent: #e0b04f;
+  --accent-ink: #17161d;
+  --accent-soft: #2e2718;
+  --accent-soft-ink: #f0c870;
+  --name: #e0b04f;
+  --bubble: #2a2733;
+  --bubble-ink: #eee7d8;
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-faint: var(--faint);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-accent-soft: var(--accent-soft);
+  --color-accent-soft-ink: var(--accent-soft-ink);
+  --color-name: var(--name);
+  --color-bubble: var(--bubble);
+  --color-bubble-ink: var(--bubble-ink);
+
+  --font-sans: var(--font-figtree);
+  --font-serif: var(--font-literata);
+  --font-display: var(--font-bricolage);
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+}
