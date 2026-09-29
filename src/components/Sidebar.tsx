@@ -2,22 +2,15 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { navItems } from "./BottomNav";
+import { isNavActive, navItems } from "./BottomNav";
 import { ThemeToggle } from "./ThemeToggle";
 import { TourButton } from "./Tour";
 
 type PassageNav = { id: number; slug: string; title: string };
 
-const secondary = [
-  { href: "/ueberblick", label: "Schnellüberblick" },
-  { href: "/lernplan", label: "Lernplan" },
-  { href: "/suche", label: "Suche" },
-];
-
 /** Desktop navigation. Hidden below the lg breakpoint, where BottomNav takes over. */
 export function Sidebar({ passages }: { passages: PassageNav[] }) {
   const pathname = usePathname();
-  const isActive = (href: string) => (href === "/" ? pathname === "/" : pathname.startsWith(href));
 
   return (
     <aside className="sticky top-0 hidden h-dvh w-[248px] shrink-0 flex-col gap-6 border-r border-line bg-sidebar px-4 pt-7 pb-5 lg:flex">
@@ -27,32 +20,24 @@ export function Sidebar({ passages }: { passages: PassageNav[] }) {
       </Link>
 
       <nav aria-label="Hauptnavigation" className="flex flex-col gap-0.5">
-        {navItems.map(({ href, label, Icon }) => (
-          <Link
-            key={href}
-            href={href}
-            aria-current={isActive(href) ? "page" : undefined}
-            data-tour={`nav-${href.slice(1) || "start"}`}
-            className={`flex h-11 items-center gap-3 rounded-[10px] px-3 text-[15px] ${
-              isActive(href) ? "bg-accent-soft font-semibold text-accent-soft-ink" : "font-medium hover:bg-surface-2"
-            }`}
-          >
-            <Icon size={20} />
-            {label}
-          </Link>
-        ))}
-        {secondary.map((s) => (
-          <Link
-            key={s.href}
-            href={s.href}
-            aria-current={isActive(s.href) ? "page" : undefined}
-            className={`flex h-9 items-center rounded-[10px] px-3 pl-11 text-sm ${
-              isActive(s.href) ? "font-semibold text-accent-soft-ink" : "text-muted hover:bg-surface-2"
-            }`}
-          >
-            {s.label}
-          </Link>
-        ))}
+        {navItems.map((item) => {
+          const { href, label, Icon } = item;
+          const active = isNavActive(pathname, item);
+          return (
+            <Link
+              key={href}
+              href={href}
+              aria-current={active ? "page" : undefined}
+              data-tour={`nav-${href.slice(1) || "start"}`}
+              className={`flex h-11 items-center gap-3 rounded-[10px] px-3 text-[15px] ${
+                active ? "bg-accent-soft font-semibold text-accent-soft-ink" : "font-medium hover:bg-surface-2"
+              }`}
+            >
+              <Icon size={20} />
+              {label}
+            </Link>
+          );
+        })}
       </nav>
 
       {pathname.startsWith("/lesen") ? (

@@ -2,14 +2,21 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { BookIcon, ChatIcon, CheckIcon, HomeIcon } from "./Icons";
+import { BookIcon, ChatIcon, CheckIcon, CompassIcon, HomeIcon } from "./Icons";
 
+/** The five places of the app. `also` lists routes that belong to the same section. */
 export const navItems = [
-  { href: "/", label: "Heute", Icon: HomeIcon },
-  { href: "/lesen", label: "Lesen", Icon: BookIcon },
-  { href: "/fragen", label: "Fragen", Icon: ChatIcon },
-  { href: "/ueben", label: "Üben", Icon: CheckIcon },
+  { href: "/", label: "Start", Icon: HomeIcon, also: ["/lernplan"] },
+  { href: "/ueberblick", label: "Überblick", Icon: CompassIcon, also: [] },
+  { href: "/lesen", label: "Lesen", Icon: BookIcon, also: ["/buch", "/suche"] },
+  { href: "/ueben", label: "Üben", Icon: CheckIcon, also: [] },
+  { href: "/fragen", label: "Fragen", Icon: ChatIcon, also: [] },
 ] as const;
+
+export function isNavActive(pathname: string, item: (typeof navItems)[number]) {
+  const matches = (base: string) => (base === "/" ? pathname === "/" : pathname === base || pathname.startsWith(`${base}/`));
+  return matches(item.href) || item.also.some(matches);
+}
 
 /** Mobile navigation. Hidden from the lg breakpoint, where Sidebar takes over. */
 export function BottomNav() {
@@ -18,10 +25,11 @@ export function BottomNav() {
   return (
     <nav
       aria-label="Hauptnavigation"
-      className="sticky bottom-0 z-10 grid grid-cols-4 border-t border-line bg-paper px-2 pt-1.5 pb-[max(1rem,env(safe-area-inset-bottom))] lg:hidden"
+      className="sticky bottom-0 z-10 grid grid-cols-5 border-t border-line bg-paper px-2 pt-1.5 pb-[max(1rem,env(safe-area-inset-bottom))] lg:hidden"
     >
-      {navItems.map(({ href, label, Icon }) => {
-        const active = href === "/" ? pathname === "/" : pathname.startsWith(href);
+      {navItems.map((item) => {
+        const { href, label, Icon } = item;
+        const active = isNavActive(pathname, item);
         return (
           <Link
             key={href}

@@ -20,14 +20,14 @@ const STEPS: Step[] = [
     title: "Willkommen bei Narra",
     text: "Dein Lernbegleiter für «Mario und der Zauberer». Du musst nicht das ganze Buch lesen: Narra zeigt dir, was du wissen musst und wo es steht, jede Aussage mit Seite und Zeile.",
   },
-  { target: "plan", title: "Jeden Tag ein Stück", text: "Hier steht, was heute dran ist. In drei Wochen bist du auf Prüfungsniveau, ohne jeden Tag stundenlang zu lesen." },
-  { target: "nav-lesen", title: "Lesen", text: "Die 18 Stellen, die in Prüfungen zählen, zusammen etwa 45 Minuten. Und das ganze Buch mit Suche, wenn du mehr willst." },
+  { target: "plan", title: "Dein nächster Schritt", text: "Hier steht immer genau eine Sache, die du als Nächstes tun solltest. Jeden Tag ein kleines Stück, in drei Wochen bist du auf Prüfungsniveau." },
+  { target: "nav-ueberblick", title: "Überblick", text: "Das ganze Buch in 20 Minuten: Handlung, Figuren, Motive und Hintergrund. Der beste Einstieg." },
+  { target: "nav-lesen", title: "Lesen", text: "Die 18 Stellen, die in Prüfungen zählen, zusammen etwa 45 Minuten. Dazu das ganze Buch mit Suche." },
+  { target: "nav-ueben", title: "Üben", text: "Quiz, Karteikarten, Zitat-Duell und Probeprüfung. So siehst du, wo du noch Lücken hast." },
   { target: "nav-fragen", title: "Fragen", text: "Frag, was du nicht verstehst. Jede Antwort zeigt die Stelle im Buch, damit du sie nachlesen und zitieren kannst." },
-  { target: "nav-ueben", title: "Üben", text: "Quiz, Karteikarten, Zitat-Duell und eine Probeprüfung. So siehst du, wo du noch Lücken hast." },
-  { target: "daily", title: "Fünf Fragen am Tag", text: "Das Mini-Quiz dauert zwei Minuten. Mach es täglich, dann wächst dein Streak." },
   {
     title: "Bereit?",
-    text: "Am besten fängst du mit dem Schnellüberblick an: das ganze Buch in 20 Minuten. Den Rundgang findest du jederzeit wieder auf der Startseite.",
+    text: "Fang mit dem Überblick an oder direkt mit deinem ersten Schritt. Den Rundgang findest du jederzeit unten auf der Startseite.",
   },
 ];
 

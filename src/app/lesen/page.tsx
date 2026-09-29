@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowUpRightIcon } from "@/components/Icons";
+import { ArrowUpRightIcon, SearchIcon } from "@/components/Icons";
 import { bookMeta } from "@/data/book";
 import { passages } from "@/data/content";
 
@@ -19,6 +19,14 @@ export default function PassagesPage() {
           Die {passages.length} Stellen, die in Prüfungen und Aufsätzen zählen. Zusammen etwa {minutes} Minuten Lesezeit.
         </p>
       </header>
+
+      <form action="/suche" role="search">
+        <label className="flex h-12 items-center gap-2 rounded-xl border border-line-strong bg-surface px-3.5 text-faint">
+          <SearchIcon size={18} />
+          <span className="sr-only">Im ganzen Buch suchen</span>
+          <input type="search" name="q" placeholder="Im ganzen Buch suchen, z. B. Peitsche" className="flex-1 bg-transparent text-[15px] text-ink outline-none placeholder:text-faint" />
+        </label>
+      </form>
 
       <ol className="flex flex-col gap-3">
         {passages.map((p) => (

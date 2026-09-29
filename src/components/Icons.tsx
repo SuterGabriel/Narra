@@ -47,6 +47,13 @@ export const CheckIcon = (p: IconProps) => (
   </Stroke>
 );
 
+export const CompassIcon = (p: IconProps) => (
+  <Stroke {...p}>
+    <circle cx="12" cy="12" r="9" />
+    <path d="M15.5 8.5l-2 5-5 2 2-5z" />
+  </Stroke>
+);
+
 export const BackIcon = (p: IconProps) => (
   <Stroke {...p}>
     <path d="M15 18l-6-6 6-6" />

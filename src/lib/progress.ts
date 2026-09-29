@@ -104,3 +104,14 @@ export const getExams = () => read<ExamResult[]>(EXAM_KEY, []);
 export function recordExam(r: ExamResult) {
   write(EXAM_KEY, [...getExams(), r].slice(-20));
 }
+
+// --- Plan tasks opened ---------------------------------------------------------
+// A task counts as started once it is opened from the plan; the start page then offers the next one.
+
+const VISITED_KEY = "narra:plan-visited";
+export const getVisitedTasks = () => read<string[]>(VISITED_KEY, []);
+export function markTaskVisited(href: string) {
+  const v = new Set(getVisitedTasks());
+  v.add(href);
+  write(VISITED_KEY, [...v]);
+}

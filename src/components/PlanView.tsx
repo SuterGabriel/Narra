@@ -2,103 +2,152 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import type { PlanDay } from "@/lib/plan";
-import { currentPlanDay, getDoneDays, restartPlan, setDayDone } from "@/lib/progress";
-import { ArrowUpRightIcon } from "./Icons";
+import type { PlanDay, PlanTask } from "@/lib/plan";
+import {
+  currentPlanDay,
+  getDoneDays,
+  getVisitedTasks,
+  markTaskVisited,
+  restartPlan,
+  setDayDone,
+} from "@/lib/progress";
+import { ArrowUpRightIcon, CheckIcon } from "./Icons";
 
 function useProgress() {
   const [today, setToday] = useState<number | null>(null);
   const [done, setDone] = useState<number[]>([]);
+  const [visited, setVisited] = useState<string[]>([]);
   useEffect(() => {
     // Plan start and progress live in localStorage, which only exists after mount.
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setToday(currentPlanDay());
     setDone(getDoneDays());
+    setVisited(getVisitedTasks());
   }, []);
   const toggle = (day: number, value: boolean) => {
     setDayDone(day, value);
     setDone(getDoneDays());
+  };
+  const visit = (href: string) => {
+    markTaskVisited(href);
+    setVisited(getVisitedTasks());
   };
   const restart = () => {
     restartPlan();
     setToday(currentPlanDay());
     setDone([]);
   };
-  return { today, done, toggle, restart };
+  return { today, done, visited, toggle, visit, restart };
 }
 
-function DayTasks({ day }: { day: PlanDay }) {
+function DayTasks({ day, visited, onVisit }: { day: PlanDay; visited: string[]; onVisit: (href: string) => void }) {
   return (
     <ul className="flex flex-col gap-2">
-      {day.tasks.map((t) => (
-        <li key={t.href + t.label}>
-          <Link
-            href={t.href}
-            className={`flex min-h-12 items-center gap-3 rounded-xl border px-4 py-2 text-[15px] ${
-              t.optional ? "border-dashed border-line-strong text-muted" : "border-line-strong bg-paper"
-            }`}
-          >
-            <span className="flex-1">
-              {t.label}
-              {t.optional && <span className="ml-1 text-xs">(optional)</span>}
-            </span>
-            {t.minutes && <span className="text-xs text-muted tabular-nums">{t.minutes} Min.</span>}
-            <ArrowUpRightIcon size={16} className="text-faint" />
-          </Link>
-        </li>
-      ))}
+      {day.tasks.map((t) => {
+        const seen = visited.includes(t.href);
+        return (
+          <li key={t.href + t.label}>
+            <Link
+              href={t.href}
+              onClick={() => onVisit(t.href)}
+              className={`flex min-h-12 items-center gap-3 rounded-xl border px-4 py-2 text-[15px] ${
+                t.optional ? "border-dashed border-line-strong text-muted" : "border-line-strong bg-paper"
+              }`}
+            >
+              {seen ? <CheckIcon size={18} className="shrink-0 text-accent" aria-label="begonnen" /> : null}
+              <span className={`flex-1 ${seen ? "text-muted" : ""}`}>
+                {t.label}
+                {t.optional && <span className="ml-1 text-xs">(freiwillig)</span>}
+              </span>
+              {t.minutes && <span className="text-xs text-muted tabular-nums">{t.minutes} Min.</span>}
+              <ArrowUpRightIcon size={16} className="text-faint" />
+            </Link>
+          </li>
+        );
+      })}
     </ul>
   );
 }
 
-/** Today's card on the start page. */
-export function TodayPlan({ plan }: { plan: PlanDay[] }) {
-  const { today, done, toggle } = useProgress();
+const verb = (t: PlanTask) => (t.href.startsWith("/ueben") ? "Üben" : t.href.startsWith("/ueberblick") ? "Lesen" : "Lesen");
+
+/**
+ * The start page's one clear call to action: the next unfinished task of today's plan,
+ * with what comes after it in one line.
+ */
+export function NextStep({ plan }: { plan: PlanDay[] }) {
+  const { today, done, visited, toggle, visit } = useProgress();
   const day = plan.find((d) => d.day === (today ?? 1)) ?? plan[0];
+  const required = day.tasks.filter((t) => !t.optional);
+  const next = required.find((t) => !visited.includes(t.href));
+  const after = required.filter((t) => t !== next && !visited.includes(t.href));
+  const started = required.length - required.filter((t) => !visited.includes(t.href)).length;
   const isDone = done.includes(day.day);
-  const progress = Math.round((done.length / plan.length) * 100);
+  const tomorrow = plan.find((d) => d.day === day.day + 1);
 
   return (
-    <section aria-labelledby="today" data-tour="plan" className="flex flex-col gap-4 rounded-2xl border border-line bg-surface p-5">
+    <section aria-labelledby="next-title" data-tour="plan" className="flex flex-col gap-4 rounded-2xl bg-accent-soft p-5 lg:p-6">
       <div className="flex items-baseline justify-between gap-3">
-        <p id="today" className="text-xs font-semibold tracking-[0.08em] text-accent uppercase">
-          Heute · Tag {today ?? "–"} von {plan.length}
+        <p className="text-xs font-semibold tracking-[0.08em] text-accent-soft-ink uppercase">
+          Tag {today ?? "–"} von {plan.length}
+          {day.pages ? ` · S. ${day.pages.from}–${day.pages.to}` : ""}
         </p>
-        <Link href="/lernplan" className="text-sm font-medium text-accent-soft-ink hover:underline">
+        <Link href="/lernplan" className="text-sm font-medium text-accent-soft-ink underline-offset-2 hover:underline">
           Ganzer Plan
         </Link>
       </div>
-      <p className="font-serif text-lg leading-snug">
-        {day.kind === "read" && day.pages ? `S. ${day.pages.from}–${day.pages.to}: ${day.title}` : day.title}
-      </p>
-      <div
-        className="h-1 rounded-full bg-line-strong"
-        role="progressbar"
-        aria-label="Fortschritt im Lernplan"
-        aria-valuemin={0}
-        aria-valuemax={100}
-        aria-valuenow={progress}
-        aria-valuetext={`${progress} % erledigt`}
-      >
-        <div className="h-1 rounded-full bg-accent" style={{ width: `${progress}%` }} />
-      </div>
-      <DayTasks day={day} />
-      <label className="flex min-h-11 items-center gap-3 text-[15px]">
-        <input
-          type="checkbox"
-          checked={isDone}
-          onChange={(e) => toggle(day.day, e.target.checked)}
-          className="size-5 accent-[var(--accent)]"
-        />
-        Tag {day.day} erledigt
-      </label>
+
+      {next ? (
+        <>
+          <div className="flex flex-col gap-1">
+            <p className="text-sm text-muted">{started === 0 ? "Heute zuerst" : "Als Nächstes"}</p>
+            <h2 id="next-title" className="font-display text-2xl leading-tight lg:text-3xl">
+              {next.label}
+            </h2>
+            {next.minutes && (
+              <p className="text-sm text-muted">
+                {verb(next)} · etwa {next.minutes} Minuten
+              </p>
+            )}
+          </div>
+          <Link
+            href={next.href}
+            onClick={() => visit(next.href)}
+            className="flex h-12 items-center justify-center rounded-xl bg-accent px-5 text-[15px] font-semibold text-accent-ink sm:self-start"
+          >
+            {started === 0 ? "Los geht’s" : "Weiter"}
+          </Link>
+          {after.length > 0 && (
+            <p className="text-sm text-muted">Danach: {after.map((t) => t.label.replace(/^Schlüsselpassage \d+: /, "")).join(" · ")}</p>
+          )}
+        </>
+      ) : (
+        <div className="flex flex-col gap-3">
+          <h2 id="next-title" className="font-display text-2xl leading-tight">
+            {isDone ? "Heute geschafft" : "Alles für heute begonnen"}
+          </h2>
+          <p className="text-[15px] text-muted">
+            {tomorrow ? `Morgen: ${tomorrow.title}.` : "Das war der letzte Tag des Plans."}
+            {day.tasks.find((t) => t.optional) ? " Wer mag, liest die Seiten von heute ganz." : ""}
+          </p>
+          <label className="flex min-h-11 items-center gap-3 text-[15px]">
+            <input
+              type="checkbox"
+              checked={isDone}
+              onChange={(e) => toggle(day.day, e.target.checked)}
+              className="size-5 accent-[var(--accent)]"
+            />
+            Tag {day.day} abhaken
+          </label>
+        </div>
+      )}
     </section>
   );
 }
 
 /** The full 21-day list. */
 export function PlanList({ plan }: { plan: PlanDay[] }) {
-  const { today, done, toggle, restart } = useProgress();
+  const { today, done, visited, toggle, visit, restart } = useProgress();
 
   return (
     <div className="flex flex-col gap-4">
@@ -131,7 +180,7 @@ export function PlanList({ plan }: { plan: PlanDay[] }) {
                   </span>
                 </p>
               </div>
-              {isToday && <DayTasks day={d} />}
+              {isToday && <DayTasks day={d} visited={visited} onVisit={visit} />}
             </li>
           );
         })}
