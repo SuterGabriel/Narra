@@ -71,7 +71,15 @@ export function TodayPlan({ plan }: { plan: PlanDay[] }) {
       <p className="font-serif text-lg leading-snug">
         {day.kind === "read" && day.pages ? `S. ${day.pages.from}–${day.pages.to}: ${day.title}` : day.title}
       </p>
-      <div className="h-1 rounded-full bg-line-strong" aria-label={`${progress} % des Plans erledigt`}>
+      <div
+        className="h-1 rounded-full bg-line-strong"
+        role="progressbar"
+        aria-label="Fortschritt im Lernplan"
+        aria-valuemin={0}
+        aria-valuemax={100}
+        aria-valuenow={progress}
+        aria-valuetext={`${progress} % erledigt`}
+      >
         <div className="h-1 rounded-full bg-accent" style={{ width: `${progress}%` }} />
       </div>
       <DayTasks day={day} />

@@ -3,6 +3,7 @@ import { Bricolage_Grotesque, Figtree, Literata } from "next/font/google";
 import { BottomNav } from "@/components/BottomNav";
 import { Sidebar } from "@/components/Sidebar";
 import { passageNav } from "@/data/content";
+import { SITE_URL } from "@/lib/site";
 import "./globals.css";
 
 const bricolage = Bricolage_Grotesque({
@@ -20,10 +21,22 @@ const literata = Literata({
   subsets: ["latin"],
 });
 
+const description =
+  "Lernbegleiter für Thomas Manns Novelle «Mario und der Zauberer»: Überblick, Schlüsselpassagen, Fragen mit Seitenbeleg, Quiz und Karteikarten.";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: "Narra · Mario und der Zauberer",
-  description:
-    "Lernbegleiter für Thomas Manns Novelle: Überblick, Schlüsselpassagen, Fragen mit Seitenbeleg, Hörbuch und Quiz.",
+  description,
+  applicationName: "Narra",
+  openGraph: {
+    type: "website",
+    siteName: "Narra",
+    locale: "de_CH",
+    title: "Narra · Mario und der Zauberer",
+    description,
+  },
+  twitter: { card: "summary_large_image" },
 };
 
 export const viewport: Viewport = {

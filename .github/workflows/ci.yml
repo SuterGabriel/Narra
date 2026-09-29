@@ -25,7 +25,10 @@ jobs:
           node-version: 24
           cache: npm
 
-      - run: npm ci
+      # npm ci rejects lockfiles written on Windows because optional wasm deps of
+      # Tailwind's native binary are missing for Linux (npm/cli#4828). npm install
+      # still honours the pinned versions in package-lock.json.
+      - run: npm install --no-audit --no-fund
 
       - name: Lint
         run: npm run lint
