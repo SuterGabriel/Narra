@@ -2,11 +2,15 @@
   "name": "narra",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test": "node --test \"tests/**/*.test.mjs\"",
+    "check:content": "node scripts/check-content.mjs",
+    "build:book": "node scripts/build-book.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.129.0",
