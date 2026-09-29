@@ -73,7 +73,10 @@ export function buildPlan(firstPage: number, lastPage: number, passages: Passage
       day: 20,
       title: "Probeprüfung",
       kind: "exam",
-      tasks: [{ label: "Quiz über das ganze Buch", href: "/ueben/quiz", minutes: 30 }],
+      tasks: [
+        { label: "Probeprüfung: 20 Fragen, 25 Minuten", href: "/ueben/pruefung", minutes: 25 },
+        { label: "Offene Fragen zum ganzen Buch", href: "/ueben/quiz", minutes: 20, optional: true },
+      ],
     },
     {
       day: 21,

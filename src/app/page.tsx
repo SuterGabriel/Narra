@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ArrowUpRightIcon, BookIcon, ChatIcon, CheckIcon, SearchIcon } from "@/components/Icons";
+import { DailyCard } from "@/components/DailyQuiz";
 import { TodayPlan } from "@/components/PlanView";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { passages, plan } from "@/data/content";
@@ -27,6 +28,8 @@ export default function TodayPage() {
       </header>
 
       <TodayPlan plan={plan} />
+
+      <DailyCard />
 
       <ul className="flex flex-col gap-2">
         {shortcuts.map(({ href, label, Icon }) => (

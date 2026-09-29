@@ -5,6 +5,8 @@ export const metadata = { title: "Üben · Narra" };
 
 export default function PracticePage() {
   const modes = [
+    { href: "/ueben/taeglich", title: "Mini-Quiz des Tages", text: "Fünf Fragen, jeden Tag neu. Baue deinen Streak auf." },
+    { href: "/ueben/pruefung", title: "Probeprüfung", text: "20 Fragen über das ganze Buch in 25 Minuten, Auswertung nach Themen." },
     {
       href: "/ueben/quiz",
       title: "Quiz",
@@ -39,9 +41,6 @@ export default function PracticePage() {
           </li>
         ))}
       </ul>
-      <p className="text-sm text-muted">
-        Zitat-Duell und tägliches Mini-Quiz mit Bestenliste folgen in Woche 2.
-      </p>
     </div>
   );
 }

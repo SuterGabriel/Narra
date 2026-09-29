@@ -11,13 +11,17 @@ type Props = {
   /** Only questions answered wrong before (read from this browser's progress). */
   onlyMistakes?: boolean;
   scopeLabel: string;
+  /** Called once when the last question has been answered. */
+  onFinish?: (correct: number, total: number) => void;
+  /** Hide "restart" and "mistakes only" (e.g. for the daily quiz). */
+  compactResult?: boolean;
 };
 
 type Result = { id: string; correct: boolean };
 
 const difficultyLabel = { 1: "Wissen", 2: "Verstehen", 3: "Deuten" } as const;
 
-export function QuizRunner({ items, onlyMistakes = false, scopeLabel }: Props) {
+export function QuizRunner({ items, onlyMistakes = false, scopeLabel, onFinish, compactResult = false }: Props) {
   const [mistakeIds, setMistakeIds] = useState<string[] | null>(null);
   useEffect(() => {
     // Progress lives in localStorage, which only exists after mount.
@@ -75,7 +79,7 @@ export function QuizRunner({ items, onlyMistakes = false, scopeLabel }: Props) {
             </ul>
           </div>
         )}
-        <div className="flex flex-wrap gap-2">
+        {!compactResult && <div className="flex flex-wrap gap-2">
           <button
             type="button"
             onClick={() => {
@@ -91,7 +95,7 @@ export function QuizRunner({ items, onlyMistakes = false, scopeLabel }: Props) {
           <Link href="/ueben/quiz?nur=fehler" className="flex h-11 items-center rounded-xl border border-line-strong px-4 text-sm font-medium">
             Nur Fehler wiederholen
           </Link>
-        </div>
+        </div>}
       </section>
     );
   }
@@ -105,6 +109,7 @@ export function QuizRunner({ items, onlyMistakes = false, scopeLabel }: Props) {
   }
 
   function next() {
+    if (index + 1 >= questions.length) onFinish?.(results.filter((r) => r.correct).length, results.length);
     setIndex((i) => i + 1);
     setPicked(null);
     setRevealed(false);

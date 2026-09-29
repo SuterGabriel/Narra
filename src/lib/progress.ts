@@ -70,3 +70,37 @@ export function setCardKnown(id: string, known: boolean) {
   else cards.delete(id);
   write(KEY.cards, [...cards]);
 }
+
+// --- Daily mini quiz streak -------------------------------------------------
+
+export type Streak = { current: number; best: number; lastDate: string | null; scores: Record<string, number> };
+const STREAK_KEY = "narra:daily-streak";
+
+export const getStreak = (): Streak => read<Streak>(STREAK_KEY, { current: 0, best: 0, lastDate: null, scores: {} });
+
+/** Records today's daily quiz. The streak grows when yesterday was also done, else restarts at 1. */
+export function recordDaily(date: string, yesterday: string, correct: number): Streak {
+  const s = getStreak();
+  if (s.lastDate !== date) {
+    s.current = s.lastDate === yesterday ? s.current + 1 : 1;
+    s.best = Math.max(s.best, s.current);
+    s.lastDate = date;
+  }
+  s.scores[date] = Math.max(s.scores[date] ?? 0, correct);
+  write(STREAK_KEY, s);
+  return s;
+}
+
+/** Streak as shown today: it survives until the end of the day after the last completion. */
+export function visibleStreak(s: Streak, today: string, yesterday: string): number {
+  return s.lastDate === today || s.lastDate === yesterday ? s.current : 0;
+}
+
+// --- Mock exams --------------------------------------------------------------
+
+export type ExamResult = { date: string; correct: number; total: number; seconds: number };
+const EXAM_KEY = "narra:exams";
+export const getExams = () => read<ExamResult[]>(EXAM_KEY, []);
+export function recordExam(r: ExamResult) {
+  write(EXAM_KEY, [...getExams(), r].slice(-20));
+}
