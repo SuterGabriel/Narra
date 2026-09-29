@@ -1,0 +1,438 @@
+[
+  {
+    "id": 1,
+    "slug": "eroeffnung",
+    "title": "Der erste Absatz",
+    "start": {
+      "page": 9,
+      "line": 1
+    },
+    "end": {
+      "page": 9,
+      "line": 20
+    },
+    "summary": "Der Erzähler blickt auf den Aufenthalt in Torre di Venere zurück und verrät schon im ersten Satz das Ende: den «Chok» mit Cipolla, in dem sich die böse Stimmung des Ortes verkörpert. Das «Ende mit Schrecken» erscheint als «vorgezeichnet». Der Absatz ist der wichtigste Beleg für die Vorausdeutung und die rückblickende Ich-Perspektive.",
+    "focus": "Achte darauf, wie viel über das Ende verraten wird, ohne dass man erfährt, was genau geschieht.",
+    "themes": [
+      "Vorausdeutung",
+      "Erzählperspektive",
+      "Atmosphäre"
+    ],
+    "anchor": {
+      "page": 9,
+      "line": 1,
+      "quote": "Die Erinnerung an Torre di Venere"
+    }
+  },
+  {
+    "id": 2,
+    "slug": "glasveranda",
+    "title": "Die Glasveranda",
+    "start": {
+      "page": 13,
+      "line": 21
+    },
+    "end": {
+      "page": 14,
+      "line": 15
+    },
+    "summary": "Am ersten Abend im Grand Hôtel möchte die Familie in der Glasveranda essen, erfährt aber, dass diese «ai nostri clienti» vorbehalten sei. Die deutschen Gäste fühlen sich «wie ein Gast zweiten Ranges». Die Episode ist der erste von mehreren Konflikten, in denen die Fremden ausgegrenzt werden.",
+    "focus": "Beobachte, wie der Erzähler die Kränkung beschreibt und wie er darauf reagiert – nämlich gar nicht.",
+    "themes": [
+      "Macht und Korruption",
+      "Atmosphäre"
+    ],
+    "anchor": {
+      "page": 13,
+      "line": 21,
+      "quote": "Diese Erfahrung machten wir mit etwas"
+    }
+  },
+  {
+    "id": 3,
+    "slug": "keuchhusten",
+    "title": "Der Keuchhusten",
+    "start": {
+      "page": 16,
+      "line": 3
+    },
+    "end": {
+      "page": 17,
+      "line": 4
+    },
+    "summary": "Eine römische Fürstin fürchtet, der abklingende Keuchhusten des jüngsten Kindes sei «akustisch ansteckend». Obwohl der Hotelarzt jede Gefahr verneint, verlangt der Manager den Umzug in die Dependance. Die Szene zeigt Machtmissbrauch und Unterwürfigkeit gegenüber dem Adel; die Familie zieht darauf in die Pensione Eleonora.",
+    "focus": "Achte auf den Gegensatz zwischen dem sachlichen Arzt und dem «wortbrüchigen» Manager.",
+    "themes": [
+      "Macht und Korruption",
+      "Atmosphäre"
+    ],
+    "anchor": {
+      "page": 16,
+      "line": 3,
+      "lineEnd": 4,
+      "quote": "Im weiblichen Vollgefühl ihres Ansehens wurde sie vorstellig"
+    }
+  },
+  {
+    "id": 4,
+    "slug": "nationale-stimmung",
+    "title": "Patriotische Kinder",
+    "start": {
+      "page": 24,
+      "line": 4
+    },
+    "end": {
+      "page": 25,
+      "line": 17
+    },
+    "summary": "Am Strand liegt eine schwer greifbare Stimmung in der Luft: Das Publikum «hielt auf sich», es geht um Politisches und die «Idee der Nation». Sogar unter den Kindern gibt es Flaggenstreit und Redensarten über die «Größe und Würde Italiens». Die Eltern erklären den Kindern, die Leute machten gerade etwas «wie eine Krankheit» durch – eine zentrale Stelle für die politische Deutung.",
+    "focus": "Achte darauf, wie der Nationalismus als Krankheit und als Verlust der kindlichen Unschuld dargestellt wird.",
+    "themes": [
+      "Nationalismus",
+      "Atmosphäre"
+    ],
+    "anchor": {
+      "page": 24,
+      "line": 4,
+      "quote": "Dabei gehörte dieser Zwölfjährige zu den"
+    }
+  },
+  {
+    "id": 5,
+    "slug": "nacktheit-am-strand",
+    "title": "Der Strandskandal",
+    "start": {
+      "page": 26,
+      "line": 8
+    },
+    "end": {
+      "page": 27,
+      "line": 18
+    },
+    "summary": "Die achtjährige Tochter läuft kurz nackt ins Wasser, um ihren Badeanzug auszuspülen. Ein Herr «in städtischem Schniepel» hält eine Strafrede, in der er die «Ehre seines Landes» und die «nationale Würde» verletzt sieht. Die Episode zeigt, wie eine harmlose Handlung zur nationalen Frage aufgebauscht wird; die Familie muss später fünfzig Lire Busse zahlen.",
+    "focus": "Achte auf das Missverhältnis zwischen dem kleinen Anlass und dem nationalen Pathos der Strafrede.",
+    "themes": [
+      "Nationalismus",
+      "Moral und Körper"
+    ],
+    "anchor": {
+      "page": 26,
+      "line": 8,
+      "lineEnd": 9,
+      "quote": "Nackt läuft sie zum wenige Meter entfernten Wasser"
+    }
+  },
+  {
+    "id": 6,
+    "slug": "warum-wir-blieben",
+    "title": "Warum wir blieben",
+    "start": {
+      "page": 29,
+      "line": 9
+    },
+    "end": {
+      "page": 30,
+      "line": 23
+    },
+    "summary": "Der Erzähler fragt, warum die Familie nicht abgereist ist, und nennt mehrere Gründe: Trägheit, Trotz, Sympathie der anderen Gäste und die Überzeugung, man solle «bleiben» und sich dem Merkwürdigen aussetzen. Als «schrecklichen Lohn» ihrer Standhaftigkeit erleben sie Cipolla. Die Stelle bereitet die spätere Frage vor, warum sie auch den Saal nicht verlassen.",
+    "focus": "Vergleiche die Begründungen hier mit denen während der Pause der Vorstellung (S. 77–78).",
+    "themes": [
+      "Erzählperspektive",
+      "Mitschuld",
+      "Vorausdeutung"
+    ],
+    "anchor": {
+      "page": 29,
+      "line": 9,
+      "quote": "Hätten wir es nur getan! Wir hätten dann"
+    }
+  },
+  {
+    "id": 7,
+    "slug": "cipollas-auftritt",
+    "title": "Cipollas Auftritt",
+    "start": {
+      "page": 38,
+      "line": 15
+    },
+    "end": {
+      "page": 39,
+      "line": 25
+    },
+    "summary": "Cipolla betritt die Bühne im Geschwindschritt, in Radmantel, Zylinder und weissen Handschuhen. Der Erzähler beschreibt ihn «mit scharfem, zerrüttetem Gesicht, stechenden Augen» und ordnet ihn dem Typus des Scharlatans aus dem 18. Jahrhundert zu. Irgendetwas stimmt mit seiner Figur nicht – ein Hinweis auf seinen Buckel.",
+    "focus": "Sammle die Details, die Cipolla zugleich lächerlich und bedrohlich wirken lassen.",
+    "themes": [
+      "Scharlatanerie",
+      "Figurenzeichnung"
+    ],
+    "anchor": {
+      "page": 38,
+      "line": 15,
+      "quote": "Er kam in jenem Geschwindschritt herein"
+    }
+  },
+  {
+    "id": 8,
+    "slug": "giovanotto-zunge",
+    "title": "Die Zunge",
+    "start": {
+      "page": 43,
+      "line": 16
+    },
+    "end": {
+      "page": 44,
+      "line": 26
+    },
+    "summary": "Der Giovanotto hat Cipolla mit einem frechen «Buona sera!» herausgefordert. Cipolla verspottet ihn als «ganzen Kerl», der tue, was er wolle, und zwingt ihn mit einem Peitschenpfiff, dem Publikum die Zunge herauszustrecken. Der erste Machtbeweis zeigt schon das Grundthema: die Trennung von Wollen und Tun.",
+    "focus": "Achte auf Cipollas Rede über «das Wollen und das Tun» und auf den ersten Einsatz der Reitpeitsche.",
+    "themes": [
+      "Wille und Unterwerfung",
+      "Peitsche"
+    ],
+    "anchor": {
+      "page": 43,
+      "line": 16,
+      "quote": "»Ah bravo!« antwortete Cipolla. »Du gefällst mir"
+    }
+  },
+  {
+    "id": 9,
+    "slug": "leibesschaden-und-duce",
+    "title": "Cipollas Selbstdarstellung",
+    "start": {
+      "page": 47,
+      "line": 4
+    },
+    "end": {
+      "page": 48,
+      "line": 3
+    },
+    "summary": "Cipolla spricht über seinen «kleinen Leibesschaden», der ihn vom Krieg «für die Größe des Vaterlandes» ferngehalten habe, und rühmt sich, der «Bruder des Duce» habe eine seiner Vorstellungen besucht. Er verbindet so seine Person mit dem faschistischen Staat. Wichtiger Beleg für die politische Lesart.",
+    "focus": "Achte darauf, womit Cipolla seine Autorität begründet: mit Willenskraft, Presse und Nähe zur Macht.",
+    "themes": [
+      "Nationalismus",
+      "Führer und Masse",
+      "Figurenzeichnung"
+    ],
+    "anchor": {
+      "page": 47,
+      "line": 4,
+      "quote": "Mein Beruf ist schwer und meine"
+    }
+  },
+  {
+    "id": 10,
+    "slug": "die-kolik",
+    "title": "Die Kolik",
+    "start": {
+      "page": 58,
+      "line": 7
+    },
+    "end": {
+      "page": 59,
+      "line": 23
+    },
+    "summary": "Der Giovanotto verteidigt die Ehre Torres und will auf Cipolla losgehen. Cipolla redet ihm eine Kolik ein, bis der kräftige Bursche sich «ein Bild verrenkter Pein» am Boden krümmt. Die Szene zeigt, wie Cipolla Widerstand bricht, indem er den Körper des Gegners beherrscht und ihn lächerlich macht.",
+    "focus": "Beobachte die Augen der beiden Männer und den Moment, in dem der Stolz des Burschen verschwindet.",
+    "themes": [
+      "Wille und Unterwerfung",
+      "Demütigung"
+    ],
+    "anchor": {
+      "page": 58,
+      "line": 7,
+      "quote": "»Du bist nicht zu Scherzen aufgelegt, mein"
+    }
+  },
+  {
+    "id": 11,
+    "slug": "willensfreiheit",
+    "title": "Der Herr aus Rom",
+    "start": {
+      "page": 66,
+      "line": 20
+    },
+    "end": {
+      "page": 67,
+      "line": 25
+    },
+    "summary": "Beim Kartentrick erklärt ein junger Herr aus Rom, er werde sich jeder Beeinflussung bewusst widersetzen. Cipolla antwortet mit dem Kernsatz der Novelle: Freiheit und Wille existierten, «aber die Willensfreiheit existiert nicht». Der «Freiheitskämpfer» zieht trotzdem die richtige Karte.",
+    "focus": "Lerne Cipollas Satz über die Willensfreiheit – er gehört in jede Interpretation.",
+    "themes": [
+      "Wille und Unterwerfung"
+    ],
+    "anchor": {
+      "page": 66,
+      "line": 20,
+      "quote": "Ein junger Herr in vorderster Reihe"
+    }
+  },
+  {
+    "id": 12,
+    "slug": "befehlen-und-gehorchen",
+    "title": "Befehlen und Gehorchen",
+    "start": {
+      "page": 70,
+      "line": 18
+    },
+    "end": {
+      "page": 71,
+      "line": 21
+    },
+    "summary": "Bei den Suchspielen lässt sich Cipolla vom Willen des Publikums führen. Er erklärt, Befehlen und Gehorchen seien «ein Prinzip», so wie «Volk und Führer ineinander einbegriffen» seien – die Leistung aber liege beim Führer. Die Stelle ist der deutlichste Hinweis auf das Verhältnis von Führer und Masse im Faschismus.",
+    "focus": "Achte auf das Wort «Führer» und darauf, wie Cipolla sich als Leidenden darstellt.",
+    "themes": [
+      "Führer und Masse",
+      "Wille und Unterwerfung"
+    ],
+    "anchor": {
+      "page": 70,
+      "line": 18,
+      "quote": "Die Rollen schienen vertauscht"
+    }
+  },
+  {
+    "id": 13,
+    "slug": "warum-nicht-gegangen",
+    "title": "Die Pause",
+    "start": {
+      "page": 77,
+      "line": 5
+    },
+    "end": {
+      "page": 78,
+      "line": 23
+    },
+    "summary": "In der Pause fragt sich der Erzähler, warum die Familie mit den Kindern nicht gegangen ist. Er erwägt Faszination, Neugier und die Logik von «A und B» und kommt zum Schluss: Weil sie «im großen» nicht «abgereist» waren, blieben sie auch «im kleinen». Der Saal wird zum «Sammelpunkt» der ganzen Atmosphäre von Torre.",
+    "focus": "Achte auf die Ehrlichkeit und die Ausflüchte des Erzählers – hier zeigt sich seine Mitschuld.",
+    "themes": [
+      "Erzählperspektive",
+      "Mitschuld"
+    ],
+    "anchor": {
+      "page": 77,
+      "line": 5,
+      "quote": "Wir gaben nach, wenn auch, soviel wir wußten"
+    }
+  },
+  {
+    "id": 14,
+    "slug": "peitsche-und-poveretto",
+    "title": "Peitsche und «Poveretto»",
+    "start": {
+      "page": 81,
+      "line": 6
+    },
+    "end": {
+      "page": 82,
+      "line": 16
+    },
+    "summary": "Der Erzähler nennt Kognakglas und Reitpeitsche die beiden Hauptrequisiten; die Peitsche ist das «beleidigende Symbol seiner Herrschaft». Als das Publikum einen kataleptisch gemachten jungen Mann bemitleidet, beansprucht Cipolla das Mitleid für sich: «Sono io, il Poveretto!» Das Wort «Poveretto» kehrt im Schluss wieder.",
+    "focus": "Achte darauf, wie Cipolla die Rollen von Täter und Opfer umkehrt.",
+    "themes": [
+      "Peitsche",
+      "Führer und Masse"
+    ],
+    "anchor": {
+      "page": 81,
+      "line": 6,
+      "quote": "Zwei Dinge spielten die Hauptrolle bei diesen"
+    }
+  },
+  {
+    "id": 15,
+    "slug": "der-tanz",
+    "title": "Der Tanz",
+    "start": {
+      "page": 90,
+      "line": 22
+    },
+    "end": {
+      "page": 92,
+      "line": 7
+    },
+    "summary": "Der Herr aus Rom will beweisen, dass Cipolla ihn nicht gegen seinen Willen tanzen lassen kann. Der Erzähler deutet seine Niederlage: Er unterliegt der «Negativität seiner Kampfposition», denn vom blossen Nichtwollen könne man nicht leben. Schliesslich tanzt er und lächelt «vergnügt» – mit ihm ist Cipollas Triumph auf dem Höhepunkt.",
+    "focus": "Überlege, warum reiner Widerstand ohne eigenes positives Ziel scheitert.",
+    "themes": [
+      "Wille und Unterwerfung",
+      "Führer und Masse"
+    ],
+    "anchor": {
+      "page": 90,
+      "line": 22,
+      "quote": "Man sah sie unter seinen immer wiederholten"
+    }
+  },
+  {
+    "id": 16,
+    "slug": "mario-wird-gerufen",
+    "title": "Mario wird gerufen",
+    "start": {
+      "page": 94,
+      "line": 5
+    },
+    "end": {
+      "page": 95,
+      "line": 23
+    },
+    "summary": "Cipolla winkt Mario, den Kellner aus dem «Esquisito», mit gekrümmtem Zeigefinger auf die Bühne. Mario zögert, gehorcht aber, weil es für ihn eine «seelische Unmöglichkeit» wäre, einem so erfolgreichen Mann den Gehorsam zu verweigern. Danach folgt das Porträt Marios, dessen Gesicht eine «primitive Schwermut» zeigt.",
+    "focus": "Achte auf die genaue Beschreibung Marios und auf die Sympathie der Familie für ihn.",
+    "themes": [
+      "Figurenzeichnung",
+      "Wille und Unterwerfung"
+    ],
+    "anchor": {
+      "page": 94,
+      "line": 5,
+      "quote": "Mario gehorchte. Ich sehe ihn noch die Stufen"
+    }
+  },
+  {
+    "id": 17,
+    "slug": "der-kuss",
+    "title": "Der Kuss",
+    "start": {
+      "page": 102,
+      "line": 20
+    },
+    "end": {
+      "page": 104,
+      "line": 26
+    },
+    "summary": "Cipolla redet Mario ein, Silvestra liebe ihn und nicht den «krähenden Hahn», und schlüpft dann selbst in ihre Rolle: «Sage, wer bin ich?» Mario hält ihn für Silvestra und küsst ihn auf die Wange, auf die Cipolla zeigt. Der Erzähler nennt dies eine «Preisgabe des Innigsten» – die grösste Demütigung des Abends.",
+    "focus": "Achte darauf, wie Cipolla Marios innerstes Gefühl öffentlich ausstellt und missbraucht.",
+    "themes": [
+      "Demütigung",
+      "Liebe und Illusion"
+    ],
+    "anchor": {
+      "page": 102,
+      "line": 20,
+      "quote": "»Und er macht dir Kummer, dieser Engel«"
+    }
+  },
+  {
+    "id": 18,
+    "slug": "das-ende",
+    "title": "Das Ende",
+    "start": {
+      "page": 105,
+      "line": 20
+    },
+    "end": {
+      "page": 107,
+      "line": 14
+    },
+    "summary": "Ein Peitschenpfiff weckt Mario; er stürzt die Stufen hinunter, dreht sich um und erschiesst Cipolla mit zwei Schüssen. Im Tumult bringt die Familie die Kinder hinaus. Der letzte Satz nennt das Ende «fatal» und zugleich «befreiend» – die zentrale Deutungsfrage der Novelle.",
+    "focus": "Überlege, warum der Erzähler das Ende trotz allem als «befreiend» empfindet.",
+    "themes": [
+      "Befreiung",
+      "Vorausdeutung"
+    ],
+    "anchor": {
+      "page": 105,
+      "line": 20,
+      "quote": "Zugleich aber auch schon, während noch dies"
+    }
+  }
+]

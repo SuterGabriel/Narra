@@ -17,14 +17,14 @@ export default function AskPage() {
   }
 
   return (
-    <div className="flex flex-1 lg:h-dvh">
+    <div className="flex flex-1 lg:h-dvh lg:min-h-0 lg:flex-none lg:overflow-hidden">
       <div className="flex min-w-0 flex-1 flex-col">
         <header className="flex flex-col gap-1 px-6 pt-8 pb-2 lg:h-[72px] lg:shrink-0 lg:justify-center lg:gap-0.5 lg:border-b lg:border-line lg:px-8 lg:py-0">
           <h1 className="font-display text-3xl font-bold tracking-tight lg:text-[22px]">Fragen</h1>
           <p className="text-sm text-muted lg:text-[13px]">Antworten nur aus dem Buch, immer mit Beleg.</p>
         </header>
 
-        <div className="flex flex-1 justify-center overflow-y-auto px-5 py-3.5 lg:p-8">
+        <div className="flex min-h-0 flex-1 justify-center overflow-y-auto px-5 py-3.5 lg:p-8">
           <div className="flex w-full flex-col gap-4 lg:w-[620px] lg:gap-5">
             {asked ? (
               <>

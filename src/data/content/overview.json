@@ -1,0 +1,774 @@
+{
+  "plot": [
+    {
+      "heading": "Rückblick mit Vorausdeutung",
+      "text": "Der Ich-Erzähler erinnert sich an einen Sommeraufenthalt mit seiner Frau und den beiden Kindern im italienischen Badeort Torre di Venere. Schon im ersten Absatz nennt er die Stimmung dort «atmosphärisch unangenehm» und kündigt den «Chok» mit dem «schrecklichen Cipolla» an. Das Ende erscheint ihm im Rückblick als «vorgezeichnet», die Kinder aber hätten geglaubt, alles sei Theater gewesen. Damit weiss der Leser von Anfang an, dass die Geschichte auf eine Katastrophe zuläuft.",
+      "citations": [
+        {
+          "page": 9,
+          "line": 2,
+          "lineEnd": 4,
+          "quote": "Ärger, Gereiztheit, Überspannung lagen von Anfang an in der Luft"
+        },
+        {
+          "page": 9,
+          "line": 10,
+          "lineEnd": 11,
+          "quote": "bei dem Ende mit Schrecken (einem, wie uns nachträglich schien, vorgezeichneten"
+        }
+      ]
+    },
+    {
+      "heading": "Kränkungen im Grand Hôtel",
+      "text": "Die Familie kommt Mitte August in der italienischen Hochsaison an und wohnt zunächst im Grand Hôtel. Die Glasveranda ist den «clienti», also der vornehmen italienischen Gesellschaft, vorbehalten. Weil eine römische Fürstin den abklingenden Keuchhusten des jüngsten Kindes fürchtet, verlangt der Manager trotz gegenteiligem Befund des Hausarztes einen Umzug in die Dependance. Empört über diesen «Byzantinismus» ziehen die Deutschen in die Pensione Eleonora der Signora Angiolieri.",
+      "citations": [
+        {
+          "page": 14,
+          "line": 11,
+          "lineEnd": 12,
+          "quote": "Aufenthalt »unserer Kundschaft«, »ai nostri clienti«, vorbehalten sei"
+        },
+        {
+          "page": 17,
+          "line": 5,
+          "quote": "Dieser Byzantinismus empörte uns."
+        },
+        {
+          "page": 17,
+          "line": 11,
+          "lineEnd": 12,
+          "quote": "wir zögen es vor, das Hotel überhaupt und sofort zu verlassen"
+        }
+      ]
+    },
+    {
+      "heading": "Unbehagen am Strand",
+      "text": "Trotz guter Unterkunft will kein Behagen aufkommen: Die Hitze ist «afrikanisch», der Strand voller lärmender Badegäste. Der verzogene Junge Fuggièro steht für die gereizte Stimmung. Der Erzähler merkt bald, dass «Politisches umging» und die «Idee der Nation» im Spiel ist; selbst unter den Kindern gibt es Flaggenstreit und patriotische Redensarten.",
+      "citations": [
+        {
+          "page": 20,
+          "line": 15,
+          "lineEnd": 16,
+          "quote": "Die Hitze war unmäßig, soll ich das anführen? Sie war afrikanisch"
+        },
+        {
+          "page": 24,
+          "line": 14,
+          "lineEnd": 16,
+          "quote": "Man verstand bald, daß Politisches umging, die Idee der Nation im Spiele war"
+        },
+        {
+          "page": 24,
+          "line": 16,
+          "lineEnd": 17,
+          "quote": "Tatsächlich wimmelte es am Strande von patriotischen Kindern"
+        }
+      ]
+    },
+    {
+      "heading": "Der Skandal um die nackte Tochter",
+      "text": "Die achtjährige Tochter läuft kurz nackt ins Meer, um ihren sandigen Badeanzug auszuspülen. Ein Herr im Schniepel hält eine pathetische Strafrede über die verletzte Ehre Italiens und benachrichtigt die Behörde. Im Municipio wird der Fall als «molto grave» bestätigt, und die Familie muss fünfzig Lire bezahlen. Der Erzähler fragt sich: «Hätten wir nicht abreisen sollen?»",
+      "citations": [
+        {
+          "page": 26,
+          "line": 8,
+          "lineEnd": 10,
+          "quote": "Nackt läuft sie zum wenige Meter entfernten Wasser, schwenkt ihr Trikot und kehrt zurück"
+        },
+        {
+          "page": 27,
+          "line": 17,
+          "lineEnd": 18,
+          "quote": "daß unser Verstoß gegen die nationale Würde nicht ungeahndet bleibe"
+        },
+        {
+          "page": 29,
+          "line": 4,
+          "lineEnd": 5,
+          "quote": "ein Sühne- und Lösegeld von fünfzig Lire auferlegte"
+        }
+      ]
+    },
+    {
+      "heading": "Nachsaison und Ankündigung Cipollas",
+      "text": "Die Familie bleibt aus Trägheit, Trotz und weil ihr der Aufenthalt «merkwürdig» geworden ist. Mit der Nachsaison reisen viele Italiener ab, der Strand «entnationalisierte sich», das Wetter wird schwül. Nun kündigen Plakate den «Cavaliere Cipolla» an, einen fahrenden «Forzatore, Illusionista und Prestidigatore». Die Kinder drängen darauf, die Vorstellung um neun Uhr abends zu besuchen, und die Eltern geben nach.",
+      "citations": [
+        {
+          "page": 30,
+          "line": 17,
+          "lineEnd": 18,
+          "quote": "Nein doch, man soll bleiben, soll sich das ansehen"
+        },
+        {
+          "page": 31,
+          "line": 4,
+          "lineEnd": 5,
+          "quote": "Der Strand entnationalisierte sich"
+        },
+        {
+          "page": 32,
+          "line": 10,
+          "lineEnd": 12,
+          "quote": "ein fahrender Virtuose, ein Unterhaltungskünstler, Forzatore, Illusionista und Prestidigatore"
+        }
+      ]
+    },
+    {
+      "heading": "Der erste Teil der Vorstellung",
+      "text": "Cipolla lässt das Publikum warten, erscheint dann als bucklige, arrogante Figur mit Reitpeitsche und bestraft den Giovanotto, der ihn mit «Buona sera!» herausgefordert hat: Der Bursche muss die Zunge zeigen und sich später vor Koliken krümmen. Es folgen Rechen- und Kartenkunststücke, bei denen die «freie Wahl» der Zuschauer zweifelhaft ist. Einem jungen Herrn aus Rom erklärt Cipolla, die Willensfreiheit existiere nicht. Schliesslich überreicht er Signora Angiolieri kniend eine Nadel und errät ihre Freundschaft mit der Schauspielerin Eleonora Duse.",
+      "citations": [
+        {
+          "page": 44,
+          "line": 20,
+          "lineEnd": 22,
+          "quote": "Der Bursche machte Front gegen das Publikum und streckte die Zunge"
+        },
+        {
+          "page": 64,
+          "line": 8,
+          "lineEnd": 9,
+          "quote": "daß Cipolla sich seine Leute ausgesucht"
+        },
+        {
+          "page": 75,
+          "line": 5,
+          "lineEnd": 6,
+          "quote": "Eleonora Duse«, schloß er leise und feierlich"
+        }
+      ]
+    },
+    {
+      "heading": "Pause und zweiter Teil",
+      "text": "In der Pause bleiben die Eltern trotz der späten Stunde, und der Erzähler kann dies selbst nicht befriedigend erklären. Im zweiten Teil zeigt sich Cipolla offen als «der stärkste Hypnotiseur»: Ein Colonnello kann den Arm nicht mehr heben, Signora Angiolieri schwebt ihm trotz der Rufe ihres Mannes bis zur Saaltür nach. Zuletzt lässt Cipolla immer mehr Leute tanzen; auch der Herr aus Rom, der sich lange wehrt, tanzt schliesslich mit.",
+      "citations": [
+        {
+          "page": 79,
+          "line": 24,
+          "lineEnd": 26,
+          "quote": "selbstbewußte Verwachsene war der stärkste Hypnotiseur"
+        },
+        {
+          "page": 86,
+          "line": 2,
+          "lineEnd": 3,
+          "quote": "Aber ohnmächtig verhallte die arme Stimme der Liebe und Pflicht"
+        },
+        {
+          "page": 91,
+          "line": 24,
+          "lineEnd": 25,
+          "quote": "er warf die Glieder, er tanzte"
+        }
+      ]
+    },
+    {
+      "heading": "Mario und das Ende",
+      "text": "Nach Mitternacht winkt Cipolla den Kellner Mario auf die Bühne. Er erkennt Marios Liebeskummer, redet ihm ein, Silvestra liebe ihn, und gibt sich selbst als Silvestra aus; Mario küsst ihn. Ein Peitschenpfiff weckt ihn, der Giovanotto lacht, und der Saal applaudiert. Mario rennt die Stufen hinunter, dreht sich um und erschiesst Cipolla mit zwei Schüssen. Der Erzähler nennt dieses Ende «fatal» und zugleich «befreiend».",
+      "citations": [
+        {
+          "page": 104,
+          "line": 26,
+          "quote": "Und Mario neigte sich und küßte ihn."
+        },
+        {
+          "page": 106,
+          "line": 7,
+          "lineEnd": 9,
+          "quote": "zwei flach schmetternde Detonationen durchschlugen Beifall und Gelächter"
+        },
+        {
+          "page": 107,
+          "line": 11,
+          "lineEnd": 13,
+          "quote": "Ein Ende mit Schrecken, ein höchst fatales Ende. Und ein befreiendes Ende dennoch"
+        }
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "name": "Der Ich-Erzähler",
+      "role": "Deutscher Familienvater, erzählt rückblickend",
+      "description": "Der namenlose Erzähler ist ein gebildeter Deutscher, der mit Frau und zwei Kindern Ferien in Torre di Venere macht. Er ist feinfühlig, reizbar und reflektiert seine eigene Gereiztheit selbstkritisch. Er beobachtet genau und urteilt oft ironisch, handelt aber kaum: Weder reist die Familie ab, noch verlässt sie rechtzeitig den Saal. Er gesteht, dass er das Bleiben nicht erklären und nicht verantworten kann.",
+      "citations": [
+        {
+          "page": 19,
+          "line": 17,
+          "lineEnd": 19,
+          "quote": "ich persönlich gestehe, daß ich schwer über solche Zusammenstöße"
+        },
+        {
+          "page": 76,
+          "line": 2,
+          "lineEnd": 4,
+          "quote": "Ich verstehe es nicht und weiß mich tatsächlich nicht zu verantworten"
+        },
+        {
+          "page": 93,
+          "line": 8,
+          "lineEnd": 10,
+          "quote": "mit einer gewissen Ansteckung durch die allgemeine Fahrlässigkeit erklären"
+        }
+      ]
+    },
+    {
+      "name": "Die Familie des Erzählers",
+      "role": "Ehefrau und zwei Kinder (Tochter und jüngerer Sohn)",
+      "description": "Die Frau des Erzählers bleibt ohne eigene Stimme; das Paar spricht und handelt meist als «wir». Die achtjährige Tochter löst durch ihr kurzes Nacktbaden den Strandskandal aus, der kleine Sohn hatte den Keuchhusten, der zum Hotelwechsel führt. Die Kinder freuen sich naiv auf den «Zauberer», schlafen während der Vorstellung auf den Knien der Eltern und verstehen das Unheimliche nicht. Sie glauben am Ende, alles sei Theater gewesen.",
+      "citations": [
+        {
+          "page": 25,
+          "line": 25,
+          "lineEnd": 26,
+          "quote": "Unser Töchterchen, achtjährig, aber nach ihrer körperlichen"
+        },
+        {
+          "page": 76,
+          "line": 9,
+          "lineEnd": 11,
+          "quote": "Sie schliefen auf unseren Knien, die Kleine auf den meinen, der Junge auf denen der Mutter"
+        },
+        {
+          "page": 9,
+          "line": 19,
+          "lineEnd": 20,
+          "quote": "in dem glücklichen Wahn gelassen, daß alles Theater gewesen sei"
+        }
+      ]
+    },
+    {
+      "name": "Cipolla",
+      "role": "Buckliger Zauberkünstler und Hypnotiseur, der «Cavaliere»",
+      "description": "Cipolla tritt als «Forzatore, Illusionista und Prestidigatore» auf, ist aber in Wahrheit ein Hypnotiseur, der den Willen seiner Zuschauer bricht. Er ist bucklig, trinkt Kognak, raucht billige Zigaretten und trägt eine Reitpeitsche als Zeichen seiner Macht. Er gibt sich patriotisch, erwähnt den Bruder des Duce und betont seinen Leibesschaden, der ihn vom Krieg ferngehalten habe. Er demütigt sein Publikum, stellt sich aber selbst als leidenden «Poveretto» dar. Am Ende wird er von Mario erschossen.",
+      "citations": [
+        {
+          "page": 38,
+          "line": 23,
+          "lineEnd": 24,
+          "quote": "Ein Mann schwer bestimmbaren Alters, aber keineswegs mehr jung"
+        },
+        {
+          "page": 47,
+          "line": 7,
+          "lineEnd": 8,
+          "quote": "am Kriege für die Größe des Vaterlandes teilzunehmen"
+        },
+        {
+          "page": 79,
+          "line": 24,
+          "lineEnd": 26,
+          "quote": "selbstbewußte Verwachsene war der stärkste Hypnotiseur"
+        },
+        {
+          "page": 82,
+          "line": 15,
+          "lineEnd": 16,
+          "quote": "Sono io, il Poveretto! Ich bin es, der das alles duldet."
+        }
+      ]
+    },
+    {
+      "name": "Mario",
+      "role": "Kellner im Café «Esquisito», Cipollas letztes Opfer",
+      "description": "Mario ist ein etwa zwanzigjähriger, untersetzter junger Mann, der die Familie im Café bedient. Sein Wesen ist träumerisch und ernst, sein Gesicht zeigt eine «primitive Schwermut»; die Familie hat eine besondere Sympathie für ihn. Sein Vater ist Schreiber im Municipio, seine Mutter Wäscherin. Cipolla stellt seine heimliche Liebe zu Silvestra öffentlich bloss und lässt sich von ihm küssen; darauf erschiesst Mario den Zauberer.",
+      "citations": [
+        {
+          "page": 95,
+          "line": 7,
+          "lineEnd": 8,
+          "quote": "einen untersetzt gebauten Jungen von zwanzig Jahren"
+        },
+        {
+          "page": 95,
+          "line": 20,
+          "lineEnd": 21,
+          "quote": "seiner Physiognomie eine primitive Schwermut"
+        },
+        {
+          "page": 96,
+          "line": 20,
+          "lineEnd": 22,
+          "quote": "daß sein Vater ein kleiner Schreiber im Municipio und seine Mutter Wäscherin war"
+        }
+      ]
+    },
+    {
+      "name": "Silvestra",
+      "role": "Das Mädchen, das Mario liebt (tritt nicht selbst auf)",
+      "description": "Silvestra kommt nur in Gesprächen vor: Cipolla liest ihren Namen angeblich in Marios Augen, doch der Giovanotto ruft ihn vorher laut in den Saal. Cipolla schildert sie als schönes Mädchen, das Wäsche wäscht. Das höhnische Lachen des Giovanotto deutet darauf hin, dass sie eher ihn als Mario bevorzugt. Cipolla nutzt die Liebe zu ihr, um Mario zu täuschen.",
+      "citations": [
+        {
+          "page": 101,
+          "line": 23,
+          "quote": "»Silvestra!« rief der Giovanotto von unten."
+        },
+        {
+          "page": 102,
+          "line": 10,
+          "lineEnd": 11,
+          "quote": "Und ihre runden Arme, wenn sie wäscht"
+        },
+        {
+          "page": 103,
+          "line": 9,
+          "lineEnd": 11,
+          "quote": "Sie sollte irgendeinem krähenden Hahn vor dir den Vorzug geben"
+        }
+      ]
+    },
+    {
+      "name": "Der Giovanotto",
+      "role": "Selbstbewusster Fischerbursche, Cipollas erster Gegner",
+      "description": "Der junge Mann mit der «Modefrisur des erweckten Vaterlandes» provoziert Cipolla zu Beginn mit einem lauten «Buona sera!». Er muss dem Publikum die Zunge zeigen und sich später vor eingeredeten Leibschmerzen krümmen. Er verteidigt die Ehre Torres gegen Cipollas Spott. Bei der Mario-Szene lacht er höhnisch, ruft den Namen Silvestra und scheint Marios Rivale zu sein; in sein letztes Lachen mischt sich aber auch Mitleid.",
+      "citations": [
+        {
+          "page": 43,
+          "line": 7,
+          "quote": "die Modefrisur des erweckten Vaterlandes"
+        },
+        {
+          "page": 55,
+          "line": 16,
+          "lineEnd": 17,
+          "quote": "»Genug!« sagte er laut. »Genug der Witze über Torre."
+        },
+        {
+          "page": 105,
+          "line": 14,
+          "lineEnd": 15,
+          "quote": "nicht ohne einen Unterton und Einschlag von Erbarmen"
+        }
+      ]
+    },
+    {
+      "name": "Der Herr aus Rom",
+      "role": "Junger Italiener, der sich Cipolla bewusst widersetzt",
+      "description": "Der junge Herr «mit stolz geschnittenem Gesicht» will beim Kartentrick nach «klarem Eigenwillen» wählen, zieht aber trotzdem die vorbestimmte Karte. Später fordert er Cipolla heraus, ihn gegen seinen Willen tanzen zu lassen, und leistet lange heroischen Widerstand. Er unterliegt, weil sein Widerstand nur ein Nichtwollen ist. Er verkörpert die Frage, ob blosse Verweigerung gegen Verführung genügt.",
+      "citations": [
+        {
+          "page": 66,
+          "line": 22,
+          "lineEnd": 23,
+          "quote": "er sei entschlossen, nach klarem Eigenwillen zu wählen"
+        },
+        {
+          "page": 89,
+          "line": 6,
+          "lineEnd": 8,
+          "quote": "trotzig anfragte, ob der Cavaliere sich anheischig mache, ihn tanzen zu lehren, auch wenn er nicht wolle"
+        },
+        {
+          "page": 91,
+          "line": 2,
+          "lineEnd": 3,
+          "quote": "unterlag dieser Herr der Negativität seiner Kampfposition"
+        }
+      ]
+    },
+    {
+      "name": "Signora Angiolieri",
+      "role": "Besitzerin der Pensione Eleonora, früher Vertraute der Duse",
+      "description": "Die zierliche, schwarzäugige Toskanerin führt mit ihrem Mann die Pension, in der die Familie wohnt. Sie war einst Gesellschafterin und Freundin der berühmten Schauspielerin Eleonora Duse und pflegt diese Erinnerung. Cipolla errät diese Vergangenheit und zieht sie später hypnotisch von ihrem Platz, sodass sie ihm wie eine Schlafwandlerin durch den Saal folgt.",
+      "citations": [
+        {
+          "page": 17,
+          "line": 20,
+          "lineEnd": 21,
+          "quote": "Frau Angiolieri, eine zierliche, schwarzäugige Dame, toskanischen Typs"
+        },
+        {
+          "page": 18,
+          "line": 3,
+          "lineEnd": 4,
+          "quote": "Garderobiere, ja Freundin der Duse gewesen"
+        },
+        {
+          "page": 86,
+          "line": 9,
+          "lineEnd": 10,
+          "quote": "sie ihrem Meister, wenn dieser gewollt hätte, so bis ans Ende der Welt gefolgt wäre"
+        }
+      ]
+    },
+    {
+      "name": "Herr Angiolieri",
+      "role": "Stiller Ehemann der Pensionswirtin",
+      "description": "Herr Angiolieri ist ein sorgfältig gekleideter, stiller und kahler Mann. Als Cipolla seine Frau mit sich zieht, muss er auf Cipollas Anweisung ihren Vornamen «Sofronia» rufen – vergeblich. Seine schwache Stimme zeigt die Ohnmacht von «Liebe und Pflicht» gegenüber Cipollas Macht.",
+      "citations": [
+        {
+          "page": 17,
+          "line": 23,
+          "lineEnd": 24,
+          "quote": "ein sorgfältig gekleideter, stiller und kahler Mann"
+        },
+        {
+          "page": 85,
+          "line": 23,
+          "lineEnd": 24,
+          "quote": "Und Herr Angiolieri rief mit schwacher Stimme: »Sofronia!«"
+        },
+        {
+          "page": 87,
+          "line": 3,
+          "quote": "Der arme Herr Angiolieri, still und kahl!"
+        }
+      ]
+    },
+    {
+      "name": "Fuggièro",
+      "role": "Zwölfjähriger Junge am Strand",
+      "description": "Fuggièro ist ein ungezogener, boshafter und feiger Junge, dessen Name täglich von seiner Mutter über den Strand gerufen wird. Als ihn ein Krebs in die Zehe zwickt, schreit er, als sei er tödlich verletzt, und wird auf einer Bahre weggetragen. Er gehört für den Erzähler zu den «Hauptträgern» der unangenehmen öffentlichen Stimmung und pfeift beim Nacktheitsskandal auf den Fingern.",
+      "citations": [
+        {
+          "page": 22,
+          "line": 22,
+          "lineEnd": 24,
+          "quote": "Der Schrei galt einem abscheulichen Jungen mit ekelerregender Sonnenbrandwunde"
+        },
+        {
+          "page": 24,
+          "line": 4,
+          "lineEnd": 5,
+          "quote": "Dabei gehörte dieser Zwölfjährige zu den Hauptträgern einer öffentlichen Stimmung"
+        },
+        {
+          "page": 26,
+          "line": 23,
+          "quote": "Fuggièro pfiff auf den Fingern."
+        }
+      ]
+    },
+    {
+      "name": "Der Herr im Schniepel",
+      "role": "Italienischer Badegast, der die Familie anzeigt",
+      "description": "Der Herr im städtischen Gehrock («Schniepel») und Melonenhut hält der Familie wegen der nackten Tochter eine pathetische Strafrede. Er sieht die «Ehre seines Landes» verletzt und sorgt dafür, dass die Behörde eingreift. Er verkörpert den übersteigerten Nationalstolz und die neue Prüderie; schon am nächsten Tag reist er ab.",
+      "citations": [
+        {
+          "page": 26,
+          "line": 26,
+          "quote": "Ein Herr in städtischem Schniepel"
+        },
+        {
+          "page": 27,
+          "line": 14,
+          "lineEnd": 15,
+          "quote": "die Ehre seines Landes seien freventlich verletzt"
+        }
+      ]
+    },
+    {
+      "name": "Die Fürstin und der Hotelmanager",
+      "role": "Römischer Hochadel und servile Hotelleitung",
+      "description": "Die Fürstin, Gattin eines «Principe X.», fürchtet den Keuchhusten des Jüngsten und beschwert sich bei der Direktion. Der Manager im Gehrock gibt ihr nach und hält selbst nach dem Befund des Hausarztes, der das Kind für gesund erklärt, an der Umquartierung fest. Der Erzähler vermutet, der «servile Gastwirt» habe der Fürstin das Urteil des Arztes gar nicht mitgeteilt. Der Arzt steht als «loyaler und aufrechter Diener der Wissenschaft» im Gegensatz zu dieser Unterwürfigkeit.",
+      "citations": [
+        {
+          "page": 15,
+          "line": 12,
+          "lineEnd": 13,
+          "quote": "Römischer Hochadel befand sich darunter, ein Principe X. mit Familie"
+        },
+        {
+          "page": 16,
+          "line": 22,
+          "lineEnd": 23,
+          "quote": "erweist sich als ein loyaler und aufrechter Diener der Wissenschaft"
+        },
+        {
+          "page": 17,
+          "line": 8,
+          "quote": "Der servile Gastwirt hatte wohl"
+        }
+      ]
+    },
+    {
+      "name": "Weitere Versuchspersonen",
+      "role": "Colonnello, der willenlose Jüngling und andere Zuschauer",
+      "description": "Ein stattlicher Colonnello kann nach Cipollas Befehl den Arm nicht mehr heben. Ein schwächlicher junger Mann wird starr gemacht, dient Cipolla als Sitzbank und eröffnet später den Tanz; er scheint seine Willenlosigkeit sogar zu geniessen. Diese Figuren zeigen verschiedene Grade der Unterwerfung – vom verzweifelten Ringen bis zur freiwilligen Hörigkeit.",
+      "citations": [
+        {
+          "page": 83,
+          "line": 23,
+          "lineEnd": 24,
+          "quote": "das Gesicht dieses schnurrbärtig stattlichen Colonnello"
+        },
+        {
+          "page": 88,
+          "line": 3,
+          "lineEnd": 5,
+          "quote": "jenen schwächlichen und zur Entgeisterung geneigten Jüngling"
+        },
+        {
+          "page": 88,
+          "line": 14,
+          "lineEnd": 15,
+          "quote": "schien er in der Hörigkeit sich ganz zu behagen"
+        }
+      ]
+    }
+  ],
+  "motifs": [
+    {
+      "name": "Wille und Unterwerfung",
+      "description": "Das zentrale Thema ist die Frage, ob ein Mensch seinen freien Willen gegen einen fremden Willen behaupten kann. Cipolla behauptet, die Freiheit und der Wille existierten, nicht aber die Willensfreiheit. Der Herr aus Rom scheitert, weil blosses Nichtwollen keine tragfähige Haltung ist. Cipolla führt die Unterwerfung sogar als Befreiung vor: Nachgeben sei «bereits das Vergnügen».",
+      "citations": [
+        {
+          "page": 67,
+          "line": 4,
+          "lineEnd": 5,
+          "quote": "Freiheit existiert, und auch der Wille existiert; aber die Willensfreiheit existiert nicht"
+        },
+        {
+          "page": 91,
+          "line": 3,
+          "lineEnd": 4,
+          "quote": "Wahrscheinlich kann man vom Nichtwollen seelisch nicht leben"
+        },
+        {
+          "page": 91,
+          "line": 16,
+          "lineEnd": 17,
+          "quote": "Nennst du es Freiheit – diese Vergewaltigung deiner selbst?"
+        }
+      ]
+    },
+    {
+      "name": "Führer und Masse",
+      "description": "Cipolla beschreibt Befehlen und Gehorchen als ein einziges Prinzip, so wie «Volk und Führer» ineinander enthalten seien. Das Publikum steht im Bann seiner Persönlichkeit, applaudiert und lacht, obwohl es das «Entehrende» seiner Triumphe spürt. Mit jedem gebrochenen Widerstand wächst seine Macht über den ganzen Saal, bis alle tanzen. Diese Dynamik wird häufig als Bild für die Verführung der Massen im Faschismus gelesen.",
+      "citations": [
+        {
+          "page": 71,
+          "line": 11,
+          "lineEnd": 12,
+          "quote": "wie Volk und Führer ineinander einbegriffen seien"
+        },
+        {
+          "page": 80,
+          "line": 26,
+          "pageEnd": 81,
+          "lineEnd": 1,
+          "quote": "deutlich im Bann einer Persönlichkeit von strenger Selbstsicherheit"
+        },
+        {
+          "page": 81,
+          "line": 2,
+          "lineEnd": 3,
+          "quote": "nicht ohne widerspenstiges Gefühl für das eigentümlich Entehrende"
+        }
+      ]
+    },
+    {
+      "name": "Nationalismus",
+      "description": "Schon vor Cipollas Auftritt ist Torre von nationalem Pathos geprägt: patriotische Kinder, Reden von der «Größe und Würde Italiens», eine Busse wegen eines Verstosses gegen die «nationale Würde». Cipolla greift diese Stimmung auf, preist die «Größe» Italiens und grüsst Mario mit dem römischen Gruss. Der Erzähler beschreibt den Nationalismus als eine Art Krankheit, die das Zusammenleben vergiftet.",
+      "citations": [
+        {
+          "page": 25,
+          "line": 8,
+          "lineEnd": 9,
+          "quote": "Redensarten von der Größe und Würde Italiens fielen"
+        },
+        {
+          "page": 54,
+          "line": 21,
+          "lineEnd": 23,
+          "quote": "Jedermann kann schreiben in Italien, dessen Größe der Unwissenheit und Finsternis keinen Raum bietet"
+        },
+        {
+          "page": 98,
+          "line": 2,
+          "lineEnd": 3,
+          "quote": "aus seiner schiefen Schulter zum römischen Gruß"
+        }
+      ]
+    },
+    {
+      "name": "Die Reitpeitsche",
+      "description": "Die Reitpeitsche mit dem klauenartigen Griff ist Cipollas wichtigstes Requisit. Mit ihrem Pfeifen begleitet er seine Befehle, bricht Widerstand und hält die Tanzenden in Bewegung. Der Erzähler nennt sie das «beleidigende Symbol seiner Herrschaft» und vergleicht sie mit dem Zauberstab der Kirke, die Menschen in Tiere verwandelte. Ein Peitschenpfiff ist es auch, der Mario aus der Illusion weckt.",
+      "citations": [
+        {
+          "page": 42,
+          "line": 2,
+          "lineEnd": 3,
+          "quote": "eine Reitpeitsche mit klauenartiger silberner Krücke"
+        },
+        {
+          "page": 81,
+          "line": 13,
+          "lineEnd": 14,
+          "quote": "dies beleidigende Symbol seiner Herrschaft"
+        },
+        {
+          "page": 92,
+          "line": 10,
+          "lineEnd": 12,
+          "quote": "der Stab der Kirke, diese pfeifende Ledergerte mit Klauengriff, herrschte unumschränkt"
+        }
+      ]
+    },
+    {
+      "name": "Kunst, Scharlatanerie und Täuschung",
+      "description": "Cipolla kündigt sich als Zauberkünstler an, «segelt» aber «unter falscher Flagge»: In Wahrheit ist er Hypnotiseur. Der Erzähler ordnet ihn dem Typus des Scharlatans und marktschreierischen Possenreissers zu. Seine Kunst ist eine Mischung aus echter Begabung und Humbug, etwa bei seiner «Humbugschärpe». Der Künstler erscheint so als Verführer, der Illusionen zur Machtausübung benutzt.",
+      "citations": [
+        {
+          "page": 39,
+          "line": 14,
+          "lineEnd": 15,
+          "quote": "der Typus des Scharlatans, des marktschreierischen Possenreißers"
+        },
+        {
+          "page": 51,
+          "line": 13,
+          "quote": "daß der Mann unter falscher Flagge segelte"
+        },
+        {
+          "page": 79,
+          "line": 26,
+          "pageEnd": 80,
+          "lineEnd": 2,
+          "quote": "Natur seiner Vorführungen Sand in die Augen gestreut"
+        }
+      ]
+    },
+    {
+      "name": "Vorausdeutung und Atmosphäre",
+      "description": "Die Novelle deutet das Ende von Anfang an voraus. Schon im ersten Satz erscheinen Cipolla und die «Katastrophe», und die Konflikte in Hotel und Strand bauen eine gereizte Stimmung, die den Aufenthalt «nicht geheuer» macht auf, die sich im Saal verdichtet. Kleine Hinweise wie die Bemerkung über Marios «zerstreut-melancholische» Lächeln in der Pause oder die Fähigkeiten, die Cipolla «zum Verhängnis wurden», bereiten die Schlusskatastrophe vor.",
+      "citations": [
+        {
+          "page": 29,
+          "line": 9,
+          "lineEnd": 10,
+          "quote": "Wir hätten dann diesen fatalen Cipolla vermieden"
+        },
+        {
+          "page": 75,
+          "line": 17,
+          "lineEnd": 19,
+          "quote": "Fähigkeiten, die ihm vor unseren Augen zum Verhängnis wurden"
+        },
+        {
+          "page": 79,
+          "line": 11,
+          "lineEnd": 13,
+          "quote": "Wir bekamen Gründe, dies freundliche und etwas zerstreut-melancholische Lächeln"
+        }
+      ]
+    },
+    {
+      "name": "Mitschuld durch Bleiben",
+      "description": "Die Familie reist nicht ab und verlässt den Saal nicht, obwohl sie das Unheimliche spürt. Der Erzähler sieht beides als «ein und dieselbe Frage»: Wer im Grossen nicht geht, geht auch im Kleinen nicht. Er spricht von einer «Ansteckung» durch die allgemeine Fahrlässigkeit. Das Motiv lässt sich auf das Verhalten von Zuschauern und Mitläufern in einer Diktatur übertragen.",
+      "citations": [
+        {
+          "page": 78,
+          "line": 7,
+          "lineEnd": 8,
+          "quote": "Das ist meiner Meinung nach ein und dieselbe Frage"
+        },
+        {
+          "page": 78,
+          "line": 18,
+          "lineEnd": 20,
+          "quote": "und da wir im großen nicht »abgereist« waren, wäre es unlogisch gewesen"
+        },
+        {
+          "page": 77,
+          "line": 17,
+          "lineEnd": 21,
+          "quote": "Unterlagen wir einer Faszination"
+        }
+      ]
+    },
+    {
+      "name": "Moral, Körper und Scham",
+      "description": "Der Strandskandal zeigt eine übersteigerte öffentliche Moral: Der unbefangene Körper eines Kindes wird als «Herausforderung» und als Angriff auf die Ehre der Nation verstanden. Der Erzähler stellt dem die veränderte, freiere Haltung zum Körper gegenüber. Die neue Prüderie steht im Widerspruch zum Pathos des «sinnenfreudigen Südens» und gehört zur verkrampften Haltung des Landes.",
+      "citations": [
+        {
+          "page": 26,
+          "line": 21,
+          "lineEnd": 22,
+          "quote": "Sie wurde jedoch hierorts als Herausforderung empfunden"
+        },
+        {
+          "page": 27,
+          "line": 5,
+          "lineEnd": 7,
+          "quote": "alles Pathos des sinnenfreudigen Südens sich in den Dienst spröder Zucht und Sitte gestellt findet"
+        }
+      ]
+    },
+    {
+      "name": "Demütigung und das «befreiende» Ende",
+      "description": "Cipolla verletzt Mario im Innersten, indem er seine Liebe öffentlich zur Schau stellt und sich an Silvestras Stelle küssen lässt. Der Erzähler nennt dies eine «Preisgabe des Innigsten». Marios Schüsse beenden Cipollas Herrschaft schlagartig. Dass der Erzähler das Ende «befreiend» nennt, wirft die Frage auf, ob Gewalt der einzige Ausweg aus der Unterwerfung ist – eine klassische Diskussionsfrage.",
+      "citations": [
+        {
+          "page": 104,
+          "line": 11,
+          "lineEnd": 12,
+          "quote": "denn das war eine Preisgabe des Innigsten"
+        },
+        {
+          "page": 105,
+          "line": 25,
+          "lineEnd": 26,
+          "quote": "drückte die Hände an seine mißbrauchten Lippen"
+        },
+        {
+          "page": 107,
+          "line": 12,
+          "lineEnd": 14,
+          "quote": "Und ein befreiendes Ende dennoch, – ich konnte und kann nicht umhin, es so zu empfinden!"
+        }
+      ]
+    }
+  ],
+  "perspective": {
+    "text": "Erzählt wird von einem namenlosen Ich-Erzähler, der rückblickend und mit Wissen um das Ende berichtet. Er spricht seine Zuhörer oft direkt an («Sie begreifen», «Mögen Sie das?»), als erzähle er die Geschichte mündlich. Er ist genau, ironisch und selbstkritisch, gibt aber zu, dass er seine Gereiztheit selbst verstärkt hat und dass er das Bleiben im Saal nicht rechtfertigen kann. Sein Blick auf die Vorgänge ist ambivalent: Er schwankt zwischen Abscheu und Faszination, beobachtet den Kampf des Herrn aus Rom sogar mit «grausamer Genugtuung». Damit wird er selbst zu einem Teil des verführten Publikums, und seine Erzählung ist auch ein Versuch, die eigene Mitschuld zu verstehen.",
+    "citations": [
+      {
+        "page": 21,
+        "line": 14,
+        "lineEnd": 15,
+        "quote": "ich war gereizt, ich wollte es vielleicht empfinden"
+      },
+      {
+        "page": 75,
+        "line": 21,
+        "lineEnd": 23,
+        "quote": "Ich gestehe, daß ich mich vor diesem Punkte meines Berichtes gefürchtet habe"
+      },
+      {
+        "page": 78,
+        "line": 18,
+        "lineEnd": 20,
+        "quote": "und da wir im großen nicht »abgereist« waren, wäre es unlogisch gewesen"
+      },
+      {
+        "page": 90,
+        "line": 25,
+        "pageEnd": 91,
+        "lineEnd": 1,
+        "quote": "von Bedauern und grausamer Genugtuung nicht frei war"
+      }
+    ]
+  },
+  "context": {
+    "text": "Hintergrund (nicht im Text): Thomas Mann verbrachte im Sommer 1926 mit seiner Familie Ferien im italienischen Badeort Forte dei Marmi; Erlebnisse dort, darunter der Besuch einer Vorstellung eines Zauberkünstlers, gelten als Anregung für die Novelle. Sie erschien 1930 mit dem Untertitel «Ein tragisches Reiseerlebnis», also in der Zeit, als Mussolinis Faschisten Italien seit 1922 beherrschten und in Deutschland die Nationalsozialisten erstarkten. Die Handlung um Mario und die Schüsse ist erfunden. Deshalb wird die Novelle häufig als politische Allegorie gelesen: Cipolla als Bild eines faschistischen Führers, das Publikum als verführte Masse. Im Text selbst stützen diese Lesart unter anderem die Erwähnung des «Duce», die «Modefrisur des erweckten Vaterlandes» und der römische Gruss; Mann selbst hat der Novelle später ausdrücklich eine politisch-moralische Bedeutung zugesprochen.",
+    "citations": [
+      {
+        "page": 47,
+        "line": 17,
+        "lineEnd": 18,
+        "quote": "in Rom hatte ich die Ehre, den Bruder des Duce unter den Besuchern"
+      },
+      {
+        "page": 43,
+        "line": 7,
+        "quote": "die Modefrisur des erweckten Vaterlandes"
+      },
+      {
+        "page": 98,
+        "line": 2,
+        "lineEnd": 3,
+        "quote": "aus seiner schiefen Schulter zum römischen Gruß"
+      }
+    ]
+  }
+}

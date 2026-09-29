@@ -1,0 +1,1213 @@
+[
+  {
+    "id": "q01",
+    "type": "mc",
+    "topic": "Handlung",
+    "difficulty": 1,
+    "question": "Wie charakterisiert der Erzähler gleich im ersten Satz seine Erinnerung an Torre di Venere?",
+    "options": [
+      "Als romantisch und geheimnisvoll",
+      "Als heiter und erholsam",
+      "Als langweilig und ereignislos",
+      "Als atmosphärisch unangenehm"
+    ],
+    "answerIndex": 3,
+    "answer": "Die Erinnerung ist »atmosphärisch unangenehm«: Ärger, Gereiztheit und Überspannung lagen von Anfang an in der Luft.",
+    "explanation": "Der Eröffnungssatz setzt den Grundton der ganzen Novelle, die Stimmung ist von Beginn an gespannt.",
+    "citation": {
+      "page": 9,
+      "line": 1,
+      "lineEnd": 2,
+      "quote": "Die Erinnerung an Torre di Venere ist atmosphärisch unangenehm"
+    }
+  },
+  {
+    "id": "q02",
+    "type": "mc",
+    "topic": "Erzählweise",
+    "difficulty": 2,
+    "question": "Welches erzählerische Verfahren nutzt der Erzähler, wenn er schon im ersten Absatz den »Chok« mit Cipolla erwähnt?",
+    "options": [
+      "Perspektivenwechsel zu Cipolla",
+      "Vorausdeutung auf das katastrophale Ende",
+      "Rückblende in die Kindheit des Erzählers",
+      "Inneren Monolog der Kinder"
+    ],
+    "answerIndex": 1,
+    "answer": "Er deutet das schreckliche Ende voraus. Der Leser weiss so von Anfang an, dass die Geschichte auf eine Katastrophe zuläuft.",
+    "explanation": "Der Erzähler berichtet rückblickend und nennt Cipolla und das »Ende mit Schrecken« bereits auf der ersten Seite.",
+    "citation": {
+      "page": 9,
+      "line": 4,
+      "lineEnd": 5,
+      "quote": "und zum Schluß kam dann der Chok mit diesem schrecklichen Cipolla"
+    }
+  },
+  {
+    "id": "q03",
+    "type": "mc",
+    "topic": "Handlung",
+    "difficulty": 1,
+    "question": "Was ist mit dem Turm, dem Torre di Venere seinen Namen verdankt?",
+    "options": [
+      "Er steht am Ende der Hauptstrasse",
+      "Er dient heute als Grand Hôtel",
+      "Man sucht ihn längst vergeblich",
+      "Er wurde zum Kino umgebaut"
+    ],
+    "answerIndex": 2,
+    "answer": "Den Turm gibt es nicht mehr, man sieht sich längst vergebens nach ihm um.",
+    "explanation": "Der Name verspricht etwas, das es nicht mehr gibt. Das passt zu einem Ort, dessen Friede ebenfalls nur noch Schein ist.",
+    "citation": {
+      "page": 10,
+      "line": 13,
+      "lineEnd": 15,
+      "quote": "nach dem Turm, dem es seinen Namen verdankt, längst vergebens umsieht"
+    }
+  },
+  {
+    "id": "q04",
+    "type": "mc",
+    "topic": "Sprache",
+    "difficulty": 1,
+    "question": "Wem ist die Glasveranda des Grand Hôtel laut Kellner vorbehalten?",
+    "options": [
+      "Ausschliesslich dem Hotelpersonal",
+      "Den Kindern der Hotelgäste",
+      "Allen Gästen, die den Aufpreis zahlen",
+      "»ai nostri clienti«, also der Stammkundschaft"
+    ],
+    "answerIndex": 3,
+    "answer": "Die Veranda ist »unserer Kundschaft«, »ai nostri clienti«, vorbehalten. Die Familie, die selbst Pensionsgast ist, fühlt sich dadurch zurückgesetzt.",
+    "explanation": "Der Erzähler fragt ironisch »Unseren Klienten? Aber das waren wir.«, womit die erste Kränkung markiert ist.",
+    "citation": {
+      "page": 14,
+      "line": 11,
+      "lineEnd": 12,
+      "quote": "»unserer Kundschaft«, »ai nostri clienti«, vorbehalten sei"
+    }
+  },
+  {
+    "id": "q05",
+    "type": "mc",
+    "topic": "Handlung",
+    "difficulty": 1,
+    "question": "Warum verlangt die Hotelleitung, dass die Familie in den Nebenbau umzieht?",
+    "options": [
+      "Weil die Kinder zu laut spielen",
+      "Weil die Zimmer für den Duce reserviert sind",
+      "Weil die Fürstin den Keuchhusten der Kinder für akustisch ansteckend hält",
+      "Weil die Familie die Rechnung nicht bezahlt hat"
+    ],
+    "answerIndex": 2,
+    "answer": "Die Fürstin fürchtet die Restspuren eines Keuchhustens, den die Kinder gerade überstanden haben, und glaubt, er sei akustisch ansteckend.",
+    "explanation": "Obwohl der Hotelarzt die Krankheit für abgeklungen erklärt, besteht der Manager auf dem Umzug.",
+    "citation": {
+      "page": 16,
+      "line": 1,
+      "lineEnd": 2,
+      "quote": "der Keuchhusten sei akustisch ansteckend"
+    }
+  },
+  {
+    "id": "q06",
+    "type": "open",
+    "topic": "Figuren",
+    "difficulty": 2,
+    "question": "Wie bewertet der Erzähler das Verhalten des Hotelmanagers im Keuchhusten-Konflikt, und wie reagiert die Familie?",
+    "answer": "Der Manager hält trotz des ärztlichen Befunds am Umzug fest und bricht damit die Abmachung. Der Erzähler nennt das »Byzantinismus« und bezeichnet ihn als »servilen Gastwirt«, der vor dem Adel liebedienert. Die Familie ist empört, verlässt das Hotel sofort und zieht in die Pensione Eleonora. Die Episode zeigt früh das Thema der Unterwürfigkeit gegenüber der Macht.",
+    "explanation": "Der Erzähler kommentiert den Vorfall offen wertend und vermutet, der Wirt habe der Fürstin den Befund gar nicht mitgeteilt.",
+    "citation": {
+      "page": 17,
+      "line": 5,
+      "lineEnd": 8,
+      "quote": "Dieser Byzantinismus empörte uns"
+    }
+  },
+  {
+    "id": "q07",
+    "type": "mc",
+    "topic": "Figuren",
+    "difficulty": 1,
+    "question": "Was war Signora Angiolieri vor ihrer Heirat?",
+    "options": [
+      "Opernsängerin an der Mailänder Scala",
+      "Kellnerin im ›Esquisito‹",
+      "Gesellschafterin und Freundin der Duse",
+      "Lehrerin in Florenz"
+    ],
+    "answerIndex": 2,
+    "answer": "Sie war Gesellschafterin, Reisebegleiterin, Garderobiere und Freundin der berühmten Schauspielerin Eleonora Duse.",
+    "explanation": "Diese Zeit betrachtet sie als die glücklichste ihres Lebens. Cipolla wird sie später im Saal »erraten«.",
+    "citation": {
+      "page": 18,
+      "line": 2,
+      "lineEnd": 4,
+      "quote": "Gesellschafterin, Reisebegleiterin, Garderobiere, ja Freundin der Duse gewesen"
+    }
+  },
+  {
+    "id": "q08",
+    "type": "mc",
+    "topic": "Figuren",
+    "difficulty": 2,
+    "question": "Worüber kommt der Erzähler nach eigener Aussage besonders schwer hinweg?",
+    "options": [
+      "Über schlechtes Essen und laute Musik",
+      "Über das Heimweh seiner Kinder",
+      "Über die hohen Preise in Italien",
+      "Über den naiven Missbrauch der Macht und kriecherische Korruption"
+    ],
+    "answerIndex": 3,
+    "answer": "Er gesteht, dass er schwer über Zusammenstösse mit dem »naiven Mißbrauch der Macht«, der Ungerechtigkeit und der kriecherischen Korruption hinwegkommt.",
+    "explanation": "Die Selbstaussage macht den Erzähler als empfindlichen, reflektierenden Beobachter kenntlich, der auf Machtmissbrauch besonders reagiert.",
+    "citation": {
+      "page": 19,
+      "line": 17,
+      "lineEnd": 22,
+      "quote": "dem naiven Mißbrauch der Macht"
+    }
+  },
+  {
+    "id": "q09",
+    "type": "mc",
+    "topic": "Erzählweise",
+    "difficulty": 2,
+    "question": "Was bewirken Fragen wie »Mögen Sie das? Mögen Sie es wochenlang?« im Erzähltext?",
+    "options": [
+      "Sie richten sich an ein fiktives Gegenüber, der Bericht wirkt wie ein mündliches Gespräch",
+      "Sie zitieren Signora Angiolieri",
+      "Sie stammen aus einem Brief des Herrn im Schniepel",
+      "Sie sind Fragen der Kinder an den Vater"
+    ],
+    "answerIndex": 0,
+    "answer": "Der Ich-Erzähler spricht einen Zuhörer direkt an. So entsteht der Eindruck einer mündlichen Erzählsituation, in der er sich rechtfertigt und Einwände vorwegnimmt.",
+    "explanation": "Die Leseranrede mit »Sie« zieht sich durch die ganze Novelle, etwa auch in »Sie haben recht«.",
+    "citation": {
+      "page": 20,
+      "line": 22,
+      "lineEnd": 23,
+      "quote": "Mögen Sie das? Mögen Sie es wochenlang?"
+    }
+  },
+  {
+    "id": "q10",
+    "type": "open",
+    "topic": "Erzählweise",
+    "difficulty": 3,
+    "question": "Der Erzähler räumt ein, er sei »gereizt« gewesen und habe die Hitze vielleicht als lästig empfinden »wollen«. Was bedeutet dieses Eingeständnis für die Glaubwürdigkeit seines Berichts?",
+    "answer": "Der Erzähler gibt zu, dass seine Wahrnehmung durch die Kränkung im Hotel gefärbt ist. Er habe ein »bereitliegendes geistiges Motiv« aufgegriffen, um sein Unbehagen zu legitimieren. Damit zeigt er sich selbstkritisch und subjektiv zugleich. Der Leser weiss, dass er die Stimmung in Torre durch einen gereizten Blick sieht, und soll die Deutungen entsprechend prüfen.",
+    "explanation": "Die Selbstreflexion macht die subjektive Färbung der Ich-Erzählung ausdrücklich.",
+    "citation": {
+      "page": 21,
+      "line": 14,
+      "lineEnd": 19,
+      "quote": "ich war gereizt, ich wollte es vielleicht empfinden"
+    }
+  },
+  {
+    "id": "q11",
+    "type": "mc",
+    "topic": "Figuren",
+    "difficulty": 1,
+    "question": "Welcher Vorfall mit Fuggièro bringt den ganzen Strand in Aufruhr?",
+    "options": [
+      "Er wird von einer Qualle gestochen",
+      "Er zerstört die Flagge der patriotischen Kinder",
+      "Er ertrinkt beinahe im Meer",
+      "Ein Taschenkrebs zwickt ihn in die Zehe"
+    ],
+    "answerIndex": 3,
+    "answer": "Ein Taschenkrebs zwickt ihn in die Zehe, und er erhebt ein »antikisches Heldenjammergeschrei«, als sei er tödlich verletzt.",
+    "explanation": "Der Arzt erklärt den Fall für »null und nichtig«, trotzdem wird Fuggièro auf einer Bahre weggetragen, ein Bild übertriebener Theatralik.",
+    "citation": {
+      "page": 23,
+      "line": 3,
+      "lineEnd": 5,
+      "quote": "hatte ihn im Wasser ein Taschenkrebs in die Zehe gezwickt"
+    }
+  },
+  {
+    "id": "q12",
+    "type": "mc",
+    "topic": "Kontext",
+    "difficulty": 2,
+    "question": "Was erkennt die Familie bald als Ursache der gespannten öffentlichen Stimmung am Strand?",
+    "options": [
+      "Dass Politisches umgeht und die Idee der Nation im Spiel ist",
+      "Einen Streit zwischen Hotelbesitzern",
+      "Die Angst vor einer Epidemie",
+      "Die Ankunft des Zauberers Cipolla"
+    ],
+    "answerIndex": 0,
+    "answer": "Es geht Politisches um, die »Idee der Nation« ist im Spiel. Gemeint ist der Nationalismus im faschistischen Italien.",
+    "explanation": "Das Publikum »hielt auf sich« und stellte Würde und Ehrliebe zur Schau. Sogar die Kinder am Strand sind »patriotisch«.",
+    "citation": {
+      "page": 24,
+      "line": 15,
+      "lineEnd": 16,
+      "quote": "daß Politisches umging, die Idee der Nation im Spiele war"
+    }
+  },
+  {
+    "id": "q13",
+    "type": "open",
+    "topic": "Kontext",
+    "difficulty": 3,
+    "question": "Wie erklären die Eltern ihren Kindern das Verhalten der Italiener, und wie lässt sich diese Erklärung zeitgeschichtlich deuten?",
+    "answer": "Die Eltern sagen, diese Leute machten gerade »so einen Zustand« durch, »etwas wie eine Krankheit«, nicht angenehm, aber wohl notwendig. Die Metapher der Krankheit beschreibt den erhitzten Nationalismus des faschistischen Italiens als vorübergehende kollektive Störung. Sie wirkt schonend und distanziert zugleich. Die Formulierung »wohl notwendig« zeigt zudem die Ratlosigkeit des bürgerlichen Beobachters, der das Phänomen nicht wirklich einordnen kann.",
+    "explanation": "Die Stelle folgt auf den Flaggenzwist und die »Redensarten von der Größe und Würde Italiens«.",
+    "citation": {
+      "page": 25,
+      "line": 13,
+      "lineEnd": 17,
+      "quote": "so einen Zustand, etwas wie eine Krankheit"
+    }
+  },
+  {
+    "id": "q14",
+    "type": "mc",
+    "topic": "Handlung",
+    "difficulty": 1,
+    "question": "Was tut die achtjährige Tochter, das am Strand als Skandal empfunden wird?",
+    "options": [
+      "Sie läuft nackt zum Wasser, um ihr Badekleid auszuspülen",
+      "Sie beschimpft Fuggièro",
+      "Sie zerreisst eine italienische Fahne",
+      "Sie singt ein deutsches Lied"
+    ],
+    "answerIndex": 0,
+    "answer": "Sie läuft nackt die wenigen Meter zum Wasser, spült ihr sandiges Trikot aus und kehrt zurück.",
+    "explanation": "Das harmlose Verhalten des mageren Kindes wird »hierorts als Herausforderung empfunden« und löst Hohn und Empörung aus.",
+    "citation": {
+      "page": 26,
+      "line": 8,
+      "lineEnd": 10,
+      "quote": "Nackt läuft sie zum wenige Meter entfernten Wasser"
+    }
+  },
+  {
+    "id": "q15",
+    "type": "mc",
+    "topic": "Figuren",
+    "difficulty": 1,
+    "question": "Wer hält der Familie am Strand eine Strafpredigt über die verletzte Ehre Italiens?",
+    "options": [
+      "Der Hotelarzt",
+      "Cavaliere Cipolla",
+      "Ein Herr in städtischem Schniepel mit Melonenhut",
+      "Herr Angiolieri"
+    ],
+    "answerIndex": 2,
+    "answer": "Ein Herr in städtischem Schniepel mit einem wenig strandgerechten Melonenhut hält eine »Philippika« und kündigt Schritte an.",
+    "explanation": "Er spricht vom Missbrauch der Gastfreundschaft Italiens und von der verletzten »nationalen Würde«.",
+    "citation": {
+      "page": 26,
+      "line": 26,
+      "pageEnd": 27,
+      "lineEnd": 1,
+      "quote": "Ein Herr in städtischem Schniepel"
+    }
+  },
+  {
+    "id": "q16",
+    "type": "mc",
+    "topic": "Handlung",
+    "difficulty": 1,
+    "question": "Welche Strafe wird der Familie im Municipio auferlegt?",
+    "options": [
+      "Ein Sühne- und Lösegeld von fünfzig Lire",
+      "Ein Strandverbot für die ganze Saison",
+      "Eine öffentliche Entschuldigung",
+      "Die sofortige Ausweisung aus Italien"
+    ],
+    "answerIndex": 0,
+    "answer": "Ein höherer Beamter bestätigt das Urteil »molto grave« und verhängt ein Sühne- und Lösegeld von fünfzig Lire.",
+    "explanation": "Die Familie zahlt ironisch als »Beitrag zum italienischen Staatshaushalt« und geht.",
+    "citation": {
+      "page": 29,
+      "line": 4,
+      "lineEnd": 5,
+      "quote": "ein Sühne- und Lösegeld von fünfzig Lire auferlegte"
+    }
+  },
+  {
+    "id": "q17",
+    "type": "mc",
+    "topic": "Motive",
+    "difficulty": 2,
+    "question": "Mit welchem Dichterwort erklärt der Erzähler, warum die Familie nach dem Skandal nicht abreist?",
+    "options": [
+      "Es sei Trägheit, was uns in peinlichen Zuständen festhalte",
+      "Das Glück sei immer bei den Mutigen",
+      "Es sei die Liebe zum Meer, die uns festhalte",
+      "Wer A sage, müsse auch B sagen"
+    ],
+    "answerIndex": 0,
+    "answer": "Ein Dichter habe gesagt, es sei Trägheit, was uns in peinlichen Zuständen festhalte. Dazu kommen Trotz und die Sympathie der Pensionsgäste.",
+    "explanation": "Das Motiv des Bleibens statt Abreisens ist zentral. Später verbindet der Erzähler es ausdrücklich mit dem Bleiben im Saal.",
+    "citation": {
+      "page": 29,
+      "line": 12,
+      "lineEnd": 14,
+      "quote": "es sei Trägheit, was uns in peinlichen Zuständen festhalte"
+    }
+  },
+  {
+    "id": "q18",
+    "type": "open",
+    "topic": "Motive",
+    "difficulty": 3,
+    "question": "Welche Begründung gibt der Erzähler »um alles zu sagen« dafür, dass die Familie in Torre bleibt, und warum ist sie problematisch?",
+    "answer": "Der Aufenthalt sei »merkwürdig« geworden, und Merkwürdigkeit habe einen Wert an sich. Man solle nicht abreisen, wenn das Leben unheimlich werde, sondern bleiben, sich dem aussetzen und vielleicht etwas lernen. Die Haltung ist neugierig und bildungsbürgerlich, aber sie übersieht die Gefahr. Der Erzähler selbst nennt Cipolla den »schrecklichen Lohn unserer Standhaftigkeit«, das Bleiben ist also eine Form passiver Duldung.",
+    "explanation": "Die Passage verbindet das Motiv des Bleibens mit der Frage nach Verantwortung und Mitschuld.",
+    "citation": {
+      "page": 30,
+      "line": 18,
+      "lineEnd": 20,
+      "quote": "man soll bleiben, soll sich das ansehen und sich dem aussetzen"
+    }
+  },
+  {
+    "id": "q19",
+    "type": "mc",
+    "topic": "Motive",
+    "difficulty": 2,
+    "question": "Wie verändert sich das Wetter mit Beginn der Nachsaison, kurz bevor Cipolla auftritt?",
+    "options": [
+      "Die offene Glut weicht einer stickigen Sciroccoschwüle",
+      "Die Hitze nimmt noch weiter zu",
+      "Ein schweres Gewitter zerstört den Strand",
+      "Es wird kühl und klar"
+    ],
+    "answerIndex": 0,
+    "answer": "Der Himmel bedeckt sich, die Glut weicht einer stickigen Sciroccoschwüle, und ein schwächlicher Regen fällt.",
+    "explanation": "Die drückende, gewittrige Schwüle spiegelt die unheimliche Spannung, die sich im Zauberabend entlädt.",
+    "citation": {
+      "page": 31,
+      "line": 21,
+      "lineEnd": 22,
+      "quote": "wich einer stickigen Sciroccoschwüle"
+    }
+  },
+  {
+    "id": "q20",
+    "type": "mc",
+    "topic": "Figuren",
+    "difficulty": 1,
+    "question": "Wie bezeichnet sich Cipolla auf den Plakaten?",
+    "options": [
+      "Dottore di Magnetismo",
+      "Maestro di Musica",
+      "Forzatore, Illusionista und Prestidigatore",
+      "Mago e Profeta"
+    ],
+    "answerIndex": 2,
+    "answer": "Er nennt sich Cavaliere Cipolla, einen fahrenden Virtuosen, »Forzatore, Illusionista und Prestidigatore«.",
+    "explanation": "»Forzatore« (der Zwingende) deutet schon an, dass es um Willensbeugung geht, nicht um harmlose Zauberei.",
+    "citation": {
+      "page": 32,
+      "line": 11,
+      "lineEnd": 12,
+      "quote": "Unterhaltungskünstler, Forzatore, Illusionista und Prestidigatore"
+    }
+  },
+  {
+    "id": "q21",
+    "type": "mc",
+    "topic": "Motive",
+    "difficulty": 3,
+    "question": "Der Weg zur »Sala« führt über die Hauptstrasse, die »vom Feudalen über das Bürgerliche ins Volkstümliche« führt. Wie lässt sich dieser Weg deuten?",
+    "options": [
+      "Als Kritik am Adel des Principe X.",
+      "Als Beweis, dass Torre eine reiche Stadt ist",
+      "Als Hinweis, dass der Saal besonders vornehm ist",
+      "Als symbolischer Abstieg in die Sphäre des Volkes, in der Cipolla seine Macht entfaltet"
+    ],
+    "answerIndex": 3,
+    "answer": "Der Weg ist ein symbolischer Abstieg vom Palazzo an den Fischerhäusern vorbei zur Bretterbude. Cipollas Macht wirkt gerade auf das Volk und die Masse.",
+    "explanation": "Die Sala liegt »schon im Populären«, und Cipolla hält sich bei seinen Versuchen gezielt »ans Volk«.",
+    "citation": {
+      "page": 33,
+      "line": 23,
+      "lineEnd": 24,
+      "quote": "vom Feudalen über das Bürgerliche ins Volkstümliche"
+    }
+  },
+  {
+    "id": "q22",
+    "type": "mc",
+    "topic": "Motive",
+    "difficulty": 2,
+    "question": "Woran erinnert die Ausstattung des Podiums, als der Vorhang aufgeht?",
+    "options": [
+      "An eine Schulstube mit Wandtafel",
+      "An einen Gerichtssaal",
+      "An einen Zirkus",
+      "An eine Kirche"
+    ],
+    "answerIndex": 0,
+    "answer": "Das Podium gleicht wegen der schwarzen Wandtafel eher einer Schulstube als der Bühne eines Taschenspielers.",
+    "explanation": "Das Bild passt zu Cipolla, der das Publikum wie ein strenger Lehrer belehrt, prüft und massregelt.",
+    "citation": {
+      "page": 37,
+      "line": 25,
+      "lineEnd": 26,
+      "quote": "Sie enthüllte ein Podium, das nach seiner Ausstattung eher einer Schulstube"
+    }
+  },
+  {
+    "id": "q23",
+    "type": "mc",
+    "topic": "Figuren",
+    "difficulty": 2,
+    "question": "Welchem historischen Typus ähnelt Cipolla laut Erzähler in seinem Gesamthabitus?",
+    "options": [
+      "Dem mittelalterlichen Mönch",
+      "Dem Scharlatan und marktschreierischen Possenreisser des 18. Jahrhunderts",
+      "Dem römischen Feldherrn",
+      "Dem modernen Varieté-Clown"
+    ],
+    "answerIndex": 1,
+    "answer": "Er ähnelt dem Typus des Scharlatans, des marktschreierischen Possenreissers, der für das 18. Jahrhundert charakteristisch war.",
+    "explanation": "Der Erzähler betont zugleich, dass Cipolla keine Clownerie zeigt, sondern strenge Ernsthaftigkeit und Stolz.",
+    "citation": {
+      "page": 39,
+      "line": 14,
+      "lineEnd": 15,
+      "quote": "der Typus des Scharlatans, des marktschreierischen Possenreißers"
+    }
+  },
+  {
+    "id": "q24",
+    "type": "mc",
+    "topic": "Motive",
+    "difficulty": 1,
+    "question": "Was hängt Cipolla über dem linken Unterarm?",
+    "options": [
+      "Eine Reitpeitsche mit klauenartiger silberner Krücke",
+      "Ein Spazierstock mit Elfenbeinknauf",
+      "Ein Zauberstab aus Ebenholz",
+      "Eine goldene Taschenuhr"
+    ],
+    "answerIndex": 0,
+    "answer": "An einer Lederschlinge hängt eine Reitpeitsche mit klauenartiger silberner Krücke.",
+    "explanation": "Die Peitsche wird zum zentralen Symbol seiner Herrschaft, mit ihrem Pfeifen begleitet er jeden Befehl.",
+    "citation": {
+      "page": 42,
+      "line": 2,
+      "lineEnd": 3,
+      "quote": "eine Reitpeitsche mit klauenartiger silberner Krücke"
+    }
+  },
+  {
+    "id": "q25",
+    "type": "mc",
+    "topic": "Kontext",
+    "difficulty": 2,
+    "question": "Wie beschreibt der Erzähler die Frisur des Giovanotto, der »Buona sera!« ruft?",
+    "options": [
+      "Als altmodischen Zirkusdirektor-Scheitel",
+      "Als »Modefrisur des erweckten Vaterlandes«",
+      "Als Perücke im Stil des 18. Jahrhunderts",
+      "Als kurzgeschorenen Kellnerschnitt"
+    ],
+    "answerIndex": 1,
+    "answer": "Er trägt sein schwarzes Kraushaar hoch und wild, »die Modefrisur des erweckten Vaterlandes«.",
+    "explanation": "Die Formulierung spielt auf das faschistische Italien an, das sich als »erwachte« Nation verstand.",
+    "citation": {
+      "page": 43,
+      "line": 7,
+      "quote": "die Modefrisur des erweckten Vaterlandes"
+    }
+  },
+  {
+    "id": "q26",
+    "type": "mc",
+    "topic": "Handlung",
+    "difficulty": 1,
+    "question": "Wozu zwingt Cipolla den Giovanotto als erste Machtdemonstration?",
+    "options": [
+      "Zu einem Tanz auf der Bühne",
+      "Dazu, sich auf einen Stuhl zu legen",
+      "Dazu, eine Zahl an die Tafel zu schreiben",
+      "Dazu, dem Publikum die Zunge herauszustrecken"
+    ],
+    "answerIndex": 3,
+    "answer": "Nach dem Wort »Uno« und einem Peitschenpfiff dreht sich der Bursche zum Publikum und streckt die Zunge so lang wie möglich heraus.",
+    "explanation": "Der Bursche hatte zuvor ausdrücklich erklärt, das nicht tun zu wollen, und tut es dennoch.",
+    "citation": {
+      "page": 44,
+      "line": 21,
+      "lineEnd": 22,
+      "quote": "streckte die Zunge so angestrengt-überlang heraus"
+    }
+  },
+  {
+    "id": "q27",
+    "type": "mc",
+    "topic": "Kontext",
+    "difficulty": 1,
+    "question": "Mit welchem prominenten Besucher seiner Abende in Rom brüstet sich Cipolla?",
+    "options": [
+      "Mit dem König von Italien",
+      "Mit dem Bruder des Duce",
+      "Mit Eleonora Duse",
+      "Mit dem Papst"
+    ],
+    "answerIndex": 1,
+    "answer": "Er rühmt sich, in Rom den Bruder des Duce unter seinen Zuschauern gehabt zu haben.",
+    "explanation": "Die Berufung auf Mussolinis Familie rückt Cipolla in die Nähe des faschistischen Regimes.",
+    "citation": {
+      "page": 47,
+      "line": 18,
+      "quote": "den Bruder des Duce unter den Besuchern"
+    }
+  },
+  {
+    "id": "q28",
+    "type": "open",
+    "topic": "Figuren",
+    "difficulty": 3,
+    "question": "Warum sticht Cipolla immer wieder mit »echter Gehässigkeit« gegen den Giovanotto? Beziehe dich auf die Körperlichkeit der beiden.",
+    "answer": "Cipolla ist verwachsen, der Giovanotto ein schöner, selbstbewusster Bursche, dem Cipolla ständig Erfolg bei den Frauen unterstellt. Seine Spitzen gegen den »donnaiuolo« zeigen Neid und gekränkte Eigenliebe. Der Erzähler meint, ein Blick auf die Körperlichkeit beider erkläre diese Gehässigkeit. Cipollas Machtwille erscheint so auch als Kompensation eigener körperlicher Benachteiligung.",
+    "explanation": "Der Erzähler stellt ein »Mißverhältnis« zwischen Cipollas Selbstgefühl und seiner zähen Animosität fest.",
+    "citation": {
+      "page": 48,
+      "line": 15,
+      "lineEnd": 16,
+      "quote": "Aber es sprach aus seinen Spitzen doch auch echte Gehässigkeit"
+    }
+  },
+  {
+    "id": "q29",
+    "type": "mc",
+    "topic": "Sprache",
+    "difficulty": 2,
+    "question": "Warum beeindruckt Cipolla das Publikum schon, bevor er ein Kunststück gezeigt hat?",
+    "options": [
+      "Durch ein Feuerwerk zu Beginn",
+      "Durch die Empfehlung der Signora Angiolieri",
+      "Durch seine gewandte Sprache, die im Süden als Leistung gilt",
+      "Durch seine prächtige Kleidung"
+    ],
+    "answerIndex": 2,
+    "answer": "Sein Sprechen allein wird als Leistung gewürdigt (»Parla benissimo«), denn unter Südländern gilt die Art, wie einer spricht, als Massstab für den persönlichen Rang.",
+    "explanation": "Die Rhetorik ist eines von Cipollas wichtigsten Machtmitteln.",
+    "citation": {
+      "page": 49,
+      "line": 2,
+      "lineEnd": 3,
+      "quote": "sein Sprechen allein ward als Leistung gewürdigt"
+    }
+  },
+  {
+    "id": "q30",
+    "type": "mc",
+    "topic": "Figuren",
+    "difficulty": 1,
+    "question": "Worin besteht Cipollas »kleiner Leibesschaden«?",
+    "options": [
+      "Er hinkt wegen eines Holzbeins",
+      "Ihm fehlen zwei Finger",
+      "Er hat eine zu hohe Brust und eine Art Hüft- und Gesässbuckel",
+      "Er ist auf einem Auge blind"
+    ],
+    "answerIndex": 2,
+    "answer": "Die Brust ist zu hoch, und der Buckel sitzt tiefer als gewöhnlich, als eine Art Hüft- und Gesässbuckel, der seinen Gang grotesk macht.",
+    "explanation": "Wegen dieses Leidens konnte er nach eigener Aussage nicht »am Kriege für die Größe des Vaterlandes« teilnehmen.",
+    "citation": {
+      "page": 50,
+      "line": 25,
+      "quote": "als eine Art Hüft- und Gesäßbuckel"
+    }
+  },
+  {
+    "id": "q31",
+    "type": "mc",
+    "topic": "Erzählweise",
+    "difficulty": 2,
+    "question": "Was vermutet der Erzähler, als Cipolla ankündigt, mit »arithmetischen Übungen« zu beginnen?",
+    "options": [
+      "Dass die Kinder sich langweilen werden, weil sie nicht rechnen können",
+      "Dass der Mann »unter falscher Flagge« segelt",
+      "Dass Cipolla Mathematiklehrer ist",
+      "Dass Cipolla betrunken ist"
+    ],
+    "answerIndex": 1,
+    "answer": "Es regt sich die Vermutung, dass der Mann unter falscher Flagge segelt, also etwas anderes ist als ein Zauberkünstler.",
+    "explanation": "Die Metapher deutet voraus, dass Cipolla in Wahrheit Hypnotiseur ist.",
+    "citation": {
+      "page": 51,
+      "line": 13,
+      "quote": "daß der Mann unter falscher Flagge segelte"
+    }
+  },
+  {
+    "id": "q32",
+    "type": "mc",
+    "topic": "Kontext",
+    "difficulty": 2,
+    "question": "Wie reagiert Cipolla, als die beiden Burschen erklären, nicht schreiben zu können?",
+    "options": [
+      "Er bittet Mario, für sie zu schreiben",
+      "Er schreibt die Zahlen selbst an die Tafel",
+      "Er lacht und hilft ihnen",
+      "Er behauptet, jedermann könne in Italien schreiben, und spricht von einer Schande für das Land"
+    ],
+    "answerIndex": 3,
+    "answer": "Er nennt das Geständnis »skandalös«: Jedermann könne schreiben in Italien, dessen Grösse der Unwissenheit keinen Raum biete.",
+    "explanation": "Cipolla verteidigt das offizielle Selbstbild der Nation, er spricht wie ein Sprachrohr des Regimes.",
+    "citation": {
+      "page": 54,
+      "line": 21,
+      "lineEnd": 22,
+      "quote": "Jedermann kann schreiben in Italien"
+    }
+  },
+  {
+    "id": "q33",
+    "type": "open",
+    "topic": "Figuren",
+    "difficulty": 2,
+    "question": "Wie tritt der Giovanotto Cipolla entgegen, als dieser über Torre spottet, und was zeigt diese Szene über ihn?",
+    "answer": "Der Giovanotto ruft »Genug der Witze über Torre«, verteidigt seine beiden Freunde und spottet über jene, die mit Rom prahlen. Er zeigt Mut, Lokalstolz und Angriffslust, er will sogar die Jacke abwerfen. Seine Auflehnung bleibt aber rein trotzig und körperlich. Gerade deshalb kann Cipolla ihn danach mühelos mit der »Kolik« demütigen.",
+    "explanation": "Der Erzähler sagt, der Bursche habe »Haare auf den Zähnen« und werfe sich zum »Ritter seines Heimatstädtchens« auf.",
+    "citation": {
+      "page": 55,
+      "line": 16,
+      "lineEnd": 17,
+      "quote": "Genug der Witze über Torre"
+    }
+  },
+  {
+    "id": "q34",
+    "type": "mc",
+    "topic": "Handlung",
+    "difficulty": 1,
+    "question": "Was redet Cipolla dem Giovanotto nach dessen Protest ein?",
+    "options": [
+      "Dass er sich den Arm gebrochen habe",
+      "Dass er von saurem Weisswein eine Kolik habe und sich krümmen müsse",
+      "Dass er Fieber habe und friere",
+      "Dass er stumm geworden sei"
+    ],
+    "answerIndex": 1,
+    "answer": "Er behauptet, der Bursche habe zu viel sauren Weisswein getrunken und nun eine Kolik. Der junge Mann krümmt sich darauf »ein Bild verrenkter Pein« fast bis zum Boden.",
+    "explanation": "Die Suggestion wirkt durch Blick, eindringliche Rede und einen Peitschenhieb durch die Luft.",
+    "citation": {
+      "page": 58,
+      "line": 17,
+      "lineEnd": 20,
+      "quote": "Jetzt hast du die Kolik"
+    }
+  },
+  {
+    "id": "q35",
+    "type": "open",
+    "topic": "Erzählweise",
+    "difficulty": 3,
+    "question": "Das Publikum ruft nach der Kolik-Szene sowohl »Bravo, Cipolla!« als auch »Bravo, Giovanotto!«. Wie deutet der Erzähler diese Reaktion?",
+    "answer": "Das Publikum behandelt die Demütigung nicht als Niederlage, sondern lobt den Burschen wie einen Schauspieler, der eine klägliche Rolle gut gespielt hat. Der Erzähler lässt offen, ob das menschliches Taktgefühl ist oder echte Einsicht in das Geschehen. Deutlich wird, wie die Menge die Unterwerfung als Unterhaltung umdeutet und so mitträgt. Der Erzähler beobachtet genau, bleibt aber in seinem Urteil vorsichtig.",
+    "explanation": "Die Stelle zeigt das distanziert-reflektierende Kommentieren des Erzählers und die Mitwirkung der Masse.",
+    "citation": {
+      "page": 60,
+      "line": 9,
+      "lineEnd": 12,
+      "quote": "»Bravo, Cipolla!« wie »Bravo, Giovanotto!«"
+    }
+  },
+  {
+    "id": "q36",
+    "type": "mc",
+    "topic": "Figuren",
+    "difficulty": 1,
+    "question": "Wer schreibt beim zweiten Anlauf des Rechenexperiments die Zahlen an die Tafel?",
+    "options": [
+      "Mario vom ›Esquisito‹",
+      "Signora Angiolieri",
+      "Der Angestellte des Kolonialwaren- und Obstladens",
+      "Der Herr aus Rom"
+    ],
+    "answerIndex": 2,
+    "answer": "Ein junger Angestellter des Kolonialwaren- und Obstladens in der Hauptstrasse, den die Familie kennt, schreibt die Zahlen mit kaufmännischer Gewandtheit.",
+    "explanation": "Dass man viele Gesichter kennt, gibt dem Abend »etwas Familiäres«.",
+    "citation": {
+      "page": 61,
+      "line": 8,
+      "lineEnd": 9,
+      "quote": "der Angestellte des Kolonialwaren- und Obstladens"
+    }
+  },
+  {
+    "id": "q37",
+    "type": "mc",
+    "topic": "Handlung",
+    "difficulty": 1,
+    "question": "Was zeigt sich, als Cipolla das Blatt an der Tafel lüftet?",
+    "options": [
+      "Ein Porträt des Duce",
+      "Eine falsche Zahl, die ihn blamiert",
+      "Der Name Silvestra",
+      "Die richtige Summe, die er im Voraus aufgeschrieben hatte"
+    ],
+    "answerIndex": 3,
+    "answer": "Die richtige, fast eine Million betragende Summe stand schon da, er hatte sie im Voraus aufgezeichnet.",
+    "explanation": "Später wird klar, dass die »freie Wahl« der Zahlen zweifelhaft war, weil Cipolla sie mit seinem Willen gelenkt hatte.",
+    "citation": {
+      "page": 63,
+      "line": 11,
+      "lineEnd": 12,
+      "quote": "Er hatte sie im voraus aufgezeichnet"
+    }
+  },
+  {
+    "id": "q38",
+    "type": "mc",
+    "topic": "Motive",
+    "difficulty": 2,
+    "question": "Was gesteht ein Zuschauer über die Zahl, die er beim »Raten« genannt hat?",
+    "options": [
+      "Er habe eigentlich eine andere Zahl nennen wollen, doch beim Pfeifen der Reitpeitsche sei ihm diese entschlüpft",
+      "Er habe einfach sein Geburtsjahr genannt",
+      "Er habe die Zahl mit Cipolla abgesprochen",
+      "Er habe die Zahl vorher auf der Tafel gesehen"
+    ],
+    "answerIndex": 0,
+    "answer": "Er wollte eigentlich eine andere Zahl nennen, aber als die Reitpeitsche vor ihm durch die Luft pfiff, sei ihm die Zahl entschlüpft, die dann auf der Tafel stand.",
+    "explanation": "Die Peitsche erscheint hier als Instrument der Willensbeugung.",
+    "citation": {
+      "page": 65,
+      "line": 10,
+      "lineEnd": 12,
+      "quote": "da aber im selben Augenblick die Reitpeitsche des Cavaliere vor ihm durch die Luft gepfiffen sei"
+    }
+  },
+  {
+    "id": "q39",
+    "type": "open",
+    "topic": "Motive",
+    "difficulty": 3,
+    "question": "Der junge Herr aus Rom will die Karte »nach klarem Eigenwillen« ziehen. Cipolla antwortet: »die Willensfreiheit existiert nicht«. Erkläre diese These und ihre Bedeutung für die Novelle.",
+    "answer": "Cipolla behauptet, ein Wille, der sich nur auf seine eigene Freiheit richte, stosse »ins Leere«. Je eigensinniger der Römer handeln wolle, desto sicherer ziehe er die richtige Karte. Tatsächlich zieht der Römer die vorbestimmte Karte. Die These kehrt später beim Tanz wieder: Blosses Nichtwollen ist nach dieser Logik kein tragfähiger Widerstand, was man auch als Kommentar zur Verführbarkeit im Faschismus lesen kann.",
+    "explanation": "Der Erzähler nennt diese Worte geeignet, »die Wasser zu trüben und seelische Verwirrung anzurichten«.",
+    "citation": {
+      "page": 67,
+      "line": 4,
+      "lineEnd": 7,
+      "quote": "aber die Willensfreiheit existiert nicht"
+    }
+  },
+  {
+    "id": "q40",
+    "type": "mc",
+    "topic": "Sprache",
+    "difficulty": 2,
+    "question": "Was bedeutet der Ausruf »Lavora bene!«, den man im Publikum hört?",
+    "options": [
+      "»Gute Nacht!«, ein Abschiedsgruss",
+      "»Er lügt gut!«, ein Vorwurf des Betrugs",
+      "»Er arbeitet gut!«, die sachliche Anerkennung seines Könnens trotz Abneigung",
+      "»Geh an die Arbeit!«, ein Zwischenruf der Fischer"
+    ],
+    "answerIndex": 2,
+    "answer": "»Lavora bene« heisst »Er arbeitet gut«. Die Feststellung bedeutet den Sieg sachlicher Anerkennung über Antipathie und stille Empörung.",
+    "explanation": "Das Publikum lehnt Cipolla ab und bewundert zugleich seine Berufstüchtigkeit.",
+    "citation": {
+      "page": 68,
+      "line": 9,
+      "lineEnd": 10,
+      "quote": "den Sieg sachlicher Gerechtigkeit über Antipathie und stille Empörung"
+    }
+  },
+  {
+    "id": "q41",
+    "type": "open",
+    "topic": "Kontext",
+    "difficulty": 3,
+    "question": "Cipolla erklärt, Befehlen und Gehorchen bildeten eine »unauflösliche Einheit«, »wie Volk und Führer ineinander einbegriffen« seien. Deute diese Aussage im historischen Kontext.",
+    "answer": "Beim Gedankenlesen wird Cipolla selbst zum ausführenden Werkzeug des Publikumswillens und behauptet, Gehorchen und Befehlen seien dieselbe Fähigkeit. Mit dem Vergleich von »Volk und Führer« greift er die Ideologie des Faschismus auf, der den Führer als Verkörperung des Volkswillens darstellte. Die Leistung beansprucht er jedoch für sich als »Führer und Veranstalter«. Die Novelle zeigt so die Wechselbeziehung zwischen Verführer und verführbarer Masse.",
+    "explanation": "Die Stelle ist der deutlichste politische Bezug in Cipollas Reden.",
+    "citation": {
+      "page": 71,
+      "line": 11,
+      "quote": "wie Volk und Führer ineinander einbegriffen"
+    }
+  },
+  {
+    "id": "q42",
+    "type": "mc",
+    "topic": "Handlung",
+    "difficulty": 1,
+    "question": "Was muss Cipolla beim Gedankenlese-Experiment finden und wem überreichen?",
+    "options": [
+      "Eine Uhr aus der Jacke des Erzählers, für die Kinder",
+      "Einen Ring aus der Tasche des Colonnello, für Mario",
+      "Ein Taschentuch der Fürstin, für den Giovanotto",
+      "Eine steinbesetzte Nadel aus dem Schuh einer Engländerin, für Signora Angiolieri"
+    ],
+    "answerIndex": 3,
+    "answer": "Er zieht eine steinbesetzte Nadel aus dem Schuh einer Engländerin und überreicht sie kniend Signora Angiolieri mit einem auf Französisch vereinbarten Satz.",
+    "explanation": "Den Satz spricht er auf Italienisch, nur das Schlusswort »vénération« sagt er auf Französisch, ein eindrucksvoller Teilerfolg.",
+    "citation": {
+      "page": 71,
+      "line": 23,
+      "lineEnd": 25,
+      "quote": "Er zog eine steinbesetzte Nadel aus dem Schuh einer Engländerin"
+    }
+  },
+  {
+    "id": "q43",
+    "type": "mc",
+    "topic": "Figuren",
+    "difficulty": 1,
+    "question": "Welchen Namen nennt Cipolla, als er Signora Angiolieris Vergangenheit »errät«?",
+    "options": [
+      "Principessa X.",
+      "Eleonora Duse",
+      "Silvestra",
+      "Sofronia"
+    ],
+    "answerIndex": 1,
+    "answer": "Er nennt leise und feierlich den Namen Eleonora Duse, die weltberühmte Künstlerin, deren Freundin sie war.",
+    "explanation": "Der Erzähler fragt sich, wie viel Cipolla davon bei seiner Ankunft in Torre in Erfahrung gebracht haben mochte.",
+    "citation": {
+      "page": 75,
+      "line": 5,
+      "lineEnd": 6,
+      "quote": "Eleonora Duse«, schloß er leise und feierlich"
+    }
+  },
+  {
+    "id": "q44",
+    "type": "open",
+    "topic": "Erzählweise",
+    "difficulty": 3,
+    "question": "Zur Pause schreibt der Erzähler, er habe sich »vor diesem Punkte« seines Berichts gefürchtet. Welche Frage nimmt er vorweg, und wie geht er damit um?",
+    "answer": "Er nimmt die Leserfrage vorweg, warum die Familie nicht endlich gegangen sei. Er gibt zu, die Antwort schuldig bleiben zu müssen und sich nicht verantworten zu können. Dann prüft er mögliche Gründe wie den Widerstand der Kinder, Neugier und Faszination und nennt sie selbst ungenügend. Diese Selbstbefragung macht die Mitschuld des Zuschauers zum Thema und stellt den Erzähler als ehrlich, aber verstrickt dar.",
+    "explanation": "Die Leseranrede (»Unfehlbar werden Sie mich fragen«) erzeugt eine Rechtfertigungssituation.",
+    "citation": {
+      "page": 75,
+      "line": 26,
+      "pageEnd": 76,
+      "lineEnd": 1,
+      "quote": "Unfehlbar werden Sie mich fragen, warum wir nicht endlich weggegangen seien"
+    }
+  },
+  {
+    "id": "q45",
+    "type": "mc",
+    "topic": "Motive",
+    "difficulty": 2,
+    "question": "Welche Erklärung erwägt der Erzähler unter anderem dafür, dass niemand den Saal verlässt?",
+    "options": [
+      "Dass Signora Angiolieri sie zum Bleiben zwang",
+      "Dass es draussen zu stark regnete",
+      "Dass sie einer Faszination unterlagen, die ihre Entschlüsse lähmte",
+      "Dass die Türen verschlossen waren"
+    ],
+    "answerIndex": 2,
+    "answer": "Er fragt, ob sie einer Faszination unterlagen, die von Cipolla auch zwischen den Kunststücken ausging und ihre Entschlüsse lähmte. Daneben nennt er blosse Neugier.",
+    "explanation": "Die Lähmung des Willens betrifft also nicht nur die Versuchspersonen, sondern auch die Zuschauer.",
+    "citation": {
+      "page": 77,
+      "line": 17,
+      "lineEnd": 21,
+      "quote": "Unterlagen wir einer Faszination"
+    }
+  },
+  {
+    "id": "q46",
+    "type": "open",
+    "topic": "Motive",
+    "difficulty": 3,
+    "question": "Warum ist für den Erzähler die Frage, warum sie den Saal nicht verliessen, »ein und dieselbe Frage« wie die, warum sie Torre nicht verlassen hatten?",
+    "answer": "Im Saal geht es genauso unbehaglich, kränkend und bedrückend zu wie in Torre überhaupt, er ist der »Sammelpunkt« aller Merkwürdigkeit. Cipolla erscheint als »Personifikation« der ganzen Atmosphäre. Da man im Grossen nicht abgereist ist, wäre es unlogisch, im Kleinen zu gehen. Damit verknüpft der Erzähler die Strandepisoden und den Zauberabend zu einem durchgehenden Motiv des passiven Ausharrens.",
+    "explanation": "Die Stelle zeigt die Einheit der zweiteiligen Novelle: Vorgeschichte und Zauberabend spiegeln sich.",
+    "citation": {
+      "page": 78,
+      "line": 17,
+      "lineEnd": 18,
+      "quote": "dünkte uns die Personifikation von alldem"
+    }
+  },
+  {
+    "id": "q47",
+    "type": "mc",
+    "topic": "Figuren",
+    "difficulty": 1,
+    "question": "Wie reagiert Mario in der Pause auf den Zuruf der Kinder »Mario, una cioccolata e biscotti!«?",
+    "options": [
+      "Er bringt ihnen tatsächlich Schokolade",
+      "Er gibt diesmal acht und antwortet lächelnd »Subito!«",
+      "Er winkt ärgerlich ab",
+      "Er ignoriert sie wie immer"
+    ],
+    "answerIndex": 1,
+    "answer": "Er gibt diesmal acht und antwortet lächelnd »Subito!«. Der Erzähler bemerkt, man habe Gründe bekommen, dieses zerstreut-melancholische Lächeln im Gedächtnis zu bewahren.",
+    "explanation": "Die Bemerkung ist eine Vorausdeutung auf Marios späteres Schicksal.",
+    "citation": {
+      "page": 79,
+      "line": 10,
+      "lineEnd": 11,
+      "quote": "Und er gab acht diesmal und antwortete lächelnd: »Subito!«"
+    }
+  },
+  {
+    "id": "q48",
+    "type": "mc",
+    "topic": "Kontext",
+    "difficulty": 2,
+    "question": "Warum hatte sich Cipolla laut Erzähler als Geschicklichkeitskünstler statt als Hypnotiseur angekündigt?",
+    "options": [
+      "Um polizeiliche Bestimmungen zu umgehen, die Hypnose als Gewerbe verboten",
+      "Weil er sich für Hypnose schämte",
+      "Weil Kinder sonst keinen Eintritt gehabt hätten",
+      "Weil Signora Angiolieri es verlangte"
+    ],
+    "answerIndex": 0,
+    "answer": "Damit sollten polizeiliche Bestimmungen umgangen werden, die eine gewerbsmässige Ausübung solcher Kräfte verboten.",
+    "explanation": "Der Erzähler nennt Cipolla nun offen »den stärksten Hypnotiseur«, der ihm je begegnet sei.",
+    "citation": {
+      "page": 80,
+      "line": 4,
+      "lineEnd": 5,
+      "quote": "polizeiliche Bestimmungen umgangen werden sollen"
+    }
+  },
+  {
+    "id": "q49",
+    "type": "open",
+    "topic": "Motive",
+    "difficulty": 3,
+    "question": "Was symbolisiert die Reitpeitsche mit dem Klauengriff? Beziehe dich auf die Deutung des Erzählers.",
+    "answer": "Der Erzähler nennt die Peitsche »dies beleidigende Symbol seiner Herrschaft«, eine »pfeifende Fuchtel«, unter die Cipolla alle stellt. Sie steht für Gewalt, Unterwerfung und Demütigung, man denkt an Dompteur und Tier oder Herr und Knecht. Weil sie immer mitwirkt, lässt sie beim Publikum kein Mitleid mit dem erschöpften Cipolla aufkommen, nur »vertrotzte Unterwerfung«. Später nennt der Erzähler sie »Stab der Kirke«, was die entmenschlichende Wirkung betont.",
+    "explanation": "Die Peitsche und das Stärkungsgläschen spielen laut Erzähler die Hauptrolle bei Cipollas Triumphen.",
+    "citation": {
+      "page": 81,
+      "line": 13,
+      "lineEnd": 14,
+      "quote": "dies beleidigende Symbol seiner Herrschaft"
+    }
+  },
+  {
+    "id": "q50",
+    "type": "mc",
+    "topic": "Figuren",
+    "difficulty": 2,
+    "question": "Wie reagiert Cipolla, als das Publikum »Poveretto!« über den steif gemachten jungen Mann ruft?",
+    "options": [
+      "Er entschuldigt sich bei dem jungen Mann",
+      "Er bricht das Experiment sofort ab",
+      "Er lacht und stimmt dem Publikum zu",
+      "Er beansprucht das Mitleid für sich: »Sono io, il Poveretto!«"
+    ],
+    "answerIndex": 3,
+    "answer": "Er höhnt erbittert, das sei falsch adressiert, er selbst sei der Arme, der das alles dulde.",
+    "explanation": "Der Erzähler findet das unglaubwürdig: Man sagt nicht »Poveretto« zu jemandem, der für die Entwürdigung anderer leidet.",
+    "citation": {
+      "page": 82,
+      "line": 14,
+      "lineEnd": 16,
+      "quote": "Sono io, il Poveretto!"
+    }
+  },
+  {
+    "id": "q51",
+    "type": "mc",
+    "topic": "Handlung",
+    "difficulty": 1,
+    "question": "Was geschieht dem stattlichen Colonnello gleich nach der Pause?",
+    "options": [
+      "Er wird stocksteif gemacht",
+      "Er kann den Arm nicht mehr heben",
+      "Er schläft auf dem Stuhl ein",
+      "Er muss tanzen"
+    ],
+    "answerIndex": 1,
+    "answer": "Er kann den Arm nicht mehr heben, nur weil Cipolla es ihm ankündigt und die Peitsche pfeifen lässt.",
+    "explanation": "Der Erzähler deutet es als Verstrickung des Willens in sich selbst: Er »konnte wohl nur nicht wollen«.",
+    "citation": {
+      "page": 83,
+      "line": 19,
+      "lineEnd": 20,
+      "quote": "den Arm nicht mehr heben konnte"
+    }
+  },
+  {
+    "id": "q52",
+    "type": "mc",
+    "topic": "Figuren",
+    "difficulty": 1,
+    "question": "Welchen Namen ruft Herr Angiolieri, als seine Frau Cipolla wie eine Schlafwandlerin folgt?",
+    "options": [
+      "Eleonora",
+      "Maria",
+      "Silvestra",
+      "Sofronia"
+    ],
+    "answerIndex": 3,
+    "answer": "Er ruft »Sofronia!«, den Vornamen seiner Frau, den die Familie bis dahin nicht kannte. Sein Rufen bleibt wirkungslos.",
+    "explanation": "Cipolla hatte ihn selbst aufgefordert zu rufen, um seine Macht über »Vernunft und Tugend« zu beweisen.",
+    "citation": {
+      "page": 85,
+      "line": 2,
+      "quote": "»Sofronia!« rief Herr Angiolieri schon hier"
+    }
+  },
+  {
+    "id": "q53",
+    "type": "mc",
+    "topic": "Sprache",
+    "difficulty": 1,
+    "question": "Was bedeutet Cipollas Antwort »Anche se non vuole!« an den Herrn aus Rom?",
+    "options": [
+      "»Wer nicht will, der muss!«",
+      "»Sie wollen es doch!«",
+      "»Auch wenn Sie nicht wollen!«",
+      "»Nur wenn Sie wollen!«"
+    ],
+    "answerIndex": 2,
+    "answer": "Es heisst »Auch wenn Sie nicht wollen!«: Cipolla will den Römer gegen dessen Willen tanzen lassen.",
+    "explanation": "Der Erzähler nennt diesen Satz »fürchterlich« und hat ihn noch immer im Ohr.",
+    "citation": {
+      "page": 89,
+      "line": 11,
+      "lineEnd": 12,
+      "quote": "Ich habe dies fürchterliche »Anche se non vuole!« noch immer im Ohr"
+    }
+  },
+  {
+    "id": "q54",
+    "type": "open",
+    "topic": "Motive",
+    "difficulty": 3,
+    "question": "Warum unterliegt der Herr aus Rom im Kampf gegen Cipolla schliesslich doch? Erkläre die Deutung des Erzählers.",
+    "answer": "Der Römer leistet nur Widerstand, indem er etwas nicht will. Der Erzähler meint, vom Nichtwollen könne man seelisch nicht leben, es sei kein Lebensinhalt. Von »etwas nicht wollen« zu »überhaupt nicht mehr wollen« ist es nur ein kleiner Schritt, dann tut man das Geforderte doch. Cipolla verstärkt das mit psychologischen Zureden (»Nennst du es Freiheit?«), bis der Römer tanzt. Die Szene lässt sich als Kritik an einem bloss verneinenden Widerstand gegen den Faschismus lesen.",
+    "explanation": "Der Erzähler spricht von der »Negativität seiner Kampfposition«.",
+    "citation": {
+      "page": 91,
+      "line": 3,
+      "lineEnd": 4,
+      "quote": "Wahrscheinlich kann man vom Nichtwollen seelisch nicht leben"
+    }
+  },
+  {
+    "id": "q55",
+    "type": "mc",
+    "topic": "Motive",
+    "difficulty": 2,
+    "question": "Der Erzähler nennt die Reitpeitsche den »Stab der Kirke«. Was ruft diese Anspielung auf?",
+    "options": [
+      "Den Hirtenstab eines Bischofs",
+      "Den Stab eines Dirigenten",
+      "Die Zauberin Kirke aus der Odyssee, die Menschen in Tiere verwandelt",
+      "Das Zepter eines römischen Kaisers"
+    ],
+    "answerIndex": 2,
+    "answer": "Kirke verwandelt in der Odyssee die Gefährten des Odysseus mit ihrem Zauberstab in Schweine. Cipollas Peitsche entmenschlicht die Tanzenden ebenso zu willenlosen »Hampelmännern«.",
+    "explanation": "Nach dem Fall des Römers herrscht der »Stab der Kirke« unumschränkt.",
+    "citation": {
+      "page": 92,
+      "line": 10,
+      "lineEnd": 11,
+      "quote": "der Stab der Kirke, diese pfeifende Ledergerte mit Klauengriff"
+    }
+  },
+  {
+    "id": "q56",
+    "type": "mc",
+    "topic": "Figuren",
+    "difficulty": 1,
+    "question": "Was weiss die Familie über Marios Herkunft?",
+    "options": [
+      "Sein Vater ist ein kleiner Schreiber im Municipio, seine Mutter Wäscherin",
+      "Er ist der Sohn eines reichen Fischers",
+      "Er ist ein Neffe der Signora Angiolieri",
+      "Er stammt aus Rom und ist Student"
+    ],
+    "answerIndex": 0,
+    "answer": "Sein Vater ist ein kleiner Schreiber im Municipio, seine Mutter Wäscherin. Sonst weiss die Familie wenig über ihn.",
+    "explanation": "Der Erzähler sagt, sie hätten ihn »menschlich, ohne ihn persönlich« gekannt.",
+    "citation": {
+      "page": 96,
+      "line": 20,
+      "lineEnd": 22,
+      "quote": "daß sein Vater ein kleiner Schreiber im Municipio und seine Mutter Wäscherin war"
+    }
+  },
+  {
+    "id": "q57",
+    "type": "mc",
+    "topic": "Sprache",
+    "difficulty": 2,
+    "question": "Als was bezeichnet Cipolla Mario, nachdem dieser ihn berichtigt hat, er arbeite in einem Café?",
+    "options": [
+      "Als »Ritter der Tafelrunde«",
+      "Als »Linguisten«",
+      "Als »Türmer der Venus«",
+      "Als »Ganymed«, den Mundschenk der Götter"
+    ],
+    "answerIndex": 3,
+    "answer": "Er nennt ihn »Cameriere«, »Schenke« und »Ganymed«, nach dem schönen Mundschenk der Götter aus der antiken Mythologie.",
+    "explanation": "Die antikisierende Anrede schmeichelt Mario und verschleiert zugleich, dass Cipolla mit seiner Vermutung »danebengehauen« hatte.",
+    "citation": {
+      "page": 99,
+      "line": 15,
+      "lineEnd": 16,
+      "quote": "Ein Cameriere bist du, ein Schenke, ein Ganymed"
+    }
+  },
+  {
+    "id": "q58",
+    "type": "open",
+    "topic": "Figuren",
+    "difficulty": 3,
+    "question": "Wie bringt Cipolla Mario dazu, ihn zu küssen? Beschreibe die Manipulation Schritt für Schritt.",
+    "answer": "Cipolla schmeichelt Mario zuerst und schreibt ihm Traurigkeit und Liebeskummer zu, obwohl Mario verneint. Den Namen Silvestra liefert der Giovanotto, und Cipolla malt ihre Reize aus, um Marios Sehnsucht zu wecken. Dann versetzt er sich in Silvestras Rolle, spricht von ihrer Liebe und fragt: »Sage, wer bin ich?« Mario sieht in ihm die Geliebte und küsst ihn auf die Wange. Cipolla missbraucht also Marios intimstes Gefühl öffentlich.",
+    "explanation": "Der Erzähler nennt dies eine »Preisgabe des Innigsten«, eine öffentliche Ausstellung von Leidenschaft.",
+    "citation": {
+      "page": 104,
+      "line": 1,
+      "lineEnd": 2,
+      "quote": "Es ist Zeit, daß du mich siehst und erkennst, Mario"
+    }
+  },
+  {
+    "id": "q59",
+    "type": "mc",
+    "topic": "Handlung",
+    "difficulty": 1,
+    "question": "Was tut Mario, nachdem ihn der Peitschenknall aus der Hypnose geweckt hat?",
+    "options": [
+      "Er verlässt weinend den Saal",
+      "Er stürzt die Stufen hinunter, dreht sich um und schiesst zweimal auf Cipolla",
+      "Er fordert Cipolla zum Duell",
+      "Er schlägt Cipolla ins Gesicht"
+    ],
+    "answerIndex": 1,
+    "answer": "Er rennt die Stufen hinunter, wirft sich herum und feuert zwei Schüsse ab. Cipolla fällt tot zu Boden.",
+    "explanation": "»Zwei flach schmetternde Detonationen« unterbrechen Beifall und Gelächter.",
+    "citation": {
+      "page": 106,
+      "line": 7,
+      "lineEnd": 9,
+      "quote": "zwei flach schmetternde Detonationen durchschlugen Beifall und Gelächter"
+    }
+  },
+  {
+    "id": "q60",
+    "type": "open",
+    "topic": "Erzählweise",
+    "difficulty": 3,
+    "question": "Der Erzähler nennt das Ende »ein höchst fatales Ende« und zugleich »ein befreiendes Ende«. Wie kann man Marios Schuss deuten?",
+    "answer": "Marios Schuss ist die Antwort auf eine unerträgliche Demütigung: Er gewinnt mit dieser Tat seine Würde und seinen Willen zurück. Politisch gelesen befreit er die Menge vom Bann des Verführers, der als Verkörperung der faschistischen Stimmung erscheint. Zugleich bleibt es ein Mord, weshalb der Erzähler von einem »fatalen« Ende spricht. Die Doppelwertung zeigt die Ambivalenz: Befreiung geschieht durch Gewalt und nicht durch die Zuschauer, die passiv geblieben sind.",
+    "explanation": "Der Erzähler sagt ausdrücklich, er könne nicht umhin, das Ende auch als befreiend zu empfinden.",
+    "citation": {
+      "page": 107,
+      "line": 11,
+      "lineEnd": 14,
+      "quote": "Und ein befreiendes Ende dennoch"
+    }
+  }
+]

@@ -1,0 +1,1367 @@
+[
+  {
+    "term": "Accidente!",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[attʃiˈdɛnte]",
+    "respelling": "at-tschi-DÄN-te",
+    "meaning": "Ausruf des Schreckens: «Verflucht!», «Himmel!» – Herr Angiolieri, als seine Frau Cipolla zur Tür folgt.",
+    "first": {
+      "page": 86,
+      "line": 11,
+      "quote": "Accidente!"
+    }
+  },
+  {
+    "term": "Ah bravo!",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[a ˈbraːvo]",
+    "respelling": "a BRA-wo",
+    "meaning": "«Ah, bravo!», «Gut gemacht!» – Cipollas spöttisches Lob für den Giovanotto.",
+    "first": {
+      "page": 43,
+      "line": 16,
+      "quote": "Ah bravo!"
+    }
+  },
+  {
+    "term": "Ah, non scherzamo!",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[a non skerˈtsaːmo]",
+    "respelling": "a non sker-TSA-mo",
+    "meaning": "«Ach, lassen wir die Scherze!» (umgangssprachlich für «non scherziamo»); der Text übersetzt: «Reden wir ernst!»",
+    "first": {
+      "page": 57,
+      "line": 7,
+      "quote": "Ah, non scherzamo!"
+    }
+  },
+  {
+    "term": "ai nostri clienti",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[ai ˈnɔstri kliˈɛnti]",
+    "respelling": "ai NOS-tri kli-EN-ti",
+    "meaning": "«unserer Kundschaft» – die Glasveranda des Grand Hôtel ist den Stammgästen vorbehalten.",
+    "first": {
+      "page": 14,
+      "line": 11,
+      "quote": "ai nostri clienti",
+      "lineEnd": 12
+    }
+  },
+  {
+    "term": "Anche se non vuole!",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[ˈaŋke se non ˈvwɔːle]",
+    "respelling": "AN-ke se non WUO-le",
+    "meaning": "«Auch wenn Sie nicht wollen!» – Cipollas Antwort an den Herrn aus Rom.",
+    "first": {
+      "page": 89,
+      "line": 11,
+      "quote": "Anche se non vuole!",
+      "lineEnd": 12
+    }
+  },
+  {
+    "term": "Angiolieri",
+    "language": "italienisch",
+    "kind": "Person",
+    "ipa": "[andʒoˈljɛːri]",
+    "respelling": "an-dscho-LJÄ-ri",
+    "meaning": "Familienname der Wirtsleute der Pensione Eleonora: Signora Sofronia Angiolieri, einst Vertraute der Duse, und ihr stiller Gatte.",
+    "first": {
+      "page": 17,
+      "line": 18,
+      "quote": "Signora Angiolieri"
+    }
+  },
+  {
+    "term": "Antonio",
+    "language": "italienisch",
+    "kind": "Person",
+    "ipa": "[anˈtɔːnjo]",
+    "respelling": "an-TO-njo",
+    "meaning": "Junger Fischer aus Torre, mit dem sich die Kinder angefreundet haben.",
+    "first": {
+      "page": 36,
+      "line": 1,
+      "quote": "Antonio"
+    }
+  },
+  {
+    "term": "Aperçu",
+    "language": "französisch",
+    "kind": "Ausdruck",
+    "ipa": "[apɛʁˈsy]",
+    "respelling": "a-per-SÜ",
+    "meaning": "Geistreiche, treffende Bemerkung; knapp formulierter Gedanke.",
+    "first": {
+      "page": 29,
+      "line": 14,
+      "quote": "Aperçu"
+    }
+  },
+  {
+    "term": "Balla!",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[ˈballa]",
+    "respelling": "BAL-la",
+    "meaning": "«Tanz!» – Cipollas Befehl an den widerstrebenden Herrn aus Rom.",
+    "first": {
+      "page": 89,
+      "line": 19,
+      "quote": "Balla!"
+    }
+  },
+  {
+    "term": "Bè",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[bɛ]",
+    "respelling": "BÄ",
+    "meaning": "Interjektion «Na ja», «Tja», «Nun» (heute meist «beh» geschrieben).",
+    "first": {
+      "page": 43,
+      "line": 9,
+      "quote": "Bè"
+    }
+  },
+  {
+    "term": "Bravi",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[ˈbraːvi]",
+    "respelling": "BRA-wi",
+    "meaning": "Mehrzahl von «bravo»: Beifallsrufe für mehrere Männer.",
+    "first": {
+      "page": 53,
+      "line": 14,
+      "quote": "Bravi"
+    }
+  },
+  {
+    "term": "Buona sera!",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[ˈbwɔːna ˈseːra]",
+    "respelling": "BUO-na SE-ra",
+    "meaning": "«Guten Abend!» – der freche Zuruf des Giovanotto, mit dem der Abend beginnt.",
+    "first": {
+      "page": 42,
+      "line": 20,
+      "quote": "Buona sera!"
+    }
+  },
+  {
+    "term": "Cameriere",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[kameˈrjɛːre]",
+    "respelling": "ka-me-RJÄ-re",
+    "meaning": "Kellner – Cipolla über Marios Beruf.",
+    "first": {
+      "page": 99,
+      "line": 15,
+      "quote": "Cameriere"
+    }
+  },
+  {
+    "term": "Capannen",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[kaˈpanən]",
+    "respelling": "ka-PAN-nen",
+    "meaning": "Eingedeutschte Mehrzahl von it. «capanna» [kaˈpanna]: Strandhütten, Badekabinen.",
+    "first": {
+      "page": 10,
+      "line": 4,
+      "quote": "Capannen"
+    }
+  },
+  {
+    "term": "Casa Eleonora",
+    "language": "italienisch",
+    "kind": "Ort",
+    "ipa": "[ˈkaːza eleoˈnɔːra]",
+    "respelling": "KA-sa e-le-o-NO-ra",
+    "meaning": "«Haus Eleonora» – andere Bezeichnung für die Pensione Eleonora.",
+    "first": {
+      "page": 75,
+      "line": 13,
+      "quote": "Casa Eleonora"
+    }
+  },
+  {
+    "term": "Cavaliere",
+    "language": "italienisch",
+    "kind": "Titel",
+    "ipa": "[kavaˈljɛːre]",
+    "respelling": "ka-wa-LJÄ-re",
+    "meaning": "«Ritter» – italienischer Ehrentitel (Verdienstorden), mit dem sich Cipolla schmückt.",
+    "first": {
+      "page": 32,
+      "line": 7,
+      "quote": "Cavaliere Cipolla"
+    }
+  },
+  {
+    "term": "Chok",
+    "language": "französisch",
+    "kind": "Ausdruck",
+    "ipa": "[ʃɔk]",
+    "respelling": "SCHOCK",
+    "meaning": "Ältere Schreibung von «Schock» (frz. choc): heftige Erschütterung.",
+    "first": {
+      "page": 9,
+      "line": 4,
+      "quote": "Chok"
+    }
+  },
+  {
+    "term": "Cinema",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[ˈtʃiːnema]",
+    "respelling": "TSCHI-ne-ma",
+    "meaning": "Kino – der Saalbau diente in der Hochsaison für Filmvorführungen.",
+    "first": {
+      "page": 33,
+      "line": 15,
+      "quote": "Cinema"
+    }
+  },
+  {
+    "term": "Cipolla",
+    "language": "italienisch",
+    "kind": "Person",
+    "ipa": "[tʃiˈpɔlla]",
+    "respelling": "tschi-POL-la",
+    "meaning": "Cavaliere Cipolla, der bucklige Zauberkünstler und Hypnotiseur; der Name bedeutet «Zwiebel».",
+    "first": {
+      "page": 9,
+      "line": 5,
+      "quote": "Cipolla"
+    }
+  },
+  {
+    "term": "Coiffeur",
+    "language": "französisch",
+    "kind": "Ausdruck",
+    "ipa": "[kwaˈfœʁ]",
+    "respelling": "kwa-FÖR",
+    "meaning": "Friseur.",
+    "first": {
+      "page": 33,
+      "line": 21,
+      "quote": "Coiffeur"
+    }
+  },
+  {
+    "term": "Colonnello",
+    "language": "italienisch",
+    "kind": "Titel",
+    "ipa": "[kolonˈnɛllo]",
+    "respelling": "ko-lon-NEL-lo",
+    "meaning": "Oberst – der Herr, der auf Cipollas Befehl den Arm nicht mehr heben kann.",
+    "first": {
+      "page": 83,
+      "line": 24,
+      "quote": "Colonnello"
+    }
+  },
+  {
+    "term": "Cominciamo!",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[kominˈtʃaːmo]",
+    "respelling": "ko-min-TSCHA-mo",
+    "meaning": "«Fangen wir an!» – ungeduldiger Ruf aus dem Publikum.",
+    "first": {
+      "page": 37,
+      "line": 18,
+      "quote": "Cominciamo!"
+    }
+  },
+  {
+    "term": "Complet",
+    "language": "französisch",
+    "kind": "Ausdruck",
+    "ipa": "[kɔ̃ˈplɛ]",
+    "respelling": "kong-PLÄ",
+    "meaning": "Anzug aus gleichem Stoff (Jacke und Hose).",
+    "first": {
+      "page": 96,
+      "line": 24,
+      "quote": "Complet"
+    }
+  },
+  {
+    "term": "con questo torregiano di Venere",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[kon ˈkwesto torreˈdʒaːno di ˈvɛːnere]",
+    "respelling": "kon KWES-to tor-re-DSCHA-no di WÄ-ne-re",
+    "meaning": "«mit diesem Torre-Bewohner der Venus» – Cipollas Wortspiel: «torre» heisst Turm, daher «Türmer der Venus».",
+    "first": {
+      "page": 57,
+      "line": 3,
+      "quote": "con questo torregiano di Venere",
+      "lineEnd": 4
+    }
+  },
+  {
+    "term": "Conférencier",
+    "language": "französisch",
+    "kind": "Ausdruck",
+    "ipa": "[kɔ̃feʁɑ̃ˈsje]",
+    "respelling": "kong-fe-rang-SJE",
+    "meaning": "Ansager, Unterhalter, der plaudernd durch ein Programm führt.",
+    "first": {
+      "page": 52,
+      "line": 3,
+      "quote": "Conférencier"
+    }
+  },
+  {
+    "term": "Cornetti al burro",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[korˈnetti al ˈburro]",
+    "respelling": "kor-NET-ti al BUR-ro",
+    "meaning": "Butterhörnchen (Croissants), die am Strand verkauft werden.",
+    "first": {
+      "page": 12,
+      "line": 6,
+      "quote": "Cornetti al burro"
+    }
+  },
+  {
+    "term": "Corriere della Sera",
+    "language": "italienisch",
+    "kind": "Titel",
+    "ipa": "[korˈrjɛːre ˈdella ˈseːra]",
+    "respelling": "kor-RJÄ-re DEL-la SE-ra",
+    "meaning": "«Abendkurier» – grosse Mailänder Tageszeitung, die Cipolla ein «Phänomen» genannt haben soll.",
+    "first": {
+      "page": 47,
+      "line": 15,
+      "quote": "Corriere della Sera"
+    }
+  },
+  {
+    "term": "Crayon",
+    "language": "französisch",
+    "kind": "Ausdruck",
+    "ipa": "[kʁɛˈjɔ̃]",
+    "respelling": "krä-JONG",
+    "meaning": "Bleistift.",
+    "first": {
+      "page": 62,
+      "line": 24,
+      "quote": "Crayon"
+    }
+  },
+  {
+    "term": "Dependance",
+    "language": "französisch",
+    "kind": "Ausdruck",
+    "ipa": "[depɑ̃ˈdɑ̃s]",
+    "respelling": "de-pang-DANGS",
+    "meaning": "Nebengebäude eines Hotels (frz. dépendance).",
+    "first": {
+      "page": 17,
+      "line": 2,
+      "quote": "Dependance",
+      "lineEnd": 3
+    }
+  },
+  {
+    "term": "Diner",
+    "language": "französisch",
+    "kind": "Ausdruck",
+    "ipa": "[diˈne]",
+    "respelling": "di-NE",
+    "meaning": "(Festliches) Abendessen (frz. dîner).",
+    "first": {
+      "page": 13,
+      "line": 23,
+      "quote": "Diner"
+    }
+  },
+  {
+    "term": "donnaiuolo",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[donnaˈjwɔːlo]",
+    "respelling": "don-na-JUO-lo",
+    "meaning": "Frauenheld, Schürzenjäger – so stellt Cipolla den Giovanotto hin.",
+    "first": {
+      "page": 48,
+      "line": 5,
+      "quote": "donnaiuolo"
+    }
+  },
+  {
+    "term": "Duce",
+    "language": "italienisch",
+    "kind": "Titel",
+    "ipa": "[ˈduːtʃe]",
+    "respelling": "DU-tsche",
+    "meaning": "«Führer» – Titel des faschistischen Diktators Benito Mussolini.",
+    "first": {
+      "page": 47,
+      "line": 18,
+      "quote": "Duce"
+    }
+  },
+  {
+    "term": "Duse",
+    "language": "italienisch",
+    "kind": "Person",
+    "ipa": "[ˈduːze]",
+    "respelling": "DU-se",
+    "meaning": "Eleonora Duse (1858–1924), weltberühmte italienische Schauspielerin; Frau Angiolieri war ihre Gesellschafterin.",
+    "first": {
+      "page": 18,
+      "line": 4,
+      "quote": "Duse"
+    }
+  },
+  {
+    "term": "E servito",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[ɛ serˈviːto]",
+    "respelling": "ä ser-WI-to",
+    "meaning": "«Bitte sehr, Sie sind bedient» (korrekt: «È servito») – Cipolla mit lakaienhafter Geste.",
+    "first": {
+      "page": 67,
+      "line": 19,
+      "quote": "E servito"
+    }
+  },
+  {
+    "term": "Eleonora Duse",
+    "language": "italienisch",
+    "kind": "Person",
+    "ipa": "[eleoˈnɔːra ˈduːze]",
+    "respelling": "e-le-o-NO-ra DU-se",
+    "meaning": "Weltberühmte italienische Schauspielerin (1858–1924); Cipolla errät, dass Frau Angiolieri ihre Vertraute war.",
+    "first": {
+      "page": 75,
+      "line": 5,
+      "quote": "Eleonora Duse"
+    }
+  },
+  {
+    "term": "Esquisito",
+    "language": "italienisch",
+    "kind": "Ort",
+    "ipa": "[eskwiˈziːto]",
+    "respelling": "es-kwi-SI-to",
+    "meaning": "Name des Garten-Cafés an der Strandpromenade, in dem Mario bedient (von «squisito», köstlich).",
+    "first": {
+      "page": 12,
+      "line": 16,
+      "quote": "Esquisito"
+    }
+  },
+  {
+    "term": "Etageren",
+    "language": "französisch",
+    "kind": "Ausdruck",
+    "ipa": "[etaˈʒeːʁən]",
+    "respelling": "e-ta-SCHE-ren (weiches sch wie in «Garage»)",
+    "meaning": "Regale, Stufengestelle für Ziergegenstände (frz. étagère).",
+    "first": {
+      "page": 18,
+      "line": 12,
+      "quote": "Etageren"
+    }
+  },
+  {
+    "term": "Fiat",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[ˈfiːat]",
+    "respelling": "FI-at",
+    "meaning": "Italienische Automarke (Fabbrica Italiana Automobili Torino).",
+    "first": {
+      "page": 12,
+      "line": 25,
+      "quote": "Fiat"
+    }
+  },
+  {
+    "term": "Forzatore",
+    "language": "italienisch",
+    "kind": "Titel",
+    "ipa": "[fortsaˈtoːre]",
+    "respelling": "for-tsa-TO-re",
+    "meaning": "«Bezwinger», Kraftkünstler – einer von Cipollas Berufstiteln auf dem Plakat.",
+    "first": {
+      "page": 32,
+      "line": 11,
+      "quote": "Forzatore"
+    }
+  },
+  {
+    "term": "Frutti di mare",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[ˈfrutti di ˈmaːre]",
+    "respelling": "FRUT-ti di MA-re",
+    "meaning": "Meeresfrüchte.",
+    "first": {
+      "page": 35,
+      "line": 21,
+      "quote": "Frutti di mare"
+    }
+  },
+  {
+    "term": "Fuggièro",
+    "language": "italienisch",
+    "kind": "Person",
+    "ipa": "[fudˈdʒɛːro]",
+    "respelling": "fud-DSCHÄ-ro",
+    "meaning": "Zwölfjähriger, wehleidiger und boshafter Junge am Strand; die Mutter ruft seinen Namen mit grell offenem è.",
+    "first": {
+      "page": 22,
+      "line": 12,
+      "quote": "Fuggièro!"
+    }
+  },
+  {
+    "term": "Ganymed",
+    "language": "griechisch",
+    "kind": "Person",
+    "ipa": "[ˈɡaːnymeːt]",
+    "respelling": "GA-nü-met",
+    "meaning": "Schöner Jüngling der griechischen Sage, Mundschenk der Götter – Cipolla nennt Mario so.",
+    "first": {
+      "page": 99,
+      "line": 16,
+      "quote": "Ganymed"
+    }
+  },
+  {
+    "term": "Garderobiere",
+    "language": "französisch",
+    "kind": "Ausdruck",
+    "ipa": "[ɡardəroˈbjeːʁə]",
+    "respelling": "gar-de-ro-BJE-re",
+    "meaning": "Garderobenfrau, Ankleiderin im Theater (frz. garderobière).",
+    "first": {
+      "page": 18,
+      "line": 3,
+      "quote": "Garderobiere"
+    }
+  },
+  {
+    "term": "Gaudium",
+    "language": "lateinisch",
+    "kind": "Ausdruck",
+    "ipa": "[ˈɡaʊ̯di̯ʊm]",
+    "respelling": "GAU-di-um",
+    "meaning": "Vergnügen, Belustigung.",
+    "first": {
+      "page": 99,
+      "line": 19,
+      "quote": "Gaudium"
+    }
+  },
+  {
+    "term": "Giovanotto",
+    "language": "italienisch",
+    "kind": "Person",
+    "ipa": "[dʒovaˈnɔtto]",
+    "respelling": "dscho-wa-NOT-to",
+    "meaning": "«Junger Mann» – so nennen Cipolla und der Erzähler den frechen jungen Burschen aus Torre.",
+    "first": {
+      "page": 43,
+      "line": 17,
+      "quote": "Giovanotto"
+    }
+  },
+  {
+    "term": "Grand Hôtel",
+    "language": "französisch",
+    "kind": "Ort",
+    "ipa": "[ɡʁɑ̃.t‿o.tɛl]",
+    "respelling": "grang-to-TÄLL",
+    "meaning": "Vornehmes Hotel in Torre, das die Familie wegen des Keuchhusten-Streits verlässt.",
+    "first": {
+      "page": 11,
+      "line": 14,
+      "quote": "Grand Hôtel"
+    }
+  },
+  {
+    "term": "Guiscardo",
+    "language": "italienisch",
+    "kind": "Person",
+    "ipa": "[ɡwisˈkardo]",
+    "respelling": "gwis-KAR-do",
+    "meaning": "Junger Fischer aus Torre, mit dem sich die Kinder angefreundet haben.",
+    "first": {
+      "page": 36,
+      "line": 1,
+      "quote": "Guiscardo"
+    }
+  },
+  {
+    "term": "Ha sciolto lo scilinguagnolo",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[a ʃˈʃɔlto lo ʃʃiliŋˈɡwaɲɲolo]",
+    "respelling": "a SCHOL-to lo schi-lin-GUAN-jo-lo",
+    "meaning": "«Er hat sich das Zungenband gelöst» – er ist nicht auf den Mund gefallen.",
+    "first": {
+      "page": 43,
+      "line": 12,
+      "quote": "Ha sciolto lo scilinguagnolo",
+      "lineEnd": 13
+    }
+  },
+  {
+    "term": "Il boit beaucoup",
+    "language": "französisch",
+    "kind": "Ausdruck",
+    "ipa": "[il bwa boˈku]",
+    "respelling": "il bwa bo-KU",
+    "meaning": "«Er trinkt viel» – Bemerkung einer Dame im Publikum über Cipolla.",
+    "first": {
+      "page": 60,
+      "line": 3,
+      "quote": "Il boit beaucoup"
+    }
+  },
+  {
+    "term": "Illusionista",
+    "language": "italienisch",
+    "kind": "Titel",
+    "ipa": "[illuzjoˈnista]",
+    "respelling": "il-lu-sjo-NIS-ta",
+    "meaning": "Illusionist, Zauberkünstler – einer von Cipollas Berufstiteln.",
+    "first": {
+      "page": 32,
+      "line": 11,
+      "quote": "Illusionista"
+    }
+  },
+  {
+    "term": "Ingenium",
+    "language": "lateinisch",
+    "kind": "Ausdruck",
+    "ipa": "[ɪnˈɡeːni̯ʊm]",
+    "respelling": "in-GE-ni-um",
+    "meaning": "Begabung, Scharfsinn, Erfindungsgeist.",
+    "first": {
+      "page": 65,
+      "line": 15,
+      "quote": "Ingenium"
+    }
+  },
+  {
+    "term": "Karabiniere",
+    "language": "italienisch",
+    "kind": "Titel",
+    "ipa": "[karabiˈnjɛːre]",
+    "respelling": "ka-ra-bi-NJÄ-re",
+    "meaning": "Angehöriger der italienischen Militärpolizei (it. carabiniere); am Ende schreitet ein Karabinierepaar ein.",
+    "first": {
+      "page": 107,
+      "line": 7,
+      "quote": "Karabiniere"
+    }
+  },
+  {
+    "term": "Kirke",
+    "language": "griechisch",
+    "kind": "Person",
+    "ipa": "[ˈkɪʁkə]",
+    "respelling": "KIR-ke",
+    "meaning": "Zauberin der griechischen Sage, die mit ihrem Stab Menschen in Tiere verwandelt – Bild für Cipollas Reitpeitsche.",
+    "first": {
+      "page": 92,
+      "line": 10,
+      "quote": "Kirke"
+    }
+  },
+  {
+    "term": "Lavora bene!",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[laˈvoːra ˈbɛːne]",
+    "respelling": "la-WO-ra BÄ-ne",
+    "meaning": "«Er arbeitet gut!» – anerkennendes Urteil des Publikums.",
+    "first": {
+      "page": 68,
+      "line": 7,
+      "quote": "Lavora bene!"
+    }
+  },
+  {
+    "term": "Lire",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[ˈliːre]",
+    "respelling": "LI-re",
+    "meaning": "Mehrzahl von «Lira», der damaligen italienischen Währung; die Familie zahlt fünfzig Lire Busse.",
+    "first": {
+      "page": 29,
+      "line": 5,
+      "quote": "Lire"
+    }
+  },
+  {
+    "term": "Marina Petriera",
+    "language": "italienisch",
+    "kind": "Ort",
+    "ipa": "[maˈriːna peˈtrjɛːra]",
+    "respelling": "ma-RI-na pe-TRJÄ-ra",
+    "meaning": "(Erfundener) Badeort weiter entlang der Küste, wohin sich die Ruhe verzogen hat.",
+    "first": {
+      "page": 10,
+      "line": 21,
+      "quote": "Marina Petriera",
+      "lineEnd": 22
+    }
+  },
+  {
+    "term": "Mario",
+    "language": "italienisch",
+    "kind": "Person",
+    "ipa": "[ˈmaːrjo]",
+    "respelling": "MA-rjo",
+    "meaning": "Junger Kellner im Café Esquisito; von Cipolla gedemütigt, erschiesst er ihn am Ende.",
+    "first": {
+      "page": 12,
+      "line": 17,
+      "quote": "Mario"
+    }
+  },
+  {
+    "term": "Mme.",
+    "language": "französisch",
+    "kind": "Titel",
+    "ipa": "[maˈdam]",
+    "respelling": "ma-DAMM",
+    "meaning": "Abkürzung für «Madame» (Frau) – vor dem Namen Angiolieri.",
+    "first": {
+      "page": 19,
+      "line": 4,
+      "quote": "Mme. Angiolieri"
+    }
+  },
+  {
+    "term": "molto grave",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[ˈmolto ˈɡraːve]",
+    "respelling": "MOL-to GRA-we",
+    "meaning": "«sehr schwerwiegend» – Urteil der Behörde über das nackte Kind am Strand.",
+    "first": {
+      "page": 28,
+      "line": 24,
+      "quote": "molto grave"
+    }
+  },
+  {
+    "term": "Municipio",
+    "language": "italienisch",
+    "kind": "Ort",
+    "ipa": "[muniˈtʃiːpjo]",
+    "respelling": "mu-ni-TSCHI-pjo",
+    "meaning": "Rathaus, Gemeindeverwaltung.",
+    "first": {
+      "page": 28,
+      "line": 25,
+      "quote": "Municipio"
+    }
+  },
+  {
+    "term": "Non so scrivere",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[non sɔ ˈskriːvere]",
+    "respelling": "non so SKRI-we-re",
+    "meaning": "«Ich kann nicht schreiben» – Ausrede eines Burschen auf der Bühne.",
+    "first": {
+      "page": 53,
+      "line": 24,
+      "quote": "Non so scrivere"
+    }
+  },
+  {
+    "term": "Nossignore!",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[nossiɲˈɲoːre]",
+    "respelling": "nos-sin-NJO-re",
+    "meaning": "«Nein, mein Herr!» (zusammengezogen aus «no, signore») – Marios Antwort auf die Frage nach seinem Kummer.",
+    "first": {
+      "page": 100,
+      "line": 18,
+      "quote": "Nossignore!"
+    }
+  },
+  {
+    "term": "Ohi!",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[ˈɔːi]",
+    "respelling": "O-i",
+    "meaning": "Schmerzensruf «Au!», «Aua!».",
+    "first": {
+      "page": 23,
+      "line": 12,
+      "quote": "Ohi!"
+    }
+  },
+  {
+    "term": "Oimè!",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[oiˈmɛ]",
+    "respelling": "o-i-MÄ",
+    "meaning": "Klageruf «Weh mir!», «O weh!».",
+    "first": {
+      "page": 23,
+      "line": 12,
+      "quote": "Oimè!"
+    }
+  },
+  {
+    "term": "Palazzo",
+    "language": "italienisch",
+    "kind": "Ort",
+    "ipa": "[paˈlattso]",
+    "respelling": "pa-LAT-tso",
+    "meaning": "Palast; hier ein altes, kastellartiges Gebäude an der Hauptstrasse von Torre.",
+    "first": {
+      "page": 33,
+      "line": 18,
+      "quote": "Palazzo"
+    }
+  },
+  {
+    "term": "Parla benissimo",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[ˈparla beˈnissimo]",
+    "respelling": "PAR-la be-NIS-si-mo",
+    "meaning": "«Er spricht ausgezeichnet» – Lob des Publikums für Cipollas Redekunst.",
+    "first": {
+      "page": 48,
+      "line": 26,
+      "quote": "Parla benissimo"
+    }
+  },
+  {
+    "term": "Parterre",
+    "language": "französisch",
+    "kind": "Ausdruck",
+    "ipa": "[paʁˈtɛʁ]",
+    "respelling": "par-TÄR",
+    "meaning": "Zuschauerraum im Erdgeschoss (Sitz- und Stehplätze).",
+    "first": {
+      "page": 34,
+      "line": 20,
+      "quote": "Parterre",
+      "lineEnd": 21
+    }
+  },
+  {
+    "term": "Paura, eh?",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[paˈuːra ɛ]",
+    "respelling": "pa-U-ra, ä?",
+    "meaning": "«Angst, was?» – Cipolla zum Zwischenrufer.",
+    "first": {
+      "page": 42,
+      "line": 24,
+      "quote": "Paura, eh?"
+    }
+  },
+  {
+    "term": "Pensez très fort!",
+    "language": "französisch",
+    "kind": "Ausdruck",
+    "ipa": "[pɑ̃se tʁɛ fɔʁ]",
+    "respelling": "pang-SE trä FOR",
+    "meaning": "«Denken Sie ganz fest (daran)!» – Cipolla in schlechtem Französisch.",
+    "first": {
+      "page": 72,
+      "line": 22,
+      "quote": "Pensez très fort!",
+      "lineEnd": 23
+    }
+  },
+  {
+    "term": "Pensione Eleonora",
+    "language": "italienisch",
+    "kind": "Ort",
+    "ipa": "[penˈsjoːne eleoˈnɔːra]",
+    "respelling": "pen-SJO-ne e-le-o-NO-ra",
+    "meaning": "Pension der Signora Angiolieri (nach Eleonora Duse benannt), in die die Familie umzieht.",
+    "first": {
+      "page": 14,
+      "line": 24,
+      "quote": "Pensione Eleonora"
+    }
+  },
+  {
+    "term": "Pineta",
+    "language": "italienisch",
+    "kind": "Ort",
+    "ipa": "[piˈneːta]",
+    "respelling": "pi-NE-ta",
+    "meaning": "Pinienwald, Pinienhain oberhalb des Strandes.",
+    "first": {
+      "page": 11,
+      "line": 17,
+      "quote": "Pineta"
+    }
+  },
+  {
+    "term": "Portoclemente",
+    "language": "italienisch",
+    "kind": "Ort",
+    "ipa": "[pɔrtokleˈmɛnte]",
+    "respelling": "por-to-kle-MEN-te",
+    "meaning": "(Erfundenes) grosses, überfülltes Seebad rund fünfzehn Kilometer von Torre.",
+    "first": {
+      "page": 9,
+      "line": 21,
+      "quote": "Portoclemente",
+      "lineEnd": 22
+    }
+  },
+  {
+    "term": "Poveretto",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[poveˈretto]",
+    "respelling": "po-we-RET-to",
+    "meaning": "«Armer Kerl!», «Armer Tropf!» – Mitleidsruf des Publikums.",
+    "first": {
+      "page": 82,
+      "line": 12,
+      "quote": "Poveretto!"
+    }
+  },
+  {
+    "term": "Pranzo",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[ˈprandzo]",
+    "respelling": "PRAN-dso",
+    "meaning": "Mittagessen, Hauptmahlzeit.",
+    "first": {
+      "page": 14,
+      "line": 20,
+      "quote": "Pranzo"
+    }
+  },
+  {
+    "term": "Prestidigatore",
+    "language": "italienisch",
+    "kind": "Titel",
+    "ipa": "[prestidiɡaˈtoːre]",
+    "respelling": "pres-ti-di-ga-TO-re",
+    "meaning": "Taschenspieler, Fingerfertigkeitskünstler (übliche Form: prestidigitatore) – einer von Cipollas Titeln.",
+    "first": {
+      "page": 32,
+      "line": 12,
+      "quote": "Prestidigatore"
+    }
+  },
+  {
+    "term": "Principe",
+    "language": "italienisch",
+    "kind": "Titel",
+    "ipa": "[ˈprintʃipe]",
+    "respelling": "PRIN-tschi-pe",
+    "meaning": "Fürst – «Principe X.», römischer Hochadel im Grand Hôtel.",
+    "first": {
+      "page": 15,
+      "line": 13,
+      "quote": "Principe X."
+    }
+  },
+  {
+    "term": "Pronti!",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[ˈpronti]",
+    "respelling": "PRON-ti",
+    "meaning": "«Fertig!», «Los jetzt!» – ungeduldiger Ruf aus dem Publikum.",
+    "first": {
+      "page": 37,
+      "line": 18,
+      "quote": "Pronti!"
+    }
+  },
+  {
+    "term": "questo linguista di belle speranze",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[ˈkwesto liŋˈɡwista di ˈbɛlle speˈrantse]",
+    "respelling": "KWES-to lin-GUIS-ta di BEL-le spe-RAN-tse",
+    "meaning": "«dieser hoffnungsvolle junge Linguist» – Wortspiel mit «lingua» (Zunge), weil der Bursche die Zunge herausstrecken musste.",
+    "first": {
+      "page": 46,
+      "line": 11,
+      "quote": "questo linguista di belle speranze",
+      "lineEnd": 12
+    }
+  },
+  {
+    "term": "ragazzo mio",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[raˈɡattso ˈmiːo]",
+    "respelling": "ra-GAT-tso MI-o",
+    "meaning": "«mein Junge» – Cipollas Anrede an Mario.",
+    "first": {
+      "page": 97,
+      "line": 12,
+      "quote": "ragazzo mio"
+    }
+  },
+  {
+    "term": "Rispondi al mèno!",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[riˈspondi al ˈmɛːno]",
+    "respelling": "ri-SPON-di al MÄ-no",
+    "meaning": "«Antworte wenigstens!» (korrekt: «almeno») – Ruf der Mutter an Fuggièro, mit offenem è und «schp».",
+    "first": {
+      "page": 22,
+      "line": 18,
+      "quote": "Rispondi al mèno!",
+      "lineEnd": 19
+    }
+  },
+  {
+    "term": "Sala",
+    "language": "italienisch",
+    "kind": "Ort",
+    "ipa": "[ˈsaːla]",
+    "respelling": "SA-la",
+    "meaning": "«Saal» – die Bretterbude, in der Cipolla auftritt.",
+    "first": {
+      "page": 34,
+      "line": 1,
+      "quote": "Sala"
+    }
+  },
+  {
+    "term": "Salve!",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[ˈsalve]",
+    "respelling": "SAL-we",
+    "meaning": "«Sei gegrüsst!» (aus dem Lateinischen) – Cipolla grüsst Mario mit dem römischen (faschistischen) Gruss.",
+    "first": {
+      "page": 98,
+      "line": 1,
+      "quote": "Salve!"
+    }
+  },
+  {
+    "term": "salvietta",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[salˈvjetta]",
+    "respelling": "sal-WJET-ta",
+    "meaning": "«Serviette!» – Cipollas spöttischer Gruss an den Kellner Mario.",
+    "first": {
+      "page": 99,
+      "line": 18,
+      "quote": "salvietta!"
+    }
+  },
+  {
+    "term": "Scirocco",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[ʃiˈrɔkko]",
+    "respelling": "schi-ROK-ko",
+    "meaning": "Heisser, feuchter Südwind aus Afrika; im Text «Sciroccoschwüle».",
+    "first": {
+      "page": 31,
+      "line": 22,
+      "quote": "Sciroccoschwüle"
+    }
+  },
+  {
+    "term": "Signora",
+    "language": "italienisch",
+    "kind": "Titel",
+    "ipa": "[siɲˈɲoːra]",
+    "respelling": "sin-NJO-ra",
+    "meaning": "«Frau», höfliche Anrede für eine Dame.",
+    "first": {
+      "page": 17,
+      "line": 18,
+      "quote": "Signora"
+    }
+  },
+  {
+    "term": "Silvestra",
+    "language": "italienisch",
+    "kind": "Person",
+    "ipa": "[silˈvɛstra]",
+    "respelling": "sil-WES-tra",
+    "meaning": "Mädchen, in das Mario verliebt ist; Cipolla gibt sich als Silvestra aus.",
+    "first": {
+      "page": 101,
+      "line": 23,
+      "quote": "Silvestra!"
+    }
+  },
+  {
+    "term": "Simpatico",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[simˈpaːtiko]",
+    "respelling": "sim-PA-ti-ko",
+    "meaning": "«sympathisch», gewinnend, liebenswert – was Cipolla gerade nicht ist.",
+    "first": {
+      "page": 49,
+      "line": 26,
+      "quote": "Simpatico"
+    }
+  },
+  {
+    "term": "sistema americano, sa'",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[siˈstɛːma ameriˈkaːno sa]",
+    "respelling": "sis-TÄ-ma a-me-ri-KA-no, SA",
+    "meaning": "«amerikanisches System, weisst du» – Cipollas Wort für Arbeitsteilung zwischen Wollen und Tun.",
+    "first": {
+      "page": 44,
+      "line": 2,
+      "quote": "sistema americano, sa'"
+    }
+  },
+  {
+    "term": "Sofronia",
+    "language": "italienisch",
+    "kind": "Person",
+    "ipa": "[soˈfrɔːnja]",
+    "respelling": "so-FRO-nja",
+    "meaning": "Vorname von Frau Angiolieri; ihr Mann ruft ihn vergeblich, als sie Cipolla folgt.",
+    "first": {
+      "page": 85,
+      "line": 2,
+      "quote": "Sofronia!"
+    }
+  },
+  {
+    "term": "Soiree",
+    "language": "französisch",
+    "kind": "Ausdruck",
+    "ipa": "[swaˈʁe]",
+    "respelling": "swa-RE",
+    "meaning": "Abendveranstaltung (frz. soirée); im Text zuerst in «Taschenspielersoiree».",
+    "first": {
+      "page": 45,
+      "line": 24,
+      "quote": "soiree"
+    }
+  },
+  {
+    "term": "Sono io, il Poveretto!",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[ˈsoːno ˈiːo il poveˈretto]",
+    "respelling": "SO-no I-o, il po-we-RET-to",
+    "meaning": "«Ich bin es, der arme Kerl!» – Cipolla beansprucht das Mitleid für sich.",
+    "first": {
+      "page": 82,
+      "line": 15,
+      "quote": "Sono io, il Poveretto!"
+    }
+  },
+  {
+    "term": "Step",
+    "language": "englisch",
+    "kind": "Ausdruck",
+    "ipa": "[stɛp]",
+    "respelling": "STÄPP",
+    "meaning": "Stepptanz – den tanzt der willenlose Jüngling auf Cipollas Befehl.",
+    "first": {
+      "page": 88,
+      "line": 22,
+      "quote": "Step"
+    }
+  },
+  {
+    "term": "Subito!",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[ˈsuːbito]",
+    "respelling": "SU-bi-to",
+    "meaning": "«Sofort!» – Marios lächelnde Antwort auf die Bestellung der Kinder.",
+    "first": {
+      "page": 79,
+      "line": 11,
+      "quote": "Subito!"
+    }
+  },
+  {
+    "term": "sulla linguaccia",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[ˈsulla liŋˈɡwattʃa]",
+    "respelling": "SUL-la lin-GUAT-tscha",
+    "meaning": "«auf der üblen (belegten) Zunge» – Cipollas Verdrehung von «das Herz auf der Zunge haben».",
+    "first": {
+      "page": 56,
+      "line": 25,
+      "quote": "sulla linguaccia"
+    }
+  },
+  {
+    "term": "Tarantella",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[taranˈtɛlla]",
+    "respelling": "ta-ran-TEL-la",
+    "meaning": "Schneller süditalienischer Volkstanz.",
+    "first": {
+      "page": 92,
+      "line": 21,
+      "quote": "Tarantella"
+    }
+  },
+  {
+    "term": "Torre di Venere",
+    "language": "italienisch",
+    "kind": "Ort",
+    "ipa": "[ˈtorre di ˈvɛːnere]",
+    "respelling": "TOR-re di WÄ-ne-re",
+    "meaning": "«Turm der Venus» – erfundener Badeort am Tyrrhenischen Meer, Schauplatz der Novelle (oft kurz «Torre»).",
+    "first": {
+      "page": 9,
+      "line": 1,
+      "quote": "Torre di Venere"
+    }
+  },
+  {
+    "term": "un tratto di malinconia",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[un ˈtratto di maliŋkoˈniːa]",
+    "respelling": "un TRAT-to di ma-lin-ko-NI-a",
+    "meaning": "«ein Zug von Schwermut» – Cipolla über Marios Gesicht.",
+    "first": {
+      "page": 100,
+      "line": 15,
+      "quote": "un tratto di malinconia"
+    }
+  },
+  {
+    "term": "Una ballatina!",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[ˈuːna ballaˈtiːna]",
+    "respelling": "U-na bal-la-TI-na",
+    "meaning": "«Ein Tänzchen!» – Cipolla lockt den Herrn aus Rom.",
+    "first": {
+      "page": 91,
+      "line": 17,
+      "quote": "Una ballatina!"
+    }
+  },
+  {
+    "term": "una cioccolata e biscotti!",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[ˈuːna tʃokkoˈlaːta e bisˈkɔtti]",
+    "respelling": "U-na tschok-ko-LA-ta e bis-KOT-ti",
+    "meaning": "«Eine Schokolade und Kekse!» – Zuruf der Kinder an Mario in der Pause.",
+    "first": {
+      "page": 79,
+      "line": 10,
+      "quote": "una cioccolata e biscotti!"
+    }
+  },
+  {
+    "term": "Uno",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[ˈuːno]",
+    "respelling": "U-no",
+    "meaning": "«Eins» – Cipolla zählt, bevor der Bursche die Zunge herausstreckt.",
+    "first": {
+      "page": 44,
+      "line": 17,
+      "quote": "Uno"
+    }
+  },
+  {
+    "term": "vénération",
+    "language": "französisch",
+    "kind": "Ausdruck",
+    "ipa": "[veneʁaˈsjɔ̃]",
+    "respelling": "we-ne-ra-SJONG",
+    "meaning": "Französisch «Verehrung» – Cipolla sagt es statt des italienischen Worts, «mit einem unmöglichen Nasal».",
+    "first": {
+      "page": 73,
+      "line": 3,
+      "quote": "vénération"
+    }
+  },
+  {
+    "term": "venerazione",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[veneratˈtsjoːne]",
+    "respelling": "we-ne-rat-TSJO-ne",
+    "meaning": "«Verehrung» – das Schlusswort des Satzes, den Cipolla erraten soll.",
+    "first": {
+      "page": 73,
+      "line": 2,
+      "quote": "venerazione",
+      "lineEnd": 3
+    }
+  },
+  {
+    "term": "Villa Eleonora",
+    "language": "italienisch",
+    "kind": "Ort",
+    "ipa": "[ˈvilla eleoˈnɔːra]",
+    "respelling": "WIL-la e-le-o-NO-ra",
+    "meaning": "Andere Bezeichnung für die Pensione Eleonora der Signora Angiolieri.",
+    "first": {
+      "page": 29,
+      "line": 20,
+      "quote": "Villa Eleonora",
+      "lineEnd": 21
+    }
+  },
+  {
+    "term": "Zero!",
+    "language": "italienisch",
+    "kind": "Ausdruck",
+    "ipa": "[ˈdzɛːro]",
+    "respelling": "DSÄ-ro",
+    "meaning": "«Null!» – Zwischenruf beim Zahlenspiel.",
+    "first": {
+      "page": 62,
+      "line": 8,
+      "quote": "Zero!"
+    }
+  }
+]

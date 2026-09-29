@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Bricolage_Grotesque, Figtree, Literata } from "next/font/google";
 import { BottomNav } from "@/components/BottomNav";
 import { Sidebar } from "@/components/Sidebar";
+import { passageNav } from "@/data/content";
 import "./globals.css";
 
 const bricolage = Bricolage_Grotesque({
@@ -47,7 +48,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       </head>
       <body className="min-h-full bg-surface font-sans text-ink lg:bg-paper">
         <div className="lg:flex">
-          <Sidebar />
+          <Sidebar passages={passageNav} />
           <div className="mx-auto flex min-h-dvh w-full max-w-md flex-col bg-paper md:border-x md:border-line lg:max-w-none lg:min-w-0 lg:flex-1 lg:border-0">
             <main className="flex flex-1 flex-col">{children}</main>
             <BottomNav />

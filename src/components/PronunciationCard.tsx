@@ -1,4 +1,4 @@
-import type { Pronunciation } from "@/data/sample";
+import type { Pronunciation } from "@/data/types";
 import { MicIcon, SpeakerIcon } from "./Icons";
 
 type Props = {

@@ -1,0 +1,714 @@
+[
+  {
+    "id": "k01",
+    "topic": "Erzählweise",
+    "front": "Wie beginnt die Novelle, und aus welcher Perspektive wird erzählt?",
+    "back": "Ein Ich-Erzähler blickt auf den Aufenthalt in Torre di Venere zurück, den er als »atmosphärisch unangenehm« erinnert. Schon im ersten Absatz deutet er die Katastrophe mit Cipolla voraus.",
+    "citation": {
+      "page": 9,
+      "line": 1,
+      "lineEnd": 2,
+      "quote": "Die Erinnerung an Torre di Venere ist atmosphärisch unangenehm"
+    }
+  },
+  {
+    "id": "k02",
+    "topic": "Motive",
+    "front": "Was glauben die Kinder über das Ende des Zauberabends?",
+    "back": "Man lässt sie im »glücklichen Wahn«, alles sei Theater gewesen. Sie haben nicht verstanden, wo das Spektakel aufhörte und die Katastrophe begann.",
+    "citation": {
+      "page": 9,
+      "line": 19,
+      "lineEnd": 20,
+      "quote": "in dem glücklichen Wahn gelassen, daß alles Theater gewesen sei"
+    }
+  },
+  {
+    "id": "k03",
+    "topic": "Handlung",
+    "front": "Torre di Venere und Portoclemente",
+    "back": "Torre liegt etwa fünfzehn Kilometer vom mondänen Portoclemente am Tyrrhenischen Meer entfernt. Es ist ein Ableger dieses Grossbades, einst ein stilles Idyll, inzwischen selbst überlaufen.",
+    "citation": {
+      "page": 10,
+      "line": 15,
+      "lineEnd": 16,
+      "quote": "ist als Fremdenort ein Ableger des benachbarten Großbades"
+    }
+  },
+  {
+    "id": "k04",
+    "topic": "Figuren",
+    "front": "Wo wird Mario zum ersten Mal erwähnt?",
+    "back": "Schon bei der Beschreibung des Strandcafés ›Esquisito‹, wo Mario die Familie bediente. Der Erzähler kündigt an, gleich von ihm zu erzählen, eine frühe Vorausdeutung.",
+    "citation": {
+      "page": 12,
+      "line": 17,
+      "lineEnd": 18,
+      "quote": "wo Mario uns bediente, derselbe Mario, von dem ich dann gleich erzählen werde"
+    }
+  },
+  {
+    "id": "k05",
+    "topic": "Handlung",
+    "front": "Wie fühlt man sich als Fremder im August im Grand Hôtel?",
+    "back": "Das Hotel ist in den Händen der florentinischen und römischen Gesellschaft. Der Fremde fühlt sich isoliert, wie ein »Gast zweiten Ranges«.",
+    "citation": {
+      "page": 13,
+      "line": 19,
+      "lineEnd": 20,
+      "quote": "wie ein Gast zweiten Ranges vorkommen mag"
+    }
+  },
+  {
+    "id": "k06",
+    "topic": "Sprache",
+    "front": "»ai nostri clienti«",
+    "back": "Italienisch für »unserer Kundschaft«. Mit diesem Hinweis wird der Familie die Glasveranda verweigert, obwohl sie selbst Pensionsgäste sind.",
+    "citation": {
+      "page": 14,
+      "line": 12,
+      "lineEnd": 13,
+      "quote": "Unseren Klienten? Aber das waren wir."
+    }
+  },
+  {
+    "id": "k07",
+    "topic": "Figuren",
+    "front": "Die Fürstin (Familie des Principe X.)",
+    "back": "Eine römische Hochadlige, »große Dame und leidenschaftliche Mutter«. Sie fürchtet den abklingenden Keuchhusten der Kinder und erwirkt so den Auszug der Familie aus dem Hotel.",
+    "citation": {
+      "page": 15,
+      "line": 13,
+      "quote": "ein Principe X. mit Familie"
+    }
+  },
+  {
+    "id": "k08",
+    "topic": "Figuren",
+    "front": "Der Gehrockmanager",
+    "back": "Der Direktor des Grand Hôtel. Er gibt der Fürstin nach, bricht die Abmachung und verlangt den Umzug in die Dependance auch nach dem ärztlichen Befund; der Erzähler nennt ihn einen »servilen Gastwirt«.",
+    "citation": {
+      "page": 16,
+      "line": 5,
+      "lineEnd": 6,
+      "quote": "in der Person des bekannten Gehrockmanagers"
+    }
+  },
+  {
+    "id": "k09",
+    "topic": "Figuren",
+    "front": "Der Hotelarzt",
+    "back": "Er erklärt den Keuchhusten für abgelaufen und später Fuggièros Krebsbiss für »null und nichtig«. Er verkörpert nüchterne Sachlichkeit in einer überhitzten Umgebung.",
+    "citation": {
+      "page": 16,
+      "line": 22,
+      "lineEnd": 23,
+      "quote": "als ein loyaler und aufrechter Diener der Wissenschaft"
+    }
+  },
+  {
+    "id": "k10",
+    "topic": "Figuren",
+    "front": "Signora Angiolieri",
+    "back": "Die Besitzerin der Pensione Eleonora: zierlich, schwarzäugig, toskanischen Typs, Anfang dreissig. Früher war sie Gesellschafterin und Freundin der Schauspielerin Eleonora Duse.",
+    "citation": {
+      "page": 17,
+      "line": 20,
+      "lineEnd": 21,
+      "quote": "eine zierliche, schwarzäugige Dame, toskanischen Typs"
+    }
+  },
+  {
+    "id": "k11",
+    "topic": "Figuren",
+    "front": "Herr Angiolieri",
+    "back": "Der Gatte der Wirtin, ein sorgfältig gekleideter, stiller, kahler Mann. Im Saal ruft er vergeblich nach seiner Frau, als Cipolla sie mit sich zieht.",
+    "citation": {
+      "page": 17,
+      "line": 23,
+      "lineEnd": 24,
+      "quote": "ein sorgfältig gekleideter, stiller und kahler Mann"
+    }
+  },
+  {
+    "id": "k12",
+    "topic": "Motive",
+    "front": "Die Hitze",
+    "back": "Die »afrikanische« Hitze, eine »Schreckensherrschaft der Sonne«, spiegelt die gereizte, bedrückende Stimmung. Den Erzähler stumpft sie ab, und er empfindet mit der Zeit etwas wie Verachtung.",
+    "citation": {
+      "page": 20,
+      "line": 16,
+      "lineEnd": 17,
+      "quote": "die Schreckensherrschaft der Sonne"
+    }
+  },
+  {
+    "id": "k13",
+    "topic": "Erzählweise",
+    "front": "Wen spricht der Erzähler mit »Sie« an?",
+    "back": "Einen fiktiven Zuhörer oder Leser, dem er Einwände unterstellt (»Sie haben recht«). Der Bericht wirkt so wie ein mündliches, sich rechtfertigendes Gespräch.",
+    "citation": {
+      "page": 21,
+      "line": 12,
+      "lineEnd": 14,
+      "quote": "Sie haben recht, ohne das dumme Geschichtchen mit dem Keuchhusten"
+    }
+  },
+  {
+    "id": "k14",
+    "topic": "Sprache",
+    "front": "»Fuggièro! Rispondi al mèno!«",
+    "back": "»Fuggièro! Antworte wenigstens!«, der verzweifelte, heisere Ruf von Fuggièros Mutter, den der Erzähler zwanzig Vormittage lang hört.",
+    "citation": {
+      "page": 22,
+      "line": 18,
+      "lineEnd": 19,
+      "quote": "»Fuggièro! Rispondi al mèno!«"
+    }
+  },
+  {
+    "id": "k15",
+    "topic": "Figuren",
+    "front": "Fuggièro",
+    "back": "Ein zwölfjähriger, boshafter und wehleidiger Junge. Er zerstört Sandburgen, macht aus einem Krebsbiss ein Drama und pfeift, als die Tochter nackt zum Wasser läuft. Er gehört zu den »Hauptträgern« der gereizten Stimmung.",
+    "citation": {
+      "page": 24,
+      "line": 4,
+      "lineEnd": 5,
+      "quote": "Dabei gehörte dieser Zwölfjährige zu den Hauptträgern einer öffentlichen Stimmung"
+    }
+  },
+  {
+    "id": "k16",
+    "topic": "Kontext",
+    "front": "Die »patriotischen Kinder«",
+    "back": "Der Nationalismus des faschistischen Italiens zeigt sich schon bei den Kindern am Strand, der Erzähler nennt das »unnatürlich und niederschlagend«. Es kommt zu einem Flaggenzwist.",
+    "citation": {
+      "page": 24,
+      "line": 16,
+      "lineEnd": 17,
+      "quote": "wimmelte es am Strande von patriotischen Kindern"
+    }
+  },
+  {
+    "id": "k17",
+    "topic": "Kontext",
+    "front": "Der Flaggenzwist unter den Kindern",
+    "back": "Erwachsene mischen sich eher entscheidend als schlichtend ein und führen »Redensarten von der Größe und Würde Italiens«. Die Kinder des Erzählers ziehen sich ratlos zurück.",
+    "citation": {
+      "page": 25,
+      "line": 8,
+      "lineEnd": 9,
+      "quote": "Redensarten von der Größe und Würde Italiens"
+    }
+  },
+  {
+    "id": "k18",
+    "topic": "Handlung",
+    "front": "Wodurch verletzt die Familie »die öffentliche Moral«?",
+    "back": "Ihre achtjährige, magere Tochter läuft nackt zum Wasser, um ihr sandiges Badekleid auszuspülen. Das wird als Provokation und Beleidigung der Nation empfunden.",
+    "citation": {
+      "page": 25,
+      "line": 25,
+      "lineEnd": 26,
+      "quote": "die öffentliche Moral. Unser Töchterchen, achtjährig"
+    }
+  },
+  {
+    "id": "k19",
+    "topic": "Sprache",
+    "front": "Philippika",
+    "back": "Eine leidenschaftliche Strafrede. Der Herr im Schniepel hält sie der Familie am Strand über Schamlosigkeit und den Missbrauch der Gastfreundschaft Italiens.",
+    "citation": {
+      "page": 27,
+      "line": 4,
+      "lineEnd": 5,
+      "quote": "eine Philippika geht auf uns nieder"
+    }
+  },
+  {
+    "id": "k20",
+    "topic": "Sprache",
+    "front": "»molto grave«",
+    "back": "Italienisch für »sehr ernst«. So nennt der Behördenvertreter den Fall am Strand, und ein höherer Beamter bestätigt das Urteil. Die Strafe beträgt fünfzig Lire.",
+    "citation": {
+      "page": 28,
+      "line": 23,
+      "lineEnd": 24,
+      "quote": "er nannte den Fall sehr ernst, molto grave"
+    }
+  },
+  {
+    "id": "k21",
+    "topic": "Motive",
+    "front": "Was ändert sich mit der Nachsaison?",
+    "back": "Viele Gäste reisen ab, der Strand »entnationalisiert« sich, das Leben wird intimer und europäischer. Zugleich schlägt das Wetter in stickige Sciroccoschwüle um.",
+    "citation": {
+      "page": 31,
+      "line": 4,
+      "lineEnd": 5,
+      "quote": "Der Strand entnationalisierte sich, das Leben in Torre"
+    }
+  },
+  {
+    "id": "k22",
+    "topic": "Handlung",
+    "front": "Wie erfährt die Familie von Cipolla?",
+    "back": "Durch Plakate, die überall in Torre hängen, auch im Speisesaal der Pensione. Cipolla kündigt »außerordentliche Phänomene« an, die Kinder wollen unbedingt hin.",
+    "citation": {
+      "page": 32,
+      "line": 7,
+      "lineEnd": 8,
+      "quote": "wie er auf den Plakaten genannt war"
+    }
+  },
+  {
+    "id": "k23",
+    "topic": "Handlung",
+    "front": "Die »Sala«",
+    "back": "Ein Saalbau am Ende der Hauptstrasse zwischen den Fischerhäusern, in der Hochsaison als Kino benutzt, eigentlich eine geräumige Bretterbude.",
+    "citation": {
+      "page": 34,
+      "line": 2,
+      "lineEnd": 3,
+      "quote": "nichts Besseres eigentlich als eine allerdings geräumige Bretterbude"
+    }
+  },
+  {
+    "id": "k24",
+    "topic": "Figuren",
+    "front": "Guiscardo und Antonio",
+    "back": "Fischer aus Torre, mit denen sich die Kinder beim Netzeeinholen angefreundet haben. Im Saal stehen sie auf den Stehplätzen und grüssen die Kinder.",
+    "citation": {
+      "page": 36,
+      "line": 1,
+      "lineEnd": 2,
+      "quote": "war Guiscardo, da war Antonio, sie kannten die Namen"
+    }
+  },
+  {
+    "id": "k25",
+    "topic": "Figuren",
+    "front": "Mario zu Beginn des Abends",
+    "back": "Mario steht fast vorn, bemerkt die Familie aber nicht. Der Erzähler nennt es seine Art, oft abwesend zu sein, obwohl er Kellnerbursche ist.",
+    "citation": {
+      "page": 36,
+      "line": 9,
+      "quote": "er gibt nicht acht, das ist so seine Art"
+    }
+  },
+  {
+    "id": "k26",
+    "topic": "Sprache",
+    "front": "»Pronti!« und »Cominciamo!«",
+    "back": "»Fertig!« und »Fangen wir an!«: So ruft das ungeduldige Publikum von den Stehplätzen, weil Cipolla mit Absicht auf sich warten lässt.",
+    "citation": {
+      "page": 37,
+      "line": 17,
+      "lineEnd": 18,
+      "quote": "rief es energisch: »Pronti!« und »Cominciamo!«"
+    }
+  },
+  {
+    "id": "k27",
+    "topic": "Figuren",
+    "front": "Cipollas Äusseres beim Auftritt",
+    "back": "Ein Mann unbestimmten Alters mit zerrüttetem Gesicht, stechenden Augen und gewichstem Schnurrbärtchen. Er trägt Radmantel, weissen Schal, weisse Handschuhe und Zylinder, alles sitzt seltsam falsch.",
+    "citation": {
+      "page": 38,
+      "line": 25,
+      "lineEnd": 26,
+      "quote": "mit scharfem, zerrüttetem Gesicht, stechenden Augen"
+    }
+  },
+  {
+    "id": "k28",
+    "topic": "Motive",
+    "front": "Zigaretten und Kognak",
+    "back": "Cipolla raucht billige Regie-Zigaretten und kippt immer wieder Kognak. Beides braucht er zur »Stärkung« seiner Kräfte, es zeigt aber auch seine Erschöpfung und Abhängigkeit.",
+    "citation": {
+      "page": 41,
+      "line": 7,
+      "lineEnd": 8,
+      "quote": "die billigste Sorte der Regie"
+    }
+  },
+  {
+    "id": "k29",
+    "topic": "Handlung",
+    "front": "»Buona sera!«",
+    "back": "Mit diesem trockenen Zwischenruf eines Burschen vom Stehparterre beginnt der Konflikt. Cipolla sucht den Rufer und demütigt ihn als erstes Opfer.",
+    "citation": {
+      "page": 42,
+      "line": 19,
+      "lineEnd": 20,
+      "quote": "als eine Stimme im Stehparterre laut und trocken »Buona sera!« sagte"
+    }
+  },
+  {
+    "id": "k30",
+    "topic": "Sprache",
+    "front": "»Paura, eh?«",
+    "back": "»Angst, was?«, so provoziert Cipolla den Burschen, der »Buona sera!« gerufen hat und nicht sofort antwortet.",
+    "citation": {
+      "page": 42,
+      "line": 23,
+      "lineEnd": 24,
+      "quote": "Zuerst so keck und nun bange? Paura, eh?"
+    }
+  },
+  {
+    "id": "k31",
+    "topic": "Motive",
+    "front": "Wollen und Tun: Cipollas »Arbeitsteilung«",
+    "back": "Cipolla schlägt dem Giovanotto vor, nicht selbst für Wollen und Tun aufkommen zu müssen: Er wolle für ihn, der Bursche solle nur ausführen. Hier wird das Motiv der Willensentziehung eingeführt.",
+    "citation": {
+      "page": 44,
+      "line": 1,
+      "lineEnd": 2,
+      "quote": "Arbeitsteilung müßte da einmal eintreten"
+    }
+  },
+  {
+    "id": "k32",
+    "topic": "Sprache",
+    "front": "»Simpatico«",
+    "back": "Ein italienisches Urteil über einen Menschen, das Moral und Ästhetik verbindet. Cipolla ist trotz seiner Redegewandtheit gerade kein »Simpatico«.",
+    "citation": {
+      "page": 49,
+      "line": 25,
+      "lineEnd": 26,
+      "quote": "moralischen und ästhetischen Urteils, als »Simpatico« anspricht"
+    }
+  },
+  {
+    "id": "k33",
+    "topic": "Sprache",
+    "front": "»Non so scrivere«",
+    "back": "»Ich kann nicht schreiben«, sagt einer der beiden groben Burschen, die an der Tafel helfen sollen. Cipolla reagiert beleidigt und patriotisch empört.",
+    "citation": {
+      "page": 53,
+      "line": 24,
+      "lineEnd": 25,
+      "quote": "»Non so scrivere«, sagte er mit grober Stimme"
+    }
+  },
+  {
+    "id": "k34",
+    "topic": "Sprache",
+    "front": "»sulla linguaccia«",
+    "back": "Ein Wortspiel Cipollas: Statt vom Herzen »auf der Zunge« spricht er von der »belegten Zunge« des Giovanotto und spielt damit auf die Szene mit der herausgestreckten Zunge an.",
+    "citation": {
+      "page": 56,
+      "line": 25,
+      "lineEnd": 26,
+      "quote": "Er sagte »sulla linguaccia«, was belegte Zunge heißt"
+    }
+  },
+  {
+    "id": "k35",
+    "topic": "Sprache",
+    "front": "»Türmer der Venus«",
+    "back": "Ein spöttisches Wortspiel mit dem Ortsnamen Torre di Venere: Cipolla nennt den Giovanotto »torregiano di Venere« und stellt ihn als Frauenhelden hin.",
+    "citation": {
+      "page": 57,
+      "line": 3,
+      "lineEnd": 4,
+      "quote": "con questo torregiano di Venere, diesem Türmer der Venus"
+    }
+  },
+  {
+    "id": "k36",
+    "topic": "Handlung",
+    "front": "Die Kolik des Giovanotto",
+    "back": "Cipolla redet dem Burschen Bauchschmerzen von saurem Weisswein ein. Der junge Mann krümmt sich, bis er fast am Boden hockt.",
+    "citation": {
+      "page": 59,
+      "line": 22,
+      "lineEnd": 23,
+      "quote": "so daß er endlich, ein Bild verrenkter Pein"
+    }
+  },
+  {
+    "id": "k37",
+    "topic": "Sprache",
+    "front": "»Il boit beaucoup«",
+    "back": "»Er trinkt viel«, stellt eine Dame auf Französisch fest, nachdem Cipolla wieder Kognak gekippt hat. Der Erzähler fragt sich, ob das alles sei, was ihr auffalle.",
+    "citation": {
+      "page": 60,
+      "line": 3,
+      "lineEnd": 4,
+      "quote": "»Il boit beaucoup«, stellte hinter uns eine Dame fest"
+    }
+  },
+  {
+    "id": "k38",
+    "topic": "Handlung",
+    "front": "Das Rechenexperiment",
+    "back": "Zuschauer nennen Zahlen, die addiert werden. Die fast eine Million betragende Summe hatte Cipolla schon vorher unter ein Blatt an der Tafel geschrieben.",
+    "citation": {
+      "page": 63,
+      "line": 10,
+      "lineEnd": 11,
+      "quote": "Die richtige Summe, einer Million sich nähernd, stand schon da"
+    }
+  },
+  {
+    "id": "k39",
+    "topic": "Figuren",
+    "front": "Der junge Herr aus Rom",
+    "back": "Ein stolzer Italiener, der sich Cipollas Einfluss bewusst widersetzen will. Beim Kartenziehen und später beim Tanzen unterliegt er.",
+    "citation": {
+      "page": 66,
+      "line": 21,
+      "quote": "mit stolz geschnittenem Gesicht, Italiener"
+    }
+  },
+  {
+    "id": "k40",
+    "topic": "Handlung",
+    "front": "Wie endet der erste Widerstand des Römers beim Kartenexperiment?",
+    "back": "Er zieht genau die Karte, die Cipolla vorher gewählt hatte, und setzt sich zornig. Der Saal applaudiert.",
+    "citation": {
+      "page": 67,
+      "line": 24,
+      "quote": "Der Freiheitskämpfer setzte sich zornig"
+    }
+  },
+  {
+    "id": "k41",
+    "topic": "Motive",
+    "front": "Rollentausch beim Gedankenlesen",
+    "back": "Nun gehorcht Cipolla dem stummen Willen des Publikums und findet versteckte Gegenstände. Er betont, Gehorchen und Befehlen liefen auf eins hinaus.",
+    "citation": {
+      "page": 70,
+      "line": 18,
+      "quote": "Die Rollen schienen vertauscht"
+    }
+  },
+  {
+    "id": "k42",
+    "topic": "Kontext",
+    "front": "»Befehlen und Gehorchen, sie bildeten zusammen nur ein Prinzip«",
+    "back": "So erklärt Cipolla sein Gedankenlesen. Er vergleicht das mit der Einheit von Volk und Führer und bezieht sich damit auf die faschistische Führerideologie.",
+    "citation": {
+      "page": 71,
+      "line": 6,
+      "lineEnd": 7,
+      "quote": "Befehlen und Gehorchen, sie bildeten zusammen nur ein Prinzip"
+    }
+  },
+  {
+    "id": "k43",
+    "topic": "Sprache",
+    "front": "»Pensez très fort!«",
+    "back": "»Denken Sie ganz fest!«, ruft Cipolla in schlechtem Französisch, als er vor Signora Angiolieri kniet und den vereinbarten Satz erraten muss.",
+    "citation": {
+      "page": 72,
+      "line": 22,
+      "lineEnd": 24,
+      "quote": "»Pensez très fort!« rief er auf einmal in schlechtem Französisch"
+    }
+  },
+  {
+    "id": "k44",
+    "topic": "Erzählweise",
+    "front": "Hält der Erzähler Cipollas Fähigkeiten für Betrug?",
+    "back": "Er deutet zwar an, Cipolla könnte sich vorher erkundigt haben, verwirft aber jeden rationalistischen Verdacht: Die Fähigkeiten seien echt, sie wurden ihm schliesslich »zum Verhängnis«.",
+    "citation": {
+      "page": 75,
+      "line": 17,
+      "lineEnd": 19,
+      "quote": "Fähigkeiten, die ihm vor unseren Augen zum Verhängnis wurden"
+    }
+  },
+  {
+    "id": "k45",
+    "topic": "Handlung",
+    "front": "Was tun die Kinder in der Pause?",
+    "back": "Sie schlafen auf den Knien der Eltern ein. Geweckt, flehen sie so sehr ums Bleiben, dass die Eltern nachgeben.",
+    "citation": {
+      "page": 76,
+      "line": 9,
+      "lineEnd": 10,
+      "quote": "Sie schliefen auf unseren Knien"
+    }
+  },
+  {
+    "id": "k46",
+    "topic": "Erzählweise",
+    "front": "»B sagen, nachdem wir A gesagt«",
+    "back": "Eine der Erklärungen, die der Erzähler für das Bleiben erwägt und selbst »ungenügend« findet: Wer die Kinder schon hergebracht hat, meint bleiben zu müssen.",
+    "citation": {
+      "page": 77,
+      "line": 9,
+      "lineEnd": 10,
+      "quote": "Glaubten wir B sagen zu müssen, nachdem wir A gesagt"
+    }
+  },
+  {
+    "id": "k47",
+    "topic": "Figuren",
+    "front": "Marios Lächeln in der Pause",
+    "back": "Mario antwortet den Kindern lächelnd »Subito!«. Der Erzähler sagt, man habe Gründe bekommen, dieses melancholische Lächeln im Gedächtnis zu bewahren, eine Vorausdeutung.",
+    "citation": {
+      "page": 79,
+      "line": 12,
+      "lineEnd": 13,
+      "quote": "dies freundliche und etwas zerstreut-melancholische Lächeln"
+    }
+  },
+  {
+    "id": "k48",
+    "topic": "Figuren",
+    "front": "Was ist Cipolla in Wahrheit?",
+    "back": "Der stärkste Hypnotiseur, den der Erzähler je erlebt hat. Als Zauberkünstler hatte er sich nur angekündigt, um das Polizeiverbot gewerbsmässiger Hypnose zu umgehen.",
+    "citation": {
+      "page": 79,
+      "line": 24,
+      "lineEnd": 26,
+      "quote": "der stärkste Hypnotiseur, der mir in meinem Leben vorgekommen"
+    }
+  },
+  {
+    "id": "k49",
+    "topic": "Handlung",
+    "front": "Der kataleptische junge Mann",
+    "back": "Cipolla macht einen jungen Mann brettsteif, legt ihn zwischen zwei Stühle und setzt sich auf ihn. Als das Publikum »Poveretto!« ruft, nimmt Cipolla das Mitleid für sich in Anspruch.",
+    "citation": {
+      "page": 82,
+      "line": 7,
+      "lineEnd": 8,
+      "quote": "Der Anblick des Unholds im Salonrock"
+    }
+  },
+  {
+    "id": "k50",
+    "topic": "Handlung",
+    "front": "Die ältere Dame auf dem Strohstuhl",
+    "back": "Cipolla wiegt eine schlafende ältere Dame in die Illusion einer Reise nach Indien, von der sie in Trance erzählt. Den Erzähler beeindruckt das weniger als kleine Szenen wie die mit dem Colonnello.",
+    "citation": {
+      "page": 83,
+      "line": 13,
+      "lineEnd": 14,
+      "quote": "sie mache eine Reise nach Indien"
+    }
+  },
+  {
+    "id": "k51",
+    "topic": "Handlung",
+    "front": "Frau Angiolieri unter Cipollas Bann",
+    "back": "Mit Peitschenpfiff und winkenden Fingern zieht Cipolla sie wie eine Mondsüchtige von ihrem Platz den Mittelgang entlang zur Tür. Das Rufen ihres Mannes bleibt wirkungslos.",
+    "citation": {
+      "page": 86,
+      "line": 9,
+      "lineEnd": 10,
+      "quote": "so bis ans Ende der Welt gefolgt wäre"
+    }
+  },
+  {
+    "id": "k52",
+    "topic": "Figuren",
+    "front": "»daß es Mächte gibt, die stärker als Vernunft und Tugend«",
+    "back": "Das sagt Cipolla höhnisch zu Herrn Angiolieri, als er ihm die Frau »unversehrt« zurückgibt: Er solle seinen Schatz besser hüten.",
+    "citation": {
+      "page": 86,
+      "line": 25,
+      "lineEnd": 26,
+      "quote": "daß es Mächte gibt, die stärker als Vernunft und Tugend"
+    }
+  },
+  {
+    "id": "k53",
+    "topic": "Handlung",
+    "front": "Die Tanzorgie",
+    "back": "Cipolla beginnt mit dem willfährigen jungen Mann, der schon steif gemacht wurde, und lässt ihn »Step« tanzen. Bald tanzen acht bis zehn Personen auf der Bühne.",
+    "citation": {
+      "page": 88,
+      "line": 22,
+      "lineEnd": 23,
+      "quote": "dort oben »Step« tanzen zu lassen"
+    }
+  },
+  {
+    "id": "k54",
+    "topic": "Sprache",
+    "front": "»Balla!«",
+    "back": "»Tanze!«, Cipollas Befehl an den Herrn aus Rom, begleitet von Peitschenpfiffen. Nach langem Widerstand tanzt der Römer schliesslich doch.",
+    "citation": {
+      "page": 89,
+      "line": 19,
+      "quote": "indem er befahl: »Balla!« Sein Gegner"
+    }
+  },
+  {
+    "id": "k55",
+    "topic": "Figuren",
+    "front": "Marios Aussehen",
+    "back": "Ein untersetzter Zwanzigjähriger mit kurzem Haar, niedriger Stirn, schweren Lidern und dicken Lippen, dazu auffallend feine Hände. Sein Gesicht zeigt eine »primitive Schwermut«.",
+    "citation": {
+      "page": 95,
+      "line": 7,
+      "lineEnd": 8,
+      "quote": "einen untersetzt gebauten Jungen von zwanzig Jahren"
+    }
+  },
+  {
+    "id": "k56",
+    "topic": "Sprache",
+    "front": "»un tratto di malinconia«",
+    "back": "»Ein Zug von Schwermut«: Das glaubt Cipolla in Marios Gesicht zu lesen, bevor er ihm Liebeskummer unterstellt.",
+    "citation": {
+      "page": 100,
+      "line": 14,
+      "lineEnd": 15,
+      "quote": "einen Zug von Verschlossenheit, von Traurigkeit, un tratto di malinconia"
+    }
+  },
+  {
+    "id": "k57",
+    "topic": "Figuren",
+    "front": "Silvestra",
+    "back": "Das Mädchen, das Mario liebt. Ihren Namen ruft höhnisch der Giovanotto, der offenbar ihr Liebhaber ist. Cipolla gibt sich dann als Silvestra aus.",
+    "citation": {
+      "page": 101,
+      "line": 23,
+      "quote": "»Silvestra!« rief der Giovanotto von unten."
+    }
+  },
+  {
+    "id": "k58",
+    "topic": "Handlung",
+    "front": "Der Kuss",
+    "back": "In der Illusion, Silvestra vor sich zu haben, küsst Mario Cipolla auf die Wange. Der Saal wird still, und der Moment ist grotesk und ungeheuerlich.",
+    "citation": {
+      "page": 104,
+      "line": 26,
+      "quote": "Und Mario neigte sich und küßte ihn."
+    }
+  },
+  {
+    "id": "k59",
+    "topic": "Motive",
+    "front": "Das Lachen des Giovanotto nach dem Kuss",
+    "back": "Es klingt brutal und schadenfroh, nach Ansicht des Erzählers aber auch mit einem Unterton von Erbarmen, wie ein Nachklang des Rufes »Poveretto!«.",
+    "citation": {
+      "page": 105,
+      "line": 14,
+      "lineEnd": 15,
+      "quote": "nicht ohne einen Unterton und Einschlag von Erbarmen"
+    }
+  },
+  {
+    "id": "k60",
+    "topic": "Handlung",
+    "front": "Cipollas Tod",
+    "back": "Von Marios zwei Schüssen getroffen, springt Cipolla auf, sackt zusammen und fällt vom Stuhl. Am Boden bleibt er reglos liegen, nur noch ein Bündel Kleider und schiefer Knochen.",
+    "citation": {
+      "page": 106,
+      "line": 19,
+      "lineEnd": 21,
+      "quote": "ein durcheinandergeworfenes Bündel Kleider und schiefer Knochen"
+    }
+  }
+]
