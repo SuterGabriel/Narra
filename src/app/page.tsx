@@ -3,8 +3,8 @@ import { DailyCard } from "@/components/DailyQuiz";
 import { CompassIcon } from "@/components/Icons";
 import { NextStep } from "@/components/PlanView";
 import { ThemeToggle } from "@/components/ThemeToggle";
-import { TourButton } from "@/components/Tour";
-import { plan } from "@/data/content";
+import { AdjustPlanButton } from "@/components/Onboarding";
+import { planInput } from "@/data/content";
 
 /**
  * Start page: one next step, the daily quiz, and the overview for newcomers. Everything else
@@ -23,7 +23,7 @@ export default function StartPage() {
         </div>
       </header>
 
-      <NextStep plan={plan} />
+      <NextStep input={planInput} />
 
       <div className="grid gap-3 sm:grid-cols-2">
         <DailyCard />
@@ -38,7 +38,7 @@ export default function StartPage() {
         </Link>
       </div>
 
-      <TourButton className="self-start text-sm text-muted underline-offset-2 hover:text-ink hover:underline" />
+      <AdjustPlanButton className="self-start text-sm text-muted underline-offset-2 hover:text-ink hover:underline" />
     </div>
   );
 }

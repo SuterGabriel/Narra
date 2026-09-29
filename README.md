@@ -8,20 +8,21 @@ A study companion for Thomas Mann's novella *Mario und der Zauberer*. Students g
 
 ![Key passage with line numbers, pronunciation card and "why this matters" panel](docs/screenshots/reader-desktop.png)
 
-| Questions with verified citations | Start page with study plan | Quote duel |
-|---|---|---|
-| ![Answer with linked citations; a citation that does not exist in the book is struck through](docs/screenshots/questions-desktop-dark.png) | ![Today's reading, daily quiz streak](docs/screenshots/home-mobile.png) | ![Who says it, which scene](docs/screenshots/quote-duel-mobile-dark.png) |
+| Questions with verified citations | Start page: one next step | Onboarding result | Quote duel |
+|---|---|---|---|
+| ![Answer with linked citations; a citation that does not exist in the book is struck through](docs/screenshots/questions-desktop-dark.png) | ![The next task of today's plan, daily quiz streak](docs/screenshots/home-mobile.png) | ![Your plan: 14 days, 16 minutes a day, start with the overview](docs/screenshots/onboarding-mobile-dark.png) | ![Who says it, which scene](docs/screenshots/quote-duel-mobile-dark.png) |
 
 *The questions screenshot uses the local mock mode; the struck-through "S. 200" shows how invented references are caught.*
 
 ## What it does
 
+- **Onboarding like a learning app, not a product tour:** three questions (exam date, minutes per day, read the book yet?) build a personal 7-, 14- or 21-day plan, and one button leads straight into the first real task. Features are explained with one-time hints where they are first met.
 - **Overview:** plot in eight steps, 13 characters, 9 motifs, the narrator and the historical context, each claim linked to the text.
 - **Key passages:** 18 exam-relevant passages (about 25 pages, 45 minutes), each with a reading focus and a note on why it matters.
 - **The whole book:** page-by-page reader with the original line breaks, full-text search that works across hyphenated line breaks, and deep links like `/buch/42?z=17-19` that highlight the cited lines.
 - **Questions:** ask anything about the book. The answer streams in, every "S. 42, Z. 17" becomes a link, and the cited lines open next to the answer.
 - **Practice:** 60 quiz questions (also per reading section), 60 flashcards with Anki export, a daily five-question quiz with a streak, a timed mock exam with results by topic, a quote duel, and a pronunciation list of 104 Italian and French names and phrases.
-- **Study plan:** 21 days, a small piece each day, progress saved in the browser.
+- **Study plan:** a small piece each day, fitted to the exam date; the start page always shows exactly one next step. Progress stays in the browser.
 
 ## Architecture
 
@@ -74,7 +75,7 @@ Only the novella text is in the repo; it has been in the public domain since 202
 
 | Check | Result |
 |---|---|
-| Unit tests (`npm test`) | 23 tests: citation matching, search, page seams, daily quiz, study plan, book integrity |
+| Unit tests (`npm test`) | 29 tests: citation matching, search, page seams, daily quiz, personal study plans, book integrity |
 | Citation check | 413 of 413 citations match the text |
 | Lighthouse, mobile | Performance 95-99, Accessibility 100, Best Practices 100, SEO 100 on the main pages |
 | Security headers | CSP without third-party origins, X-Frame-Options, Referrer-Policy, Permissions-Policy, HSTS |

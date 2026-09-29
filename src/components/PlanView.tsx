@@ -1,17 +1,37 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
-import type { PlanDay, PlanTask } from "@/lib/plan";
+import { useEffect, useMemo, useState } from "react";
+import type { PlanInput } from "@/data/content";
+import { buildPlan, type PlanDay, type PlanTask } from "@/lib/plan";
+import { getProfile, ONBOARDING_EVENT, planOptions, type Profile } from "@/lib/profile";
 import {
   currentPlanDay,
   getDoneDays,
   getVisitedTasks,
   markTaskVisited,
-  restartPlan,
   setDayDone,
 } from "@/lib/progress";
 import { ArrowUpRightIcon, CheckIcon } from "./Icons";
+
+export const PROFILE_EVENT = "narra:profile-changed";
+
+/** The personal plan: built from the onboarding answers, rebuilt when they change. */
+export function usePlan(input: PlanInput) {
+  const [profile, setProfile] = useState<Profile | null>(null);
+  useEffect(() => {
+    // The profile lives in localStorage, which only exists after mount.
+    const load = () => setProfile(getProfile());
+    load();
+    window.addEventListener(PROFILE_EVENT, load);
+    return () => window.removeEventListener(PROFILE_EVENT, load);
+  }, []);
+  const plan = useMemo(
+    () => buildPlan(input.firstPage, input.lastPage, input.passages, planOptions(profile)),
+    [input, profile],
+  );
+  return { plan, profile };
+}
 
 function useProgress() {
   const [today, setToday] = useState<number | null>(null);
@@ -32,12 +52,7 @@ function useProgress() {
     markTaskVisited(href);
     setVisited(getVisitedTasks());
   };
-  const restart = () => {
-    restartPlan();
-    setToday(currentPlanDay());
-    setDone([]);
-  };
-  return { today, done, visited, toggle, visit, restart };
+  return { today, done, visited, toggle, visit };
 }
 
 function DayTasks({ day, visited, onVisit }: { day: PlanDay; visited: string[]; onVisit: (href: string) => void }) {
@@ -75,9 +90,10 @@ const verb = (t: PlanTask) => (t.href.startsWith("/ueben") ? "Üben" : t.href.st
  * The start page's one clear call to action: the next unfinished task of today's plan,
  * with what comes after it in one line.
  */
-export function NextStep({ plan }: { plan: PlanDay[] }) {
+export function NextStep({ input }: { input: PlanInput }) {
+  const { plan } = usePlan(input);
   const { today, done, visited, toggle, visit } = useProgress();
-  const day = plan.find((d) => d.day === (today ?? 1)) ?? plan[0];
+  const day = plan.find((d) => d.day === Math.min(today ?? 1, plan.length)) ?? plan[0];
   const required = day.tasks.filter((t) => !t.optional);
   const next = required.find((t) => !visited.includes(t.href));
   const after = required.filter((t) => t !== next && !visited.includes(t.href));
@@ -146,8 +162,9 @@ export function NextStep({ plan }: { plan: PlanDay[] }) {
 }
 
 /** The full 21-day list. */
-export function PlanList({ plan }: { plan: PlanDay[] }) {
-  const { today, done, visited, toggle, visit, restart } = useProgress();
+export function PlanList({ input }: { input: PlanInput }) {
+  const { plan } = usePlan(input);
+  const { today, done, visited, toggle, visit } = useProgress();
 
   return (
     <div className="flex flex-col gap-4">
@@ -185,8 +202,12 @@ export function PlanList({ plan }: { plan: PlanDay[] }) {
           );
         })}
       </ol>
-      <button type="button" onClick={restart} className="h-11 self-start rounded-xl border border-line-strong px-4 text-sm">
-        Plan ab heute neu starten
+      <button
+        type="button"
+        onClick={() => window.dispatchEvent(new Event(ONBOARDING_EVENT))}
+        className="h-11 self-start rounded-xl border border-line-strong px-4 text-sm"
+      >
+        Plan anpassen
       </button>
     </div>
   );

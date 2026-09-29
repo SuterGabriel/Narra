@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { isNavActive, navItems } from "./BottomNav";
 import { ThemeToggle } from "./ThemeToggle";
-import { TourButton } from "./Tour";
+import { AdjustPlanButton } from "./Onboarding";
 
 type PassageNav = { id: number; slug: string; title: string };
 
@@ -67,7 +67,7 @@ export function Sidebar({ passages }: { passages: PassageNav[] }) {
       )}
 
       <div className="flex items-center justify-between gap-2 px-1">
-        <TourButton className="text-sm font-medium text-accent-soft-ink hover:underline" />
+        <AdjustPlanButton className="text-sm font-medium text-accent-soft-ink hover:underline" />
         <ThemeToggle />
       </div>
     </aside>

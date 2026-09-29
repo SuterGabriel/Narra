@@ -6,6 +6,7 @@ import type { BookPage } from "@/lib/citations";
 import type { Pronunciation } from "@/data/types";
 import { BackIcon, MicIcon, PlayIcon, SearchIcon } from "./Icons";
 import { PronunciationCard } from "./PronunciationCard";
+import { Hint } from "./Hint";
 import { ReaderLine, termIndex } from "./ReaderLine";
 
 export type LineRange = { page: number; from: number; to: number };
@@ -115,6 +116,9 @@ export function Reader({
               <h1 className="font-display text-2xl leading-tight font-bold tracking-tight lg:text-[38px]">{title}</h1>
               {subtitle && <p className="text-[13px] text-muted lg:text-[15px]">{subtitle}</p>}
             </header>
+            <Hint id="reader-names" className="lg:ml-[52px]">
+              Die Zeilennummern entsprechen deinem Buch. Unterstrichene Namen kannst du antippen, um zu sehen, wie man sie ausspricht.
+            </Hint>
             <div className="flex flex-col pb-6">
               {pages.map((p, i) => (
                 <section key={p.page} aria-label={`Seite ${p.page}`} className="flex flex-col">

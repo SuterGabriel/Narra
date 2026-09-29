@@ -133,39 +133,31 @@ body {
   color: var(--reading);
 }
 
-/* ---- Guided tour animations (disabled for people who prefer reduced motion) ---- */
-@keyframes tour-in {
-  from { opacity: 0; transform: translateY(8px) scale(0.98); }
+/* ---- Onboarding and hint animations (none for people who prefer reduced motion) ---- */
+@keyframes anim-in {
+  from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: none; }
 }
-@keyframes tour-fade {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-@keyframes tour-line {
+@keyframes anim-line {
   from { transform: scaleX(0); }
   to { transform: scaleX(1); }
 }
-@keyframes tour-hit {
+@keyframes anim-hit {
   0%, 45% { background: var(--line-strong); }
   60%, 100% { background: var(--accent); }
 }
-@keyframes tour-chip {
+@keyframes anim-chip {
   0%, 55% { opacity: 0; transform: translateY(10px) scale(0.8); }
   75% { opacity: 1; transform: translateY(-3px) scale(1.05); }
   100% { opacity: 1; transform: none; }
 }
 
-.tour-card { animation: tour-in 280ms ease-out both; }
-.tour-card.top-1\/2 { animation-name: tour-fade; }
-.tour-fade { animation: tour-fade 200ms ease-out both; }
-.tour-spot { transition: top 420ms cubic-bezier(0.2, 0.8, 0.2, 1), left 420ms cubic-bezier(0.2, 0.8, 0.2, 1), width 420ms cubic-bezier(0.2, 0.8, 0.2, 1), height 420ms cubic-bezier(0.2, 0.8, 0.2, 1); }
-.tour-line { transform-origin: left; animation: tour-line 380ms ease-out both; }
-.tour-hit { animation: tour-line 380ms ease-out both, tour-hit 1.6s ease-in-out 0.4s both; }
-.tour-chip { animation: tour-chip 1.8s ease-out 0.3s both; }
+.anim-in { animation: anim-in 320ms ease-out both; }
+.anim-line { transform-origin: left; animation: anim-line 380ms ease-out both; }
+.anim-hit { animation: anim-line 380ms ease-out both, anim-hit 1.6s ease-in-out 0.4s both; }
+.anim-chip { animation: anim-chip 1.8s ease-out 0.3s both; }
 
 @media (prefers-reduced-motion: reduce) {
-  .tour-card, .tour-fade, .tour-line, .tour-hit, .tour-chip { animation: none; }
-  .tour-hit { background: var(--accent); }
-  .tour-spot { transition: none; }
+  .anim-in, .anim-line, .anim-hit, .anim-chip { animation: none; }
+  .anim-hit { background: var(--accent); }
 }

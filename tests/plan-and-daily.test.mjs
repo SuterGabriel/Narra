@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { describe, it } from "node:test";
 import { pickDaily, previousDate, shuffle, zurichDate } from "../src/lib/daily.ts";
-import { buildPlan } from "../src/lib/plan.ts";
+import { averageMinutes, buildPlan } from "../src/lib/plan.ts";
 
 const passages = JSON.parse(readFileSync(new URL("../src/data/content/passages.json", import.meta.url), "utf8"));
 
@@ -45,5 +45,35 @@ describe("study plan", () => {
   it("assigns every key passage to exactly one day", () => {
     const hrefs = plan.flatMap((d) => d.tasks.map((t) => t.href)).filter((h) => h.startsWith("/lesen/"));
     assert.deepEqual([...hrefs].sort(), passages.map((p) => `/lesen/${p.slug}`).sort());
+  });
+});
+
+describe("personal plan from onboarding answers", () => {
+  for (const days of [7, 14, 21]) {
+    it(`fits the book into ${days} days and still covers every page and passage`, () => {
+      const plan = buildPlan(9, 107, passages, { days });
+      assert.equal(plan.length, days);
+      const reading = plan.filter((d) => d.kind === "read");
+      assert.equal(reading[0].pages.from, 9);
+      assert.equal(reading.at(-1).pages.to, 107);
+      const hrefs = plan.flatMap((d) => d.tasks.map((t) => t.href)).filter((h) => h.startsWith("/lesen/"));
+      assert.deepEqual([...hrefs].sort(), passages.map((p) => `/lesen/${p.slug}`).sort());
+      assert.ok(plan.some((d) => d.tasks.some((t) => t.href === "/ueben/pruefung")), "has a mock exam");
+    });
+  }
+
+  it("starts newcomers with the overview", () => {
+    const plan = buildPlan(9, 107, passages, { days: 21, read: "no" });
+    assert.equal(plan[0].tasks[0].href, "/ueberblick");
+  });
+
+  it("starts readers of the book with a quiz and no optional full reading", () => {
+    const plan = buildPlan(9, 107, passages, { days: 14, read: "yes" });
+    assert.ok(plan[0].tasks[0].href.startsWith("/ueben/quiz"));
+    assert.ok(plan.every((d) => d.kind !== "read" || d.tasks.every((t) => !t.optional)));
+  });
+
+  it("a shorter plan means more minutes per day", () => {
+    assert.ok(averageMinutes(buildPlan(9, 107, passages, { days: 7 })) > averageMinutes(buildPlan(9, 107, passages, { days: 21 })));
   });
 });

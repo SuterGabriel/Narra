@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import { citationHref, findCitations, formatCitation, type Citation } from "@/lib/citations";
+import { Hint } from "./Hint";
 import { MicIcon } from "./Icons";
 
 type CheckedCitation = Citation & { valid?: boolean };
@@ -214,6 +215,11 @@ export function AskChat() {
               </div>
             ))}
 
+            {turns.length === 0 && (
+              <Hint id="ask-citations">
+                Narra antwortet nur aus dem Buch. Jede Antwort enthält Stellen wie «S. 42, Z. 17». Tipp darauf, um sie im Text zu sehen.
+              </Hint>
+            )}
             {turns.length === 0 && (
               <div className="flex flex-wrap gap-2">
                 {suggestions.map((s) => (

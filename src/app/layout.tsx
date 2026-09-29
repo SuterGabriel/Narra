@@ -2,8 +2,8 @@ import type { Metadata, Viewport } from "next";
 import { Bricolage_Grotesque, DM_Serif_Display, Figtree, Geist, Literata, Newsreader } from "next/font/google";
 import { BottomNav } from "@/components/BottomNav";
 import { Sidebar } from "@/components/Sidebar";
-import { Tour } from "@/components/Tour";
-import { passageNav } from "@/data/content";
+import { Onboarding } from "@/components/Onboarding";
+import { passageNav, planInput } from "@/data/content";
 import { SITE_URL } from "@/lib/site";
 import "./globals.css";
 
@@ -85,7 +85,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             <BottomNav />
           </div>
         </div>
-        <Tour />
+        <Onboarding input={planInput} />
       </body>
     </html>
   );

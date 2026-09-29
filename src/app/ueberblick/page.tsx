@@ -1,4 +1,5 @@
 import { Cite } from "@/components/Cite";
+import { Hint } from "@/components/Hint";
 import { overview } from "@/data/content";
 import type { Citation } from "@/data/types";
 
@@ -27,6 +28,9 @@ export default function OverviewPage() {
       <header className="flex flex-col gap-2">
         <h1 className="font-display text-3xl font-bold tracking-tight">Schnellüberblick</h1>
         <p className="text-sm text-muted">Das Buch in 20 Minuten. Jeder Beleg öffnet die Originalstelle.</p>
+        <Hint id="overview-cites" className="mt-2">
+          Die Kästchen mit «S. … Z. …» sind Belege. Tipp darauf, und die Stelle öffnet sich im Buch, markiert.
+        </Hint>
         <nav aria-label="Abschnitte" className="flex flex-wrap gap-2 pt-2">
           {[
             ["#handlung", "Handlung"],

@@ -45,6 +45,7 @@ export function currentPlanDay(): number {
 export function restartPlan() {
   write(KEY.start, todayIso());
   write(KEY.doneDays, []);
+  write("narra:plan-visited", []);
 }
 
 export const getDoneDays = () => read<number[]>(KEY.doneDays, []);
