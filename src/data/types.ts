@@ -57,3 +57,14 @@ export type Flashcard = {
   back: string;
   citation: Citation;
 };
+
+export type Quote = {
+  id: string;
+  quote: string;
+  speaker: string;
+  speakerOptions: string[];
+  passageId: number | null;
+  scene: string;
+  hint: string;
+  citation: Citation;
+};

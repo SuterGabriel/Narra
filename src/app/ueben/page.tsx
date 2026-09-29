@@ -1,11 +1,12 @@
 import Link from "next/link";
-import { flashcards, pronunciations, quiz } from "@/data/content";
+import { flashcards, pronunciations, quiz, quotes } from "@/data/content";
 
 export const metadata = { title: "Üben · Narra" };
 
 export default function PracticePage() {
   const modes = [
     { href: "/ueben/taeglich", title: "Mini-Quiz des Tages", text: "Fünf Fragen, jeden Tag neu. Baue deinen Streak auf." },
+    { href: "/ueben/zitate", title: "Zitat-Duell", text: `Wer sagt das? Welche Szene? ${quotes.length} Zitate, Bonus für Serien.` },
     { href: "/ueben/pruefung", title: "Probeprüfung", text: "20 Fragen über das ganze Buch in 25 Minuten, Auswertung nach Themen." },
     {
       href: "/ueben/quiz",

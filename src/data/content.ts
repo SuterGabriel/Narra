@@ -6,7 +6,8 @@ import overviewData from "./content/overview.json";
 import passagesData from "./content/passages.json";
 import pronunciationsData from "./content/pronunciations.json";
 import quizData from "./content/quiz.json";
-import type { Flashcard, Overview, Passage, Pronunciation, QuizItem } from "./types";
+import quotesData from "./content/quotes.json";
+import type { Flashcard, Overview, Passage, Pronunciation, QuizItem, Quote } from "./types";
 
 /**
  * Study content generated once from the verified text. Every citation in these files is checked
@@ -18,6 +19,7 @@ export const overview = overviewData as Overview;
 export const quiz = quizData as QuizItem[];
 export const flashcards = flashcardsData as Flashcard[];
 export const pronunciations = pronunciationsData as Pronunciation[];
+export const quotes = quotesData as Quote[];
 
 export const getPassage = (slug: string) => passages.find((p) => p.slug === slug);
 

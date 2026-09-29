@@ -1,0 +1,804 @@
+[
+  {
+    "id": "z01",
+    "quote": "Die Erinnerung an Torre di Venere ist atmosphärisch unangenehm. Ärger, Gereiztheit, Überspannung lagen von Anfang an in der Luft",
+    "speaker": "der Erzähler",
+    "speakerOptions": [
+      "Cipolla",
+      "der Erzähler",
+      "Signora Angiolieri",
+      "der Herr aus Rom"
+    ],
+    "passageId": 1,
+    "scene": "Der erste Satz der Novelle",
+    "hint": "Mit diesem Satz beginnt die Novelle: Der Erzähler blickt zurück und setzt sofort den Ton einer bedrückenden, gereizten Stimmung.",
+    "citation": {
+      "page": 9,
+      "line": 1,
+      "lineEnd": 4,
+      "quote": "Die Erinnerung an Torre di Venere ist atmosphärisch unangenehm. Ärger, Gereiztheit, Überspannung lagen von Anfang an in der Luft"
+    }
+  },
+  {
+    "id": "z02",
+    "quote": "jener anheimelnde Aufenthalt »unserer Kundschaft«, »ai nostri clienti«, vorbehalten sei",
+    "speaker": "das Hotelpersonal",
+    "speakerOptions": [
+      "das Hotelpersonal",
+      "die Fürstin",
+      "Signora Angiolieri",
+      "der Herr im Schniepel"
+    ],
+    "passageId": 2,
+    "scene": "Die Glasveranda im Grand Hôtel",
+    "hint": "Am ersten Abend erfährt die deutsche Familie, dass die Glasveranda den vornehmen italienischen Stammgästen vorbehalten sei – die erste Kränkung in Torre.",
+    "citation": {
+      "page": 14,
+      "line": 10,
+      "lineEnd": 12,
+      "quote": "jener anheimelnde Aufenthalt »unserer Kundschaft«, »ai nostri clienti«, vorbehalten sei"
+    }
+  },
+  {
+    "id": "z03",
+    "quote": "unter diesen Verhältnissen sei unsere Umquartierung in den Nebenbau des Hotels eine unumgängliche Notwendigkeit",
+    "speaker": "der Hotelmanager",
+    "speakerOptions": [
+      "der Hotelarzt",
+      "die Fürstin",
+      "der Hotelmanager",
+      "der Herr im Schniepel"
+    ],
+    "passageId": 3,
+    "scene": "Der Keuchhusten im Grand Hôtel",
+    "hint": "Der «Gehrockmanager» gibt der römischen Fürstin nach und will die Familie wegen des abgeklungenen Keuchhustens in die Dependance verlegen.",
+    "citation": {
+      "page": 16,
+      "line": 7,
+      "lineEnd": 10,
+      "quote": "unter diesen Verhältnissen sei unsere Umquartierung in den Nebenbau des Hotels eine unumgängliche Notwendigkeit"
+    }
+  },
+  {
+    "id": "z04",
+    "quote": "daß ich schwer über solche Zusammenstöße mit dem landläufig Menschlichen, dem naiven Mißbrauch der Macht, der Ungerechtigkeit, der kriecherischen Korruption hinwegkomme",
+    "speaker": "der Erzähler",
+    "speakerOptions": [
+      "der Herr aus Rom",
+      "der Erzähler",
+      "Mario",
+      "Cipolla"
+    ],
+    "passageId": null,
+    "scene": "Unbehagen nach dem Umzug",
+    "hint": "Nach dem Umzug in die Pensione Eleonora gesteht der Erzähler, wie sehr ihn Machtmissbrauch und Unterwürfigkeit beschäftigen.",
+    "citation": {
+      "page": 19,
+      "line": 18,
+      "lineEnd": 22,
+      "quote": "daß ich schwer über solche Zusammenstöße mit dem landläufig Menschlichen, dem naiven Mißbrauch der Macht, der Ungerechtigkeit, der kriecherischen Korruption hinwegkomme"
+    }
+  },
+  {
+    "id": "z05",
+    "quote": "Auf irgendeine Weise fehlte es der Atmosphäre an Unschuld, an Zwanglosigkeit",
+    "speaker": "der Erzähler",
+    "speakerOptions": [
+      "Signora Angiolieri",
+      "der Erzähler",
+      "der Giovanotto",
+      "Cipolla"
+    ],
+    "passageId": 4,
+    "scene": "Die Stimmung am Strand",
+    "hint": "Der Erzähler beschreibt die schwer greifbare, politisch aufgeladene Stimmung am Strand, in der «die Idee der Nation im Spiele war».",
+    "citation": {
+      "page": 24,
+      "line": 8,
+      "lineEnd": 9,
+      "quote": "Auf irgendeine Weise fehlte es der Atmosphäre an Unschuld, an Zwanglosigkeit"
+    }
+  },
+  {
+    "id": "z06",
+    "quote": "Diese Leute, erklärten wir ihnen, machten soeben etwas durch, so einen Zustand, etwas wie eine Krankheit",
+    "speaker": "der Erzähler",
+    "speakerOptions": [
+      "Signora Angiolieri",
+      "der Hotelarzt",
+      "der Erzähler",
+      "Cipolla"
+    ],
+    "passageId": 4,
+    "scene": "Die Eltern erklären den Nationalismus",
+    "hint": "Die Eltern erklären ihren enttäuschten Kindern den aufkommenden Nationalismus als eine Art Krankheit – eine Schlüsselstelle für die politische Deutung.",
+    "citation": {
+      "page": 25,
+      "line": 13,
+      "lineEnd": 16,
+      "quote": "Diese Leute, erklärten wir ihnen, machten soeben etwas durch, so einen Zustand, etwas wie eine Krankheit"
+    }
+  },
+  {
+    "id": "z07",
+    "quote": "daß unser Verstoß gegen die nationale Würde nicht ungeahndet bleibe",
+    "speaker": "der Herr im Schniepel",
+    "speakerOptions": [
+      "der Hotelmanager",
+      "der Herr im Schniepel",
+      "Cipolla",
+      "der Giovanotto"
+    ],
+    "passageId": 5,
+    "scene": "Der Strandskandal",
+    "hint": "Weil die achtjährige Tochter kurz nackt ins Meer lief, hält ein Herr mit Melonenhut eine Strafrede über die Ehre Italiens; die Familie muss fünfzig Lire Busse zahlen.",
+    "citation": {
+      "page": 27,
+      "line": 17,
+      "lineEnd": 18,
+      "quote": "daß unser Verstoß gegen die nationale Würde nicht ungeahndet bleibe"
+    }
+  },
+  {
+    "id": "z08",
+    "quote": "Nein doch, man soll bleiben, soll sich das ansehen und sich dem aussetzen, gerade dabei gibt es vielleicht etwas zu lernen.",
+    "speaker": "der Erzähler",
+    "speakerOptions": [
+      "Cipolla",
+      "Signora Angiolieri",
+      "der Herr aus Rom",
+      "der Erzähler"
+    ],
+    "passageId": 6,
+    "scene": "Warum die Familie nicht abreiste",
+    "hint": "Der Erzähler begründet, warum die Familie trotz aller Kränkungen in Torre blieb – und erlebt als «schrecklichen Lohn» Cipolla.",
+    "citation": {
+      "page": 30,
+      "line": 17,
+      "lineEnd": 20,
+      "quote": "Nein doch, man soll bleiben, soll sich das ansehen und sich dem aussetzen, gerade dabei gibt es vielleicht etwas zu lernen."
+    }
+  },
+  {
+    "id": "z09",
+    "quote": "Vielleicht mehr als irgendwo ist in Italien das achtzehnte Jahrhundert noch lebendig und mit ihm der Typus des Scharlatans",
+    "speaker": "der Erzähler",
+    "speakerOptions": [
+      "der Erzähler",
+      "Cipolla",
+      "der Giovanotto",
+      "Signora Angiolieri"
+    ],
+    "passageId": 7,
+    "scene": "Cipollas erster Auftritt",
+    "hint": "Bei Cipollas Auftritt in Radmantel und Zylinder ordnet der Erzähler ihn dem Typus des marktschreierischen Scharlatans zu.",
+    "citation": {
+      "page": 39,
+      "line": 11,
+      "lineEnd": 14,
+      "quote": "Vielleicht mehr als irgendwo ist in Italien das achtzehnte Jahrhundert noch lebendig und mit ihm der Typus des Scharlatans"
+    }
+  },
+  {
+    "id": "z10",
+    "quote": "über dem linken Unterarm an einer Lederschlinge unpassenderweise eine Reitpeitsche mit klauenartiger silberner Krücke hing",
+    "speaker": "der Erzähler",
+    "speakerOptions": [
+      "Cipolla",
+      "der Erzähler",
+      "der Herr aus Rom",
+      "Mario"
+    ],
+    "passageId": null,
+    "scene": "Die Reitpeitsche wird sichtbar",
+    "hint": "Als Cipolla den Mantel zurückrafft, wird zum ersten Mal die Reitpeitsche sichtbar – das Symbol seiner Herrschaft über das Publikum.",
+    "citation": {
+      "page": 42,
+      "line": 1,
+      "lineEnd": 3,
+      "quote": "über dem linken Unterarm an einer Lederschlinge unpassenderweise eine Reitpeitsche mit klauenartiger silberner Krücke hing"
+    }
+  },
+  {
+    "id": "z11",
+    "quote": "Wer hat soeben gesprochen? Nun? Zuerst so keck und nun bange? Paura, eh?",
+    "speaker": "Cipolla",
+    "speakerOptions": [
+      "der Giovanotto",
+      "Cipolla",
+      "der Herr aus Rom",
+      "Herr Angiolieri"
+    ],
+    "passageId": null,
+    "scene": "Das «Buona sera!» aus dem Publikum",
+    "hint": "Ein junger Mann ruft Cipolla ein freches «Buona sera!» zu; Cipolla reagiert sofort gereizt und fordert ihn heraus.",
+    "citation": {
+      "page": 42,
+      "line": 22,
+      "lineEnd": 24,
+      "quote": "Wer hat soeben gesprochen? Nun? Zuerst so keck und nun bange? Paura, eh?"
+    }
+  },
+  {
+    "id": "z12",
+    "quote": "Du tust, was du willst. Oder hast du schon einmal nicht getan, was du wolltest?",
+    "speaker": "Cipolla",
+    "speakerOptions": [
+      "Cipolla",
+      "der Erzähler",
+      "der Giovanotto",
+      "Mario"
+    ],
+    "passageId": 8,
+    "scene": "Der Giovanotto zeigt die Zunge",
+    "hint": "Cipolla verspottet den Giovanotto und bringt ihn dann dazu, dem Publikum gegen seinen Willen die Zunge herauszustrecken.",
+    "citation": {
+      "page": 43,
+      "line": 20,
+      "lineEnd": 22,
+      "quote": "Du tust, was du willst. Oder hast du schon einmal nicht getan, was du wolltest?"
+    }
+  },
+  {
+    "id": "z13",
+    "quote": "Das will ich nicht. Es würde von wenig Erziehung zeugen.",
+    "speaker": "der Giovanotto",
+    "speakerOptions": [
+      "Mario",
+      "der Herr aus Rom",
+      "der Giovanotto",
+      "Herr Angiolieri"
+    ],
+    "passageId": 8,
+    "scene": "Der Giovanotto zeigt die Zunge",
+    "hint": "Der Giovanotto weigert sich zuerst, die Zunge zu zeigen – und tut es dann doch, als Cipolla bis drei zählt und die Peitsche pfeifen lässt.",
+    "citation": {
+      "page": 44,
+      "line": 6,
+      "lineEnd": 8,
+      "quote": "Das will ich nicht. Es würde von wenig Erziehung zeugen."
+    }
+  },
+  {
+    "id": "z14",
+    "quote": "ich habe einen kleinen Leibesschaden zu beklagen, der mich außerstand gesetzt hat, am Kriege für die Größe des Vaterlandes teilzunehmen",
+    "speaker": "Cipolla",
+    "speakerOptions": [
+      "der Herr im Schniepel",
+      "Cipolla",
+      "der Herr aus Rom",
+      "der Hotelmanager"
+    ],
+    "passageId": 9,
+    "scene": "Cipollas Selbstdarstellung",
+    "hint": "Cipolla spricht selbst von seinem Buckel und verbindet ihn sogleich mit dem Pathos des Vaterlandes.",
+    "citation": {
+      "page": 47,
+      "line": 5,
+      "lineEnd": 8,
+      "quote": "ich habe einen kleinen Leibesschaden zu beklagen, der mich außerstand gesetzt hat, am Kriege für die Größe des Vaterlandes teilzunehmen"
+    }
+  },
+  {
+    "id": "z15",
+    "quote": "Jedermann kann schreiben in Italien, dessen Größe der Unwissenheit und Finsternis keinen Raum bietet.",
+    "speaker": "Cipolla",
+    "speakerOptions": [
+      "der Giovanotto",
+      "der Herr im Schniepel",
+      "Cipolla",
+      "Signora Angiolieri"
+    ],
+    "passageId": null,
+    "scene": "Zwei Burschen können nicht schreiben",
+    "hint": "Zwei Burschen erklären, nicht schreiben zu können; Cipolla reagiert beleidigt und nationalistisch, weil das dem Ansehen Italiens schade.",
+    "citation": {
+      "page": 54,
+      "line": 21,
+      "lineEnd": 23,
+      "quote": "Jedermann kann schreiben in Italien, dessen Größe der Unwissenheit und Finsternis keinen Raum bietet."
+    }
+  },
+  {
+    "id": "z16",
+    "quote": "Genug der Witze über Torre. Wir alle sind von hier und werden nicht dulden, daß man die Stadt vor den Fremden verhöhnt.",
+    "speaker": "der Giovanotto",
+    "speakerOptions": [
+      "der Giovanotto",
+      "Mario",
+      "der Herr aus Rom",
+      "Herr Angiolieri"
+    ],
+    "passageId": null,
+    "scene": "Der Giovanotto verteidigt Torre",
+    "hint": "Der junge Mann mit der wilden Haartracht verteidigt sein Städtchen gegen Cipollas Spott – kurz bevor dieser ihm eine Kolik einredet.",
+    "citation": {
+      "page": 55,
+      "line": 16,
+      "lineEnd": 19,
+      "quote": "Genug der Witze über Torre. Wir alle sind von hier und werden nicht dulden, daß man die Stadt vor den Fremden verhöhnt."
+    }
+  },
+  {
+    "id": "z17",
+    "quote": "Jetzt hast du die Kolik, daß du dich krümmen möchtest vor Schmerzen.",
+    "speaker": "Cipolla",
+    "speakerOptions": [
+      "der Hotelarzt",
+      "Cipolla",
+      "der Erzähler",
+      "der Giovanotto"
+    ],
+    "passageId": 10,
+    "scene": "Die Kolik des Giovanotto",
+    "hint": "Cipolla redet dem streitlustigen Giovanotto Bauchschmerzen ein, bis dieser sich vor dem Publikum krümmt.",
+    "citation": {
+      "page": 58,
+      "line": 19,
+      "lineEnd": 21,
+      "quote": "Jetzt hast du die Kolik, daß du dich krümmen möchtest vor Schmerzen."
+    }
+  },
+  {
+    "id": "z18",
+    "quote": "Und doch war klar, daß dieser Bucklige nicht zauberte, wenigstens nicht im Sinne der Geschicklichkeit, und daß dies gar nichts für Kinder war.",
+    "speaker": "der Erzähler",
+    "speakerOptions": [
+      "der Erzähler",
+      "Signora Angiolieri",
+      "der Herr aus Rom",
+      "Cipolla"
+    ],
+    "passageId": null,
+    "scene": "Nach dem Zahlentrick",
+    "hint": "Nach dem Rechenkunststück erkennt der Erzähler, dass Cipolla kein Taschenspieler ist, sondern mit fremdem Willen arbeitet.",
+    "citation": {
+      "page": 63,
+      "line": 25,
+      "lineEnd": 2,
+      "pageEnd": 64,
+      "quote": "Und doch war klar, daß dieser Bucklige nicht zauberte, wenigstens nicht im Sinne der Geschicklichkeit, und daß dies gar nichts für Kinder war."
+    }
+  },
+  {
+    "id": "z19",
+    "quote": "er sei entschlossen, nach klarem Eigenwillen zu wählen und sich jeder wie immer gearteten Beeinflussung bewußt entgegenzustemmen",
+    "speaker": "der Herr aus Rom",
+    "speakerOptions": [
+      "der Giovanotto",
+      "der Herr aus Rom",
+      "Herr Angiolieri",
+      "der Erzähler"
+    ],
+    "passageId": 11,
+    "scene": "Das Kartenexperiment",
+    "hint": "Ein junger Herr aus Rom will beim Kartenziehen bewusst Widerstand leisten – und zieht trotzdem die von Cipolla bestimmte Karte.",
+    "citation": {
+      "page": 66,
+      "line": 22,
+      "lineEnd": 25,
+      "quote": "er sei entschlossen, nach klarem Eigenwillen zu wählen und sich jeder wie immer gearteten Beeinflussung bewußt entgegenzustemmen"
+    }
+  },
+  {
+    "id": "z20",
+    "quote": "Die Freiheit existiert, und auch der Wille existiert; aber die Willensfreiheit existiert nicht, denn ein Wille, der sich auf seine Freiheit richtet, stößt ins Leere.",
+    "speaker": "Cipolla",
+    "speakerOptions": [
+      "der Erzähler",
+      "der Herr aus Rom",
+      "Cipolla",
+      "Mario"
+    ],
+    "passageId": 11,
+    "scene": "Das Kartenexperiment",
+    "hint": "Mit diesem Satz über die Willensfreiheit antwortet Cipolla dem Herrn aus Rom – eine Kernstelle zum Thema Wille und Freiheit.",
+    "citation": {
+      "page": 67,
+      "line": 3,
+      "lineEnd": 7,
+      "quote": "Die Freiheit existiert, und auch der Wille existiert; aber die Willensfreiheit existiert nicht, denn ein Wille, der sich auf seine Freiheit richtet, stößt ins Leere."
+    }
+  },
+  {
+    "id": "z21",
+    "quote": "Befehlen und Gehorchen, sie bildeten zusammen nur ein Prinzip, eine unauflösliche Einheit",
+    "speaker": "Cipolla",
+    "speakerOptions": [
+      "Cipolla",
+      "der Erzähler",
+      "der Herr im Schniepel",
+      "der Hotelmanager"
+    ],
+    "passageId": 12,
+    "scene": "Cipollas Theorie vom Gehorchen",
+    "hint": "Beim Suchen versteckter Gegenstände erklärt Cipolla, Befehlen und Gehorchen seien nur zwei Seiten derselben Fähigkeit.",
+    "citation": {
+      "page": 71,
+      "line": 6,
+      "lineEnd": 8,
+      "quote": "Befehlen und Gehorchen, sie bildeten zusammen nur ein Prinzip, eine unauflösliche Einheit"
+    }
+  },
+  {
+    "id": "z22",
+    "quote": "der eine Gedanke sei in dem anderen einbegriffen, wie Volk und Führer ineinander einbegriffen seien",
+    "speaker": "Cipolla",
+    "speakerOptions": [
+      "der Herr aus Rom",
+      "Cipolla",
+      "der Giovanotto",
+      "der Erzähler"
+    ],
+    "passageId": 12,
+    "scene": "Cipollas Theorie vom Gehorchen",
+    "hint": "Der Vergleich mit «Volk und Führer» macht Cipollas Rede zur zentralen Stelle für die Deutung der Novelle als Kritik am Faschismus.",
+    "citation": {
+      "page": 71,
+      "line": 9,
+      "lineEnd": 12,
+      "quote": "der eine Gedanke sei in dem anderen einbegriffen, wie Volk und Führer ineinander einbegriffen seien"
+    }
+  },
+  {
+    "id": "z23",
+    "quote": "Sie kannten einen König... hat nicht ein König in vergangenen Tagen Ihren Lebensweg gekreuzt?",
+    "speaker": "Cipolla",
+    "speakerOptions": [
+      "Herr Angiolieri",
+      "Cipolla",
+      "der Erzähler",
+      "Mario"
+    ],
+    "passageId": null,
+    "scene": "Cipolla und Signora Angiolieri",
+    "hint": "Cipolla «errät» die Vergangenheit von Signora Angiolieri und kommt schliesslich auf ihre Freundschaft mit der Schauspielerin Eleonora Duse.",
+    "citation": {
+      "page": 74,
+      "line": 10,
+      "lineEnd": 12,
+      "quote": "Sie kannten einen König... hat nicht ein König in vergangenen Tagen Ihren Lebensweg gekreuzt?"
+    }
+  },
+  {
+    "id": "z24",
+    "quote": "Unfehlbar werden Sie mich fragen, warum wir nicht endlich weggegangen seien, – und ich muß Ihnen die Antwort schuldig bleiben.",
+    "speaker": "der Erzähler",
+    "speakerOptions": [
+      "der Erzähler",
+      "Signora Angiolieri",
+      "Herr Angiolieri",
+      "der Herr aus Rom"
+    ],
+    "passageId": null,
+    "scene": "Beginn der Pause",
+    "hint": "Zu Beginn der Pause wendet sich der Erzähler direkt an seine Zuhörer und muss eingestehen, dass er das Bleiben der Familie nicht erklären kann.",
+    "citation": {
+      "page": 75,
+      "line": 26,
+      "lineEnd": 2,
+      "pageEnd": 76,
+      "quote": "Unfehlbar werden Sie mich fragen, warum wir nicht endlich weggegangen seien, – und ich muß Ihnen die Antwort schuldig bleiben."
+    }
+  },
+  {
+    "id": "z25",
+    "quote": "Zu entschuldigen ist es nicht, daß wir blieben, und es zu erklären fast ebenso schwer.",
+    "speaker": "der Erzähler",
+    "speakerOptions": [
+      "Mario",
+      "der Erzähler",
+      "Cipolla",
+      "der Giovanotto"
+    ],
+    "passageId": 13,
+    "scene": "Die Pause",
+    "hint": "Der Erzähler sucht nach Gründen für das Bleiben – Nachgiebigkeit gegenüber den Kindern, Neugier, Faszination – und findet keinen, der genügt.",
+    "citation": {
+      "page": 77,
+      "line": 7,
+      "lineEnd": 8,
+      "quote": "Zu entschuldigen ist es nicht, daß wir blieben, und es zu erklären fast ebenso schwer."
+    }
+  },
+  {
+    "id": "z26",
+    "quote": "Dieser selbstbewußte Verwachsene war der stärkste Hypnotiseur, der mir in meinem Leben vorgekommen.",
+    "speaker": "der Erzähler",
+    "speakerOptions": [
+      "der Herr aus Rom",
+      "Signora Angiolieri",
+      "der Erzähler",
+      "der Giovanotto"
+    ],
+    "passageId": null,
+    "scene": "Beginn der zweiten Hälfte",
+    "hint": "Nach der Pause spricht der Erzähler aus, was Cipolla wirklich ist: kein Zauberkünstler, sondern ein Hypnotiseur.",
+    "citation": {
+      "page": 79,
+      "line": 23,
+      "lineEnd": 26,
+      "quote": "Dieser selbstbewußte Verwachsene war der stärkste Hypnotiseur, der mir in meinem Leben vorgekommen."
+    }
+  },
+  {
+    "id": "z27",
+    "quote": "Zwei Dinge spielten die Hauptrolle bei diesen Triumphen: das Stärkungsgläschen und die Reitpeitsche mit dem Klauengriff.",
+    "speaker": "der Erzähler",
+    "speakerOptions": [
+      "der Erzähler",
+      "Cipolla",
+      "Herr Angiolieri",
+      "der Giovanotto"
+    ],
+    "passageId": 14,
+    "scene": "Kognak und Reitpeitsche",
+    "hint": "Der Kognak hält Cipolla bei Kräften, die Peitsche ist das «beleidigende Symbol seiner Herrschaft».",
+    "citation": {
+      "page": 81,
+      "line": 6,
+      "lineEnd": 8,
+      "quote": "Zwei Dinge spielten die Hauptrolle bei diesen Triumphen: das Stärkungsgläschen und die Reitpeitsche mit dem Klauengriff."
+    }
+  },
+  {
+    "id": "z28",
+    "quote": "Das ist falsch adressiert, meine Herrschaften! Sono io, il Poveretto! Ich bin es, der das alles duldet.",
+    "speaker": "Cipolla",
+    "speakerOptions": [
+      "der Giovanotto",
+      "Mario",
+      "Cipolla",
+      "Herr Angiolieri"
+    ],
+    "passageId": 14,
+    "scene": "Der Junge als Sitzbank",
+    "hint": "Als das Publikum den steifen jungen Mann bemitleidet, auf dem Cipolla sitzt, beansprucht Cipolla das Mitleid für sich selbst.",
+    "citation": {
+      "page": 82,
+      "line": 14,
+      "lineEnd": 16,
+      "quote": "Das ist falsch adressiert, meine Herrschaften! Sono io, il Poveretto! Ich bin es, der das alles duldet."
+    }
+  },
+  {
+    "id": "z29",
+    "quote": "Er schien zu wollen und nicht zu können; aber er konnte wohl nur nicht wollen",
+    "speaker": "der Erzähler",
+    "speakerOptions": [
+      "Cipolla",
+      "der Erzähler",
+      "der Herr aus Rom",
+      "Signora Angiolieri"
+    ],
+    "passageId": null,
+    "scene": "Der Colonnello und sein Arm",
+    "hint": "Ein stattlicher Offizier kann seinen Arm nicht mehr heben, nur weil Cipolla es ankündigt – für den Erzähler eine Verstrickung des Willens in sich selbst.",
+    "citation": {
+      "page": 84,
+      "line": 1,
+      "lineEnd": 3,
+      "quote": "Er schien zu wollen und nicht zu können; aber er konnte wohl nur nicht wollen"
+    }
+  },
+  {
+    "id": "z30",
+    "quote": "Der Eindruck war zwingend und vollkommen, daß sie ihrem Meister, wenn dieser gewollt hätte, so bis ans Ende der Welt gefolgt wäre.",
+    "speaker": "der Erzähler",
+    "speakerOptions": [
+      "Herr Angiolieri",
+      "Cipolla",
+      "der Erzähler",
+      "Mario"
+    ],
+    "passageId": null,
+    "scene": "Signora Angiolieri folgt Cipolla",
+    "hint": "Trotz der «Sofronia!»-Rufe ihres Mannes schwebt Signora Angiolieri wie mondsüchtig hinter Cipolla her bis zur Saaltür.",
+    "citation": {
+      "page": 86,
+      "line": 7,
+      "lineEnd": 10,
+      "quote": "Der Eindruck war zwingend und vollkommen, daß sie ihrem Meister, wenn dieser gewollt hätte, so bis ans Ende der Welt gefolgt wäre."
+    }
+  },
+  {
+    "id": "z31",
+    "quote": "ob der Cavaliere sich anheischig mache, ihn tanzen zu lehren, auch wenn er nicht wolle",
+    "speaker": "der Herr aus Rom",
+    "speakerOptions": [
+      "der Giovanotto",
+      "Mario",
+      "der Herr aus Rom",
+      "der Erzähler"
+    ],
+    "passageId": null,
+    "scene": "Die Tanzorgie beginnt",
+    "hint": "Der Herr aus Rom fordert Cipolla erneut heraus; Cipollas Antwort «Anche se non vuole!» bleibt dem Erzähler unvergesslich.",
+    "citation": {
+      "page": 89,
+      "line": 6,
+      "lineEnd": 8,
+      "quote": "ob der Cavaliere sich anheischig mache, ihn tanzen zu lehren, auch wenn er nicht wolle"
+    }
+  },
+  {
+    "id": "z32",
+    "quote": "Wahrscheinlich kann man vom Nichtwollen seelisch nicht leben; eine Sache nicht tun wollen, das ist auf die Dauer kein Lebensinhalt",
+    "speaker": "der Erzähler",
+    "speakerOptions": [
+      "Cipolla",
+      "der Herr aus Rom",
+      "der Erzähler",
+      "Mario"
+    ],
+    "passageId": 15,
+    "scene": "Der Herr aus Rom tanzt",
+    "hint": "Der Erzähler erklärt, warum der Widerstand des Römers zusammenbricht: Wer nur «nicht will», hat dem fremden Willen nichts Positives entgegenzusetzen.",
+    "citation": {
+      "page": 91,
+      "line": 3,
+      "lineEnd": 6,
+      "quote": "Wahrscheinlich kann man vom Nichtwollen seelisch nicht leben; eine Sache nicht tun wollen, das ist auf die Dauer kein Lebensinhalt"
+    }
+  },
+  {
+    "id": "z33",
+    "quote": "Wer wird sich so quälen? Nennst du es Freiheit – diese Vergewaltigung deiner selbst?",
+    "speaker": "Cipolla",
+    "speakerOptions": [
+      "Cipolla",
+      "der Erzähler",
+      "der Giovanotto",
+      "Herr Angiolieri"
+    ],
+    "passageId": 15,
+    "scene": "Der Herr aus Rom tanzt",
+    "hint": "Mit Peitschenhieben und psychologischen Zureden bringt Cipolla den widerstrebenden Römer schliesslich zum Tanzen.",
+    "citation": {
+      "page": 91,
+      "line": 15,
+      "lineEnd": 17,
+      "quote": "Wer wird sich so quälen? Nennst du es Freiheit – diese Vergewaltigung deiner selbst?"
+    }
+  },
+  {
+    "id": "z34",
+    "quote": "diese Wulstlippen verliehen zusammen mit der Verhülltheit der Augen seiner Physiognomie eine primitive Schwermut",
+    "speaker": "der Erzähler",
+    "speakerOptions": [
+      "Cipolla",
+      "der Giovanotto",
+      "Signora Angiolieri",
+      "der Erzähler"
+    ],
+    "passageId": 16,
+    "scene": "Mario wird auf die Bühne gerufen",
+    "hint": "Als Mario Cipollas Fingerzeichen gehorcht, beschreibt der Erzähler den Kellnerburschen vom «Esquisito» genau und mit Sympathie.",
+    "citation": {
+      "page": 95,
+      "line": 18,
+      "lineEnd": 21,
+      "quote": "diese Wulstlippen verliehen zusammen mit der Verhülltheit der Augen seiner Physiognomie eine primitive Schwermut"
+    }
+  },
+  {
+    "id": "z35",
+    "quote": "habe ich einige Zeit in Portoclemente in einem Laden bedient",
+    "speaker": "Mario",
+    "speakerOptions": [
+      "der Giovanotto",
+      "Mario",
+      "Cipolla",
+      "der Herr aus Rom"
+    ],
+    "passageId": null,
+    "scene": "Cipolla befragt Mario",
+    "hint": "Cipolla hat sich mit dem «Kurzwarengeschäft» geirrt, und Mario hilft der Wahrsagung selbst nach, indem er von seiner früheren Stelle erzählt.",
+    "citation": {
+      "page": 99,
+      "line": 22,
+      "lineEnd": 23,
+      "quote": "habe ich einige Zeit in Portoclemente in einem Laden bedient"
+    }
+  },
+  {
+    "id": "z36",
+    "quote": "Es ist Zeit, daß du mich siehst und erkennst, Mario, mein Liebster... Sage, wer bin ich?",
+    "speaker": "Cipolla",
+    "speakerOptions": [
+      "Silvestra",
+      "Cipolla",
+      "der Giovanotto",
+      "Signora Angiolieri"
+    ],
+    "passageId": 17,
+    "scene": "Cipolla gibt sich als Silvestra aus",
+    "hint": "Cipolla spielt Mario vor, er sei dessen geliebte Silvestra – der Höhepunkt der Demütigung, die zum Kuss führt.",
+    "citation": {
+      "page": 104,
+      "line": 1,
+      "lineEnd": 3,
+      "quote": "Es ist Zeit, daß du mich siehst und erkennst, Mario, mein Liebster... Sage, wer bin ich?"
+    }
+  },
+  {
+    "id": "z37",
+    "quote": "Und Mario neigte sich und küßte ihn.",
+    "speaker": "der Erzähler",
+    "speakerOptions": [
+      "der Erzähler",
+      "Cipolla",
+      "der Giovanotto",
+      "Signora Angiolieri"
+    ],
+    "passageId": 17,
+    "scene": "Der Kuss",
+    "hint": "In der Illusion, Silvestra vor sich zu haben, küsst Mario Cipolla auf die Wange – der Giovanotto lacht, der Saal wird still.",
+    "citation": {
+      "page": 104,
+      "line": 26,
+      "lineEnd": 26,
+      "quote": "Und Mario neigte sich und küßte ihn."
+    }
+  },
+  {
+    "id": "z38",
+    "quote": "zwei flach schmetternde Detonationen durchschlugen Beifall und Gelächter",
+    "speaker": "der Erzähler",
+    "speakerOptions": [
+      "Mario",
+      "der Erzähler",
+      "der Giovanotto",
+      "Cipolla"
+    ],
+    "passageId": 18,
+    "scene": "Marios Schüsse",
+    "hint": "Aus seiner Trance geweckt, stürzt Mario die Stufen hinunter und schiesst zweimal auf Cipolla, der tot zusammenbricht.",
+    "citation": {
+      "page": 106,
+      "line": 7,
+      "lineEnd": 9,
+      "quote": "zwei flach schmetternde Detonationen durchschlugen Beifall und Gelächter"
+    }
+  },
+  {
+    "id": "z39",
+    "quote": "»War das auch das Ende?« wollten sie wissen, um sicher zu gehen",
+    "speaker": "die Kinder des Erzählers",
+    "speakerOptions": [
+      "Signora Angiolieri",
+      "die Kinder des Erzählers",
+      "Herr Angiolieri",
+      "der Giovanotto"
+    ],
+    "passageId": 18,
+    "scene": "Das Ende des Abends",
+    "hint": "Beim Verlassen des Saals fragen die Kinder, ob das zur Vorstellung gehörte – wie im ersten Absatz angekündigt, halten sie alles für Theater.",
+    "citation": {
+      "page": 107,
+      "line": 8,
+      "lineEnd": 10,
+      "quote": "»War das auch das Ende?« wollten sie wissen, um sicher zu gehen"
+    }
+  },
+  {
+    "id": "z40",
+    "quote": "Ein Ende mit Schrecken, ein höchst fatales Ende. Und ein befreiendes Ende dennoch",
+    "speaker": "der Erzähler",
+    "speakerOptions": [
+      "der Erzähler",
+      "Mario",
+      "Signora Angiolieri",
+      "Cipolla"
+    ],
+    "passageId": 18,
+    "scene": "Der letzte Satz der Novelle",
+    "hint": "Im Schlusssatz greift der Erzähler das «Ende mit Schrecken» vom Anfang auf und nennt es zugleich befreiend.",
+    "citation": {
+      "page": 107,
+      "line": 11,
+      "lineEnd": 13,
+      "quote": "Ein Ende mit Schrecken, ein höchst fatales Ende. Und ein befreiendes Ende dennoch"
+    }
+  }
+]
