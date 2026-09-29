@@ -42,3 +42,6 @@ next-env.d.ts
 
 # allow committed env template
 !.env.example
+
+# scanned book (Fischer edition, not public domain as a whole) — never commit
+/scans/
