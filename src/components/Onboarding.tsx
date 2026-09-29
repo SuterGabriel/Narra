@@ -131,8 +131,15 @@ export function Onboarding({ input }: { input: PlanInput }) {
   const firstTask = plan[0].tasks.find((t) => !t.optional);
 
   return (
-    <div className="onboarding-gate fixed inset-0 z-50 flex-col bg-paper" role="dialog" aria-modal="true" aria-labelledby="ob-title">
-      <div className="mx-auto flex w-full max-w-md flex-1 flex-col px-6 pt-5 pb-8">
+    <div className="onboarding-gate fixed inset-0 z-50 flex-col overflow-y-auto bg-paper" role="dialog" aria-modal="true" aria-labelledby="ob-title">
+      <div className="flex min-h-full flex-1">
+      {/* Desktop: the book page stays on the left as a calm anchor through every step. */}
+      <aside aria-hidden="true" className="hidden w-1/2 flex-col justify-between bg-surface p-12 lg:flex">
+        <p className="font-display text-3xl">Narra</p>
+        <WelcomeArt large />
+        <p className="max-w-sm text-sm text-muted">Jede Aussage mit Seite und Zeile aus der Fischer-Ausgabe belegt.</p>
+      </aside>
+      <div className="mx-auto flex w-full max-w-md flex-1 flex-col px-6 pt-5 pb-8 lg:justify-center lg:py-12">
         {/* Top bar: back and progress through the three questions */}
         <div className="flex h-11 items-center gap-3">
           {step >= 1 && step <= 4 ? (
@@ -156,10 +163,12 @@ export function Onboarding({ input }: { input: PlanInput }) {
           )}
         </div>
 
-        <div ref={panelRef} key={step} tabIndex={-1} className="anim-in flex flex-1 flex-col justify-center gap-8 py-8 outline-none">
+        <div ref={panelRef} key={step} tabIndex={-1} className="anim-in flex flex-1 flex-col justify-center gap-8 py-8 outline-none lg:flex-none">
           {step === 0 && (
             <>
-              <WelcomeArt />
+              <div className="lg:hidden">
+                <WelcomeArt />
+              </div>
               <div className="flex flex-col gap-3">
                 <h1 id="ob-title" className="font-display text-4xl leading-tight">
                   Bereit für die Prüfung zu «Mario und der Zauberer».
@@ -256,6 +265,7 @@ export function Onboarding({ input }: { input: PlanInput }) {
           </div>
         )}
       </div>
+      </div>
     </div>
   );
 }
@@ -269,21 +279,30 @@ const OPENING = [
   "diesem schrecklichen Cipolla, in dessen Person",
 ];
 
-function WelcomeArt() {
+function WelcomeArt({ large = false }: { large?: boolean }) {
   return (
-    <div aria-hidden="true" className="relative flex items-center justify-center overflow-hidden rounded-3xl bg-surface px-4 py-6">
-      <div className="flex w-full max-w-[330px] flex-col gap-1.5 rounded-xl border border-line-strong bg-paper px-4 py-4 shadow-sm">
-        <p className="mb-1 text-[10px] font-semibold tracking-[0.08em] text-faint uppercase">Seite 9</p>
-        {OPENING.map((text, i) => (
-          <p key={i} className="anim-in flex items-baseline gap-2.5" style={{ animationDelay: `${120 + i * 110}ms` }}>
-            <span className="w-3 shrink-0 text-right text-[10px] text-faint tabular-nums">{i + 1}</span>
-            <span className={`rounded px-1 font-serif text-[12.5px] leading-6 whitespace-nowrap ${i === 3 ? "anim-hit-soft" : ""}`}>{text}</span>
-          </p>
-        ))}
+    <div aria-hidden="true" className={large ? "flex justify-center" : "flex justify-center rounded-3xl bg-surface px-4 pt-6 pb-8"}>
+      {/* The chip is anchored to the page card itself, so it sits on its corner at every size. */}
+      <div className={`relative w-full ${large ? "max-w-[520px]" : "max-w-[330px]"}`}>
+        <div className={`flex flex-col gap-1.5 rounded-xl border border-line-strong bg-paper shadow-sm ${large ? "px-8 py-7" : "px-4 py-4"}`}>
+          <p className="mb-1 text-[10px] font-semibold tracking-[0.08em] text-faint uppercase">Seite 9</p>
+          {OPENING.map((text, i) => (
+            <p key={i} className="anim-in flex items-baseline gap-2.5" style={{ animationDelay: `${120 + i * 110}ms` }}>
+              <span className="w-3 shrink-0 text-right text-[10px] text-faint tabular-nums">{i + 1}</span>
+              <span className={`rounded px-1 font-serif whitespace-nowrap ${large ? "text-[19px] leading-9" : "text-[12.5px] leading-6"} ${i === 3 ? "anim-hit-soft" : ""}`}>
+                {text}
+              </span>
+            </p>
+          ))}
+        </div>
+        <span
+          className={`anim-chip absolute rounded-lg bg-accent font-semibold text-accent-ink shadow-md ${
+            large ? "-right-4 -bottom-4 px-3.5 py-1.5 text-base" : "-right-2 -bottom-3 px-2.5 py-1 text-xs"
+          }`}
+        >
+          S. 9, Z. 4
+        </span>
       </div>
-      <span className="anim-chip absolute right-5 bottom-3 rounded-lg bg-accent px-2.5 py-1 text-xs font-semibold text-accent-ink shadow-md">
-        S. 9, Z. 4
-      </span>
     </div>
   );
 }
