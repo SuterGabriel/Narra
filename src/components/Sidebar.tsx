@@ -19,7 +19,7 @@ export function Sidebar({ passages }: { passages: PassageNav[] }) {
   const isActive = (href: string) => (href === "/" ? pathname === "/" : pathname.startsWith(href));
 
   return (
-    <aside className="sticky top-0 hidden h-dvh w-[248px] shrink-0 flex-col gap-6 border-r border-line bg-surface px-4 pt-7 pb-5 lg:flex">
+    <aside className="sticky top-0 hidden h-dvh w-[248px] shrink-0 flex-col gap-6 border-r border-line bg-sidebar px-4 pt-7 pb-5 lg:flex">
       <Link href="/" className="flex flex-col gap-0.5 px-2">
         <span className="font-display text-[26px] font-bold tracking-tight">Narra</span>
         <span className="text-[13px] text-muted">Mario und der Zauberer</span>
@@ -53,9 +53,10 @@ export function Sidebar({ passages }: { passages: PassageNav[] }) {
         ))}
       </nav>
 
+      {pathname.startsWith("/lesen") ? (
       <div className="flex min-h-0 flex-1 flex-col gap-1">
         <p className="px-3 pb-1.5 text-xs font-semibold tracking-[0.08em] text-muted uppercase">Schlüsselpassagen</p>
-        <div className="-mx-1 flex min-h-0 flex-col gap-0.5 overflow-y-auto px-1">
+        <div className="-mx-1 flex min-h-0 flex-col gap-0.5 overflow-y-auto px-1 [scrollbar-width:thin]">
           {passages.map((p) => {
             const current = pathname === `/lesen/${p.slug}`;
             return (
@@ -74,6 +75,9 @@ export function Sidebar({ passages }: { passages: PassageNav[] }) {
           })}
         </div>
       </div>
+      ) : (
+        <div className="flex-1" />
+      )}
 
       <div className="flex items-center justify-between gap-2 px-1">
         <Link href="/lernplan" className="text-sm font-medium text-accent-soft-ink hover:underline">

@@ -2,17 +2,19 @@
 
 /*
  * Design tokens.
- * Light mode follows direction "Adria" (clear, Adriatic blue).
- * Dark mode follows direction "Bühne" (evening stage, gold).
- * Typography is shared across both modes.
+ * Light mode is the "Adria" direction: clear, Adriatic blue, grotesque headings.
+ * Dark mode is the "Bühne" direction: the evening stage, gold, serif headings and book text.
+ * Components only use the tokens below (bg-paper, text-muted, font-display, …), never raw values.
  */
 :root {
   --paper: #ffffff;
   --surface: #f5f8fa;
   --surface-2: #f2f5f8;
+  --sidebar: #f5f8fa;
   --line: #e3e9ee;
   --line-strong: #d8e0e6;
   --ink: #15191e;
+  --reading: #15191e;
   --muted: #56616c;
   --faint: #6e7883;
   --accent: #1d5fc4;
@@ -22,6 +24,12 @@
   --name: #b84a17;
   --bubble: #1d5fc4;
   --bubble-ink: #ffffff;
+
+  --display: var(--font-bricolage);
+  --display-weight: 700;
+  --display-tracking: -0.02em;
+  --bookface: var(--font-literata);
+  --uiface: var(--font-figtree);
   color-scheme: light;
 }
 
@@ -30,9 +38,11 @@
     --paper: #17161d;
     --surface: #1f1d26;
     --surface-2: #221f2a;
+    --sidebar: #13121a;
     --line: #2c2a35;
     --line-strong: #3a3744;
     --ink: #eee7d8;
+    --reading: #d9d2c3;
     --muted: #a39cae;
     --faint: #8a8395;
     --accent: #e0b04f;
@@ -42,6 +52,12 @@
     --name: #e0b04f;
     --bubble: #2a2733;
     --bubble-ink: #eee7d8;
+
+    --display: var(--font-dm-serif);
+    --display-weight: 400;
+    --display-tracking: 0;
+    --bookface: var(--font-newsreader);
+    --uiface: var(--font-geist);
     color-scheme: dark;
   }
 }
@@ -50,9 +66,11 @@
   --paper: #17161d;
   --surface: #1f1d26;
   --surface-2: #221f2a;
+  --sidebar: #13121a;
   --line: #2c2a35;
   --line-strong: #3a3744;
   --ink: #eee7d8;
+  --reading: #d9d2c3;
   --muted: #a39cae;
   --faint: #8a8395;
   --accent: #e0b04f;
@@ -62,6 +80,12 @@
   --name: #e0b04f;
   --bubble: #2a2733;
   --bubble-ink: #eee7d8;
+
+  --display: var(--font-dm-serif);
+  --display-weight: 400;
+  --display-tracking: 0;
+  --bookface: var(--font-newsreader);
+  --uiface: var(--font-geist);
   color-scheme: dark;
 }
 
@@ -69,9 +93,11 @@
   --color-paper: var(--paper);
   --color-surface: var(--surface);
   --color-surface-2: var(--surface-2);
+  --color-sidebar: var(--sidebar);
   --color-line: var(--line);
   --color-line-strong: var(--line-strong);
   --color-ink: var(--ink);
+  --color-reading: var(--reading);
   --color-muted: var(--muted);
   --color-faint: var(--faint);
   --color-accent: var(--accent);
@@ -82,12 +108,27 @@
   --color-bubble: var(--bubble);
   --color-bubble-ink: var(--bubble-ink);
 
-  --font-sans: var(--font-figtree);
-  --font-serif: var(--font-literata);
-  --font-display: var(--font-bricolage);
+  --font-sans: var(--uiface);
+  --font-serif: var(--bookface);
+  --font-display: var(--display);
 }
 
 body {
   background: var(--paper);
   color: var(--ink);
+}
+
+/*
+ * Headings: the display face decides its own weight and tracking. DM Serif Display only exists
+ * in one weight, so the dark theme must not ask for bold (browsers would fake it).
+ */
+.font-display {
+  font-weight: var(--display-weight) !important;
+  letter-spacing: var(--display-tracking) !important;
+  font-synthesis: none;
+}
+
+/* Book text reads slightly softer than UI text on the dark stage. */
+.font-serif {
+  color: var(--reading);
 }
