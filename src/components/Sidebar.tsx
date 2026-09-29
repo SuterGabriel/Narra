@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { navItems } from "./BottomNav";
 import { ThemeToggle } from "./ThemeToggle";
+import { TourButton } from "./Tour";
 
 type PassageNav = { id: number; slug: string; title: string };
 
@@ -31,6 +32,7 @@ export function Sidebar({ passages }: { passages: PassageNav[] }) {
             key={href}
             href={href}
             aria-current={isActive(href) ? "page" : undefined}
+            data-tour={`nav-${href.slice(1) || "start"}`}
             className={`flex h-11 items-center gap-3 rounded-[10px] px-3 text-[15px] ${
               isActive(href) ? "bg-accent-soft font-semibold text-accent-soft-ink" : "font-medium hover:bg-surface-2"
             }`}
@@ -80,9 +82,7 @@ export function Sidebar({ passages }: { passages: PassageNav[] }) {
       )}
 
       <div className="flex items-center justify-between gap-2 px-1">
-        <Link href="/lernplan" className="text-sm font-medium text-accent-soft-ink hover:underline">
-          Zum Lernplan
-        </Link>
+        <TourButton className="text-sm font-medium text-accent-soft-ink hover:underline" />
         <ThemeToggle />
       </div>
     </aside>

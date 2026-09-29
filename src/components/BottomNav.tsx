@@ -27,6 +27,7 @@ export function BottomNav() {
             key={href}
             href={href}
             aria-current={active ? "page" : undefined}
+            data-tour={`nav-${href.slice(1) || "start"}`}
             className={`flex flex-col items-center gap-1 py-2 text-[11px] ${
               active ? "font-semibold text-accent" : "font-medium text-muted"
             }`}

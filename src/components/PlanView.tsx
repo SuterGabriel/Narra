@@ -59,7 +59,7 @@ export function TodayPlan({ plan }: { plan: PlanDay[] }) {
   const progress = Math.round((done.length / plan.length) * 100);
 
   return (
-    <section aria-labelledby="today" className="flex flex-col gap-4 rounded-2xl border border-line bg-surface p-5">
+    <section aria-labelledby="today" data-tour="plan" className="flex flex-col gap-4 rounded-2xl border border-line bg-surface p-5">
       <div className="flex items-baseline justify-between gap-3">
         <p id="today" className="text-xs font-semibold tracking-[0.08em] text-accent uppercase">
           Heute · Tag {today ?? "–"} von {plan.length}

@@ -3,6 +3,7 @@ import { ArrowUpRightIcon, BookIcon, ChatIcon, CheckIcon, SearchIcon } from "@/c
 import { DailyCard } from "@/components/DailyQuiz";
 import { TodayPlan } from "@/components/PlanView";
 import { ThemeToggle } from "@/components/ThemeToggle";
+import { TourButton } from "@/components/Tour";
 import { passages, plan } from "@/data/content";
 
 export default function TodayPage() {
@@ -21,6 +22,7 @@ export default function TodayPage() {
           <p className="text-xs font-semibold tracking-[0.08em] text-accent uppercase">Narra</p>
           <h1 className="font-display text-3xl font-bold tracking-tight">Mario und der Zauberer</h1>
           <p className="text-sm text-muted">In drei Wochen auf Prüfungsniveau, jede Aussage mit Seite und Zeile belegt.</p>
+          <TourButton className="mt-1 self-start text-sm font-medium text-accent-soft-ink underline-offset-2 hover:underline" />
         </div>
         <div className="lg:hidden">
           <ThemeToggle />
