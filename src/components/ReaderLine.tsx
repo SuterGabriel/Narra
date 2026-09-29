@@ -47,7 +47,8 @@ export function ReaderLine({ line, active = false, term, termOpen, onTermClick }
         >
           {line.line}
         </span>
-        <span className="font-serif text-[15.5px] leading-[30px] whitespace-nowrap lg:text-[19px] lg:leading-9">
+        {/* Book lines never wrap: citations depend on them. On phones the type scales to fit the widest line. */}
+        <span className="font-serif text-[min(15.5px,calc((100vw_-_80px)/24.5))] leading-[30px] whitespace-nowrap lg:text-[19px] lg:leading-9">
           {content}
         </span>
       </div>

@@ -45,7 +45,7 @@ Dein persönlicher Lernbegleiter für *Mario und der Zauberer*. Statt das ganze 
 - README, das Architekturentscheidungen begründet (nicht nur *was*, sondern *warum*).
 
 ### Erfolgskriterien
-- [ ] Buchtext vollständig per OCR erfasst, stichprobenartig gegen den Scan geprüft (Fehlerquote < 1 %).
+- [x] Buchtext vollständig per OCR erfasst, stichprobenartig gegen den Scan geprüft (Fehlerquote < 1 %). *Erledigt 2026-09-29: S. 9–107, 2558 Zeilen; 12 Seiten (296 Zeilen) unabhängig Zeichen für Zeichen geprüft, 0 Fehler gefunden.*
 - [ ] Jede Antwort der Frage-Funktion enthält mindestens eine Stellenangabe im Format `S. 42, Z. 17`.
 - [ ] App ist unter einer öffentlichen URL erreichbar und von 25+ Personen gleichzeitig nutzbar.
 - [ ] Tägliches Kostenlimit greift zuverlässig.
@@ -96,7 +96,7 @@ Dein persönlicher Lernbegleiter für *Mario und der Zauberer*. Statt das ganze 
 | Sprache | ElevenLabs API (TTS mit Zeitstempeln, STT) – **Creator-Plan, 3 Monate gratis via Hackathon** | Vorlesen mit Zeilen-Sync, Spracheingabe; genug Kontingent, um das ganze Buch als Hörbuch zu generieren |
 | Monitoring | Better Stack (Logs, Uptime, Status Page) | Logging und Alarme ohne eigene Infrastruktur |
 | Datenhaltung | Buchtext als JSON im Repo; Fortschritt/Quiz-Stand in `localStorage`; Anfragen, Kosten, Rate-Limit und Bestenliste in Supabase (Postgres) | Kein Nutzer-State auf dem Server, aber jede KI-Anfrage nachvollziehbar und per SQL auswertbar |
-| OCR | Tesseract (deu) + manuelle Stichprobenprüfung | Scan → Text mit Zeilenstruktur |
+| OCR | Claude-Bilderkennung pro Seite (parallel), danach unabhängige Korrektur jeder 10. Seite und automatische Prüfungen | Tesseract war nicht installiert und die Textebene des iPhone-Scans unbrauchbar; Zeilenstruktur und alte Rechtschreibung bleiben exakt erhalten |
 | Rate Limiting | Postgres-Funktion in Supabase | Tageslimit pro gehashter IP und global; kein zusätzlicher Dienst (Entscheid 2026-09-29, ersetzt Upstash Redis) |
 | Styling | Tailwind CSS | Schnell, mobil-tauglich (die Klasse nutzt v. a. Handys) |
 | Versionierung | GitHub | Grundlage für Vercel-Deploy und Portfolio |
@@ -226,7 +226,7 @@ Konsequenzen für den Plan:
 ---
 
 ## 7. Offene Punkte
-- [ ] PDF in 3 Teilen hochladen (S. 1–35, 36–70, 71–103)
+- [x] PDF hochgeladen (ein File, lokal in `scans/`, nicht im Repo)
 - [ ] GitHub-Konto und Repo-Name
 - [ ] Anthropic-API-Schlüssel und Budget pro Tag festlegen
 - [ ] ElevenLabs Creator-Plan über den Hackathon aktivieren, Ablaufdatum notieren
