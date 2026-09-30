@@ -24,7 +24,7 @@ Most open work waits on these. Nothing below in sections 4, 5 and 6 can be finis
 
 ## 2. Clarity and structure (no keys needed, can start now)
 
-Principle: *keep it simple*. Every page has one job; nothing is hidden inside something else. See the memory of past attempts: a busy start page, a spotlight tour and an onboarding questionnaire were all removed in favour of a self-explanatory start page.
+Principle: *keep it simple*. Every page has one job; nothing is hidden inside something else. A busy start page, a spotlight tour and an onboarding questionnaire were all tried and removed in favour of a self-explanatory start page.
 
 ### 2.1 Less nesting
 - [ ] **Reading a passage (desktop):** only navigation and text. Remove the passage list from the sidebar and the right-hand panel. "Why this passage matters" becomes a collapsible box above the text (so phones get it too). Pronunciation opens under the tapped word, as on phones. Keep "Next passage".
